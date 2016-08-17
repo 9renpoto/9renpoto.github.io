@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on :-)</title>
+    <link>https://9renpoto.github.io/categories/github/</link>
+    <description>Recent content in Github on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 13 Jan 2016 22:29:22 +0900</lastBuildDate>
+    <atom:link href="https://9renpoto.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Update Blog</title>
+      <link>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</link>
+      <pubDate>Wed, 13 Jan 2016 22:29:22 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</guid>
+      <description>
+
+&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hugoを利用して &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; に公開&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/oghliner&#34;&gt;mozilla/oghliner&lt;/a&gt;を利用してオフライン対応&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hugoを利用してgh-pagesにデプロイ&#34;&gt;Hugoを利用してgh-pagesにデプロイ&lt;/h2&gt;
+
+&lt;p&gt;公式ドキュメントでwercker-ciを利用したデプロイ方法が&lt;a href=&#34;https://gohugo.io/tutorials/automated-deployments/&#34;&gt;紹介&lt;/a&gt;されており、そちらを利用していましたが&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;http://9renpoto.github.io/&amp;lt;project_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;という名前になってしまい、個人ページとして構築を目的とした場合不満があったため環境を見直し。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;pages.github.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/eichann/items/4fe61b8b9bbafcfbe847#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%922%E3%81%A4%E4%BD%9C%E6%88%90&#34;&gt;qiita.com/eichann/items/4fe61b8b9bbafcfbe847&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;を参考に問題を解決するために手を動かし始めました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;&amp;lt;username&amp;gt;.github.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;リポジトリーを作成し &lt;code&gt;master&lt;/code&gt; ブランチにpushされることによって公開される（not gh-pages branch)ようなので&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;public/&lt;/code&gt; に生成されたものを &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; にdestするように修正しました。&lt;/p&gt;
+
+&lt;h2 id=&#34;オフライン対応&#34;&gt;オフライン対応&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mozilla/oghliner&#34;&gt;mozilla/oghliner&lt;/a&gt;がserviceWorkerを利用したオフライン化を簡単に提供していたので試しに使ってみる。&lt;/p&gt;
+
+&lt;h2 id=&#34;feature&#34;&gt;Feature&lt;/h2&gt;
+
+&lt;p&gt;ビルド・デプロイタスクを直す&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

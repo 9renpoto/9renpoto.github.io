@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Erlang on :-)</title>
+    <link>https://9renpoto.github.io/categories/erlang/</link>
+    <description>Recent content in Erlang on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 10 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://9renpoto.github.io/categories/erlang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>riak meetup tokyo 2 に参加してきました</title>
+      <link>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</guid>
+      <description>
+
+&lt;h1 id=&#34;riak-meetup-tokyo-2-memo&#34;&gt;riak meetup tokyo 2 memo&lt;/h1&gt;
+
+&lt;h2 id=&#34;rtb-and-freakout&#34;&gt;RTB and FreakOut&lt;/h2&gt;
+
+&lt;p&gt;RTB概略&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ディスプレー広告の新しい見せ方
+
+&lt;ul&gt;
+&lt;li&gt;1回の広告表示ごとに買い付け&lt;/li&gt;
+&lt;li&gt;オークション形式によりアラカルトメニュー&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;広告主のネット広告におけるROI最適を目指す&lt;/p&gt;
+
+&lt;p&gt;RTBの技術的課題&lt;/p&gt;
+
+&lt;h3 id=&#34;広告表示の時間は0-1秒&#34;&gt;広告表示の時間は0.1秒&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レイテンシの軽減&lt;/li&gt;
+&lt;li&gt;多数のRTBを処理&lt;/li&gt;
+&lt;li&gt;50mc or die&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tokoy-kyoto-tyrant-tycoon&#34;&gt;[Tokoy|Kyoto] [Tyrant|Tycoon]&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;高速&lt;/li&gt;
+&lt;li&gt;スケールは簡単にできない&lt;/li&gt;
+&lt;li&gt;運用実績はあるが用件を満たすのが難しい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riak-and-freakout&#34;&gt;Riak and FreakOut&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スループットを向上させるために
+
+&lt;ul&gt;
+&lt;li&gt;hashからpartitionを特定する&lt;/li&gt;
+&lt;li&gt;素のままでは50mc or die的に厳しいため&lt;/li&gt;
+&lt;li&gt;構成の工夫が必要&lt;/li&gt;
+&lt;li&gt;スケーラビリティの問題を克服できるメリットは大きい&lt;/li&gt;
+&lt;li&gt;「サーバーを足すだけで運用」&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;yokozuna日本語検索機能を評価しました&#34;&gt;Yokozuna日本語検索機能を評価しました&lt;/h3&gt;
+
+&lt;p&gt;@rev4t @yosisa&lt;/p&gt;
+
+&lt;p&gt;日本語検索： Yokozuna&lt;/p&gt;
+
+&lt;p&gt;Solr XMLスキーマを利用した検索が可能
+便利そう&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>riak meetup tokyoに参加してきました</title>
+      <link>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</guid>
+      <description>
+
+&lt;h1 id=&#34;riak-intro-ricon報告&#34;&gt;Riak intro &amp;amp; RICON報告&lt;/h1&gt;
+
+&lt;p&gt;@kuenishi&lt;/p&gt;
+
+&lt;p&gt;分散システムの研究や開発は5年ぐらい
+日本法人が9月に出来た&lt;/p&gt;
+
+&lt;h2 id=&#34;riakの紹介&#34;&gt;Riakの紹介&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dynamoにインスパイアされた&lt;/li&gt;
+&lt;li&gt;Consistent Hassingによる水平分割する&lt;/li&gt;
+&lt;li&gt;Vector Clocksを用いてレプリケーション&lt;/li&gt;
+&lt;li&gt;Erlang/OTPで動作&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;分散KVS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HTTP / Protocol Buffers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Secondary Index/ MapReduce&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Link Walking&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Consistent Hassing and Replicas / Vecteor Clocks&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;分散システム、ざっくり&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;Document&lt;/li&gt;
+&lt;li&gt;Scale out&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riconについて&#34;&gt;RICONについて&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分散システム、分散DBのカンファレンス&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;事例&#34;&gt;事例&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Redis側でロックして、裏側はRiakで構築
+
+&lt;ul&gt;
+&lt;li&gt;壊れても大丈夫なようにするのが鉄板のパターン&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;面白かった話&#34;&gt;面白かった話&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rak Pipe&lt;/li&gt;
+&lt;li&gt;Introduction Yokozuna&lt;/li&gt;
+&lt;li&gt;Building Riak CS on Riak&lt;/li&gt;
+&lt;li&gt;Cloning the Cloud&lt;/li&gt;
+&lt;li&gt;Bringing Consistency on Riak&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riak-with-engine-yard&#34;&gt;Riak with Engine yard&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;EC2上のGentoo&lt;/li&gt;
+&lt;li&gt;すべてはChefで構築&lt;/li&gt;
+&lt;li&gt;その上にアプリをデプロイ&lt;/li&gt;
+&lt;li&gt;再起動も1から構築&lt;/li&gt;
+&lt;li&gt;ssh / sudo可能&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;何台、何度でも再現可能&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DB&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PostgressSQL&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Riak&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riakはバックエンドでたてないとダメ&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riak Searchを使って全文検索可能&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;今後、Yokozunaに移行予定&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

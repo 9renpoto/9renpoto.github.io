@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chef on :-)</title>
+    <link>https://9renpoto.github.io/categories/chef/</link>
+    <description>Recent content in Chef on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 22 Dec 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://9renpoto.github.io/categories/chef/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>入門chef</title>
+      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</link>
+      <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</guid>
+      <description>
+
+&lt;h1 id=&#34;chef-memo&#34;&gt;chef memo&lt;/h1&gt;
+
+&lt;p&gt;環境構築といえば、chefだという噂を随分と聞くようになってきましたが、
+なんだかんだと使ってなかったのでメモ。
+とはいえ、レシピは誰かが書いてるので、
+今回は出来る限りレシピを使う方法で構築を目指す&lt;/p&gt;
+
+&lt;h2 id=&#34;前準備&#34;&gt;前準備&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Gemfileに記載
+source &#39;https://rubygems。org&#39;  # URLの指定。呪文だと思って毎回書く
+
+gem &#39;berkshelf&#39;
+gem &#39;chef&#39;
+gem &#39;knife-solo&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;必要なgemをいつものように&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;chef-soloを使えるように初期設定を行う&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife configure
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;そろそろchef&#34;&gt;そろそろchef&lt;/h2&gt;
+
+&lt;p&gt;ひな形の生成&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ bundle exec knife solo init chef-repo
+$ tree chef-repo/
+chef-repo/
+├── cookbooks
+├── data_bags
+├── nodes
+├── roles
+├── site-cookbooks
+└── solo。rb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;忘れないうちにコミット&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd chef-repo
+git init
+git add 。
+git commit -m &#39;first commit&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;公式なり、Githubにて公開されているレシピを利用しやすくるものとして &lt;strong&gt;Berksfile&lt;/strong&gt; があります&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;site :opscode # Berksfile
+
+cookbook &amp;quot;apt&amp;quot;
+cookbook &amp;quot;git&amp;quot;
+cookbook &amp;quot;zsh&amp;quot;
+cookbook &#39;vim&#39;
+cookbook &#39;the_silver_searcher&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;公開されているレシピの情報を記述しておけば、コマンド1つで落としてこれます。
+便利&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec berks install --path cookbooks
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vagrant側でchefが使えるように以下のコマンドを実行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo prepare nodename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;インストールしたいレシピを追加
+node/nodename.json&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;{
+  &amp;quot;run_list&amp;quot;: [
+    &amp;quot;recipe[apt]&amp;quot;,
+    &amp;quot;recipe[git]&amp;quot;,
+    &amp;quot;recipe[zsh]&amp;quot;,
+    &amp;quot;recipe[vim]&amp;quot;,
+    &amp;quot;recipe[the_silver_searcher]&amp;quot;
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;レシピはできたのでcookしましょう&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo cook nodename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tsuchikazu.net/chef_solo_start/&#34;&gt;tsuchikazu.net/chef_solo_start&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/uchiunyo/items/5aa243f7a39ae443e10d&#34;&gt;qiita.com/uchiunyo/item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;最後に&#34;&gt;最後に&lt;/h2&gt;
+
+&lt;p&gt;これ以上のことは以下を買ってから勉強します&lt;/p&gt;
+
+&lt;div class=&#34;booklog_html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;booklog_html_image&#34;&gt;&lt;a href=&#34;http://www。amazon。co。jp/%E5%85%A5%E9%96%80Chef-Solo-Infrastructure-as-Code-ebook/dp/B00BSPH158%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog。jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00BSPH158&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx。images-amazon。com/images/I/31u6VLGX2kL。_SL160_。jpg&#34; width=&#34;93&#34; height=&#34;150&#34; style=&#34;border:0;border-radius:0;&#34; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&#34;booklog_html_info&#34; style=&#34;padding-left:20px;&#34;&gt;&lt;div class=&#34;booklog_html_title&#34; style=&#34;margin-bottom:10px;font-size:14px;font-weight:bold;&#34;&gt;&lt;a href=&#34;http://www。amazon。co。jp/%E5%85%A5%E9%96%80Chef-Solo-Infrastructure-as-Code-ebook/dp/B00BSPH158%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog。jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00BSPH158&#34; target=&#34;_blank&#34;&gt;入門Chef Solo - Infrastructure as Code&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;margin-bottom:10px;&#34;&gt;&lt;div class=&#34;booklog_html_author&#34; style=&#34;margin-bottom:15px;font-size:12px;;line-height:1。2em&#34;&gt;著者 : &lt;a href=&#34;http://booklog。jp/author/%E4%BC%8A%E8%97%A4%E7%9B%B4%E4%B9%9F&#34; target=&#34;_blank&#34;&gt;伊藤直也&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_manufacturer&#34; style=&#34;margin-bottom:5px;font-size:12px;;line-height:1。2em&#34;&gt;伊藤直也&lt;/div&gt;&lt;div class=&#34;booklog_html_release&#34; style=&#34;font-size:12px;;line-height:1。2em&#34;&gt;発売日 : 2013-03-11&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_link_amazon&#34;&gt;&lt;a href=&#34;http://booklog。jp/item/1/B00BSPH158&#34; style=&#34;font-size:12px;&#34; target=&#34;_blank&#34;&gt;ブクログでレビューを見る»&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on :-)</title>
+    <link>https://9renpoto.github.io/categories/javascript/</link>
+    <description>Recent content in Javascript on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 11 Aug 2016 21:43:32 +0900</lastBuildDate>
+    <atom:link href="https://9renpoto.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TypeScript with power-assert</title>
+      <link>https://9renpoto.github.io/blog/2016/08/11/typescript-module-test-2/</link>
+      <pubDate>Thu, 11 Aug 2016 21:43:32 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/08/11/typescript-module-test-2/</guid>
+      <description>
+
+&lt;h1 id=&#34;typescript-で-power-assert-を使いたい&#34;&gt;TypeScript で power-assert を使いたい&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/&#34;&gt;TypeScriptテストについて&lt;/a&gt; 少し調べました&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/ts/pull/31&#34;&gt;https://github.com/9renpoto/ts/pull/31&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TypeScript がファイルパスを相対パスか絶対パスのどちらかで返す場合がある
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825&#34;&gt;https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;対策&#34;&gt;対策&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/teppeis/typescript-simple/pull/47&#34;&gt;https://github.com/teppeis/typescript-simple/pull/47&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;悩み&#34;&gt;悩み&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;rootDir&lt;/code&gt;, &lt;code&gt;outDir&lt;/code&gt; の組み合わせで挙動が変わることを理解する必要がある&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rootDirs&lt;/code&gt; が入る(TypeScript 2.0~)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>typescript test</title>
+      <link>https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/</link>
+      <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/</guid>
+      <description>&lt;p&gt;TypeScript の勉強を頑張ろう&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/javascript/pull/19&#34;&gt;9renpoto/javascript/pull/19&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/javascript/tree/fbb4448064f42461936bb02b792e9a6ec4f8c189&#34;&gt;commit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;devDependencies&amp;quot;: {
+    &amp;quot;eslint&amp;quot;: &amp;quot;^2.13.1&amp;quot;,
+    &amp;quot;espower-typescript&amp;quot;: &amp;quot;^5.0.1&amp;quot;,
+    &amp;quot;mocha&amp;quot;: &amp;quot;^2.5.3&amp;quot;,
+    &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;,
+    &amp;quot;tslint&amp;quot;: &amp;quot;^3.11.0&amp;quot;,
+    &amp;quot;typescript-eslint-parser&amp;quot;: &amp;quot;0.1.0-alpha-1&amp;quot;,
+    &amp;quot;typings&amp;quot;: &amp;quot;^1.3.0&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下記を満たす簡単なサンプルを書く&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;複数 module&lt;/li&gt;
+&lt;li&gt;mocha によるテスト&lt;/li&gt;
+&lt;li&gt;power-assertによるテスト&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が通らないので中身を見て調べる&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

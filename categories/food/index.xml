@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on :-)</title>
+    <link>https://9renpoto.github.io/categories/food/</link>
+    <description>Recent content in Food on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sat, 09 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://9renpoto.github.io/categories/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>my first 野郎ラーメン</title>
+      <link>https://9renpoto.github.io/blog/2013/11/09/yarou-noodle/</link>
+      <pubDate>Sat, 09 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/11/09/yarou-noodle/</guid>
+      <description>&lt;p&gt;&lt;iframe src=&#34;//instagram.com/p/gfIGyom-Jk/embed/&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowtransparency=&#34;true&#34;&gt;&lt;/iframe&gt;
+とりあえずオリジナルを食べましたが印象は普通でした．&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

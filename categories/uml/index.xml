@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uml on :-)</title>
+    <link>https://9renpoto.github.io/categories/uml/</link>
+    <description>Recent content in Uml on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 13 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://9renpoto.github.io/categories/uml/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>クラス図を簡単に - PlantUML</title>
+      <link>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</guid>
+      <description>
+
+&lt;h1 id=&#34;plantuml&#34;&gt;PlantUML&lt;/h1&gt;
+
+&lt;p&gt;これから設計をはじめます、という時に
+今までは小さな機能では、スキーマの設計から始めてしまっていたのですが
+久々に「クラス図を書いてみよう」という話になり
+どう書こうとなったのでメモ&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://plantuml.sourceforge.net/logoc.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CUIで書けるのが最高です&lt;/p&gt;
+
+&lt;p&gt;依存関係をテキストベースのみで記述できるので非常に助かりました&lt;/p&gt;
+
+&lt;p&gt;図の綺麗さなどを意識せず関係を記述することに集中できるのが魅力&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget http://sourceforge.net/projects/plantuml/files/plantuml.jar/download -O plantuml.jar
+java -jar &amp;quot;plantuml.jarのパス&amp;quot; [option] 入力ファイル [...]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;で入力ファイルを目的のUMLを生成します&lt;/p&gt;
+
+&lt;p&gt;Graphvizが必要なのでインストールしておきます
+macはbrewだけで入りました&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install graphviz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これだけで使えます&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@startuml
+  class Bugs {
+    -bug_id
+    -description
+    -created_at
+  }
+
+  class Comments {
+    -comment_id
+    -bug_id
+    -auther
+  }
+
+  class Auther {
+    -id
+    -name
+  }
+
+  Bugs --* Comments
+  Auther --* Comments
+@enduml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dl.dropboxusercontent.com/u/9060848/PlantUML/PlantUML.png&#34; alt=&#34;sample&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;便利&lt;/p&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://d.hatena.ne.jp/a_bicky/20121016/1350347857&#34;&gt;d.hatena.ne.jp/a_bicky/20121016/1350347857&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yohshiy.blog.fc2.com/blog-entry-152.html&#34;&gt;http://yohshiy.blog.fc2.com/blog-entry-152.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gui関連&#34;&gt;GUI関連&lt;/h2&gt;
+
+&lt;p&gt;Officeなどを使って作っても良いのですが、
+専用のツールもメモ&lt;/p&gt;
+
+&lt;h3 id=&#34;astah&#34;&gt;astah*&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://astah-cdn2.change-vision.com/ja/images/stories/logo/astah_community_rectangle_m.png.pagespeed.ce.C-174ew438.png&#34; alt=&#34;astah&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Officeツール以外で関連ツールを探すと上位に出てくる&lt;a href=&#34;http://astah.change-vision.com/ja/product/astah-community.html&#34;&gt;良いツール&lt;/a&gt;です&lt;/p&gt;
+
+&lt;h3 id=&#34;cacoo&#34;&gt;Cacoo&lt;/h3&gt;
+
+&lt;p&gt;今までなかなか縁がなく利用していなかったCacooですが、&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.cacoo.com/ja/2013/11/06/cacoo-user-1m/&#34;&gt;100万ユーザ突破した&lt;/a&gt;という記事を確認して&lt;/p&gt;
+
+&lt;p&gt;そういえば使ってなかったなと思い、軽く使ってみました&lt;/p&gt;
+
+&lt;p&gt;ChromeAppなどで使えますし、お気軽さではダントツ&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
