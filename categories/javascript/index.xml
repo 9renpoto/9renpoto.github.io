@@ -6,8 +6,58 @@
     <description>Recent content in Javascript on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 11 Aug 2016 21:43:32 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 20 Aug 2016 14:28:25 +0900</lastBuildDate>
     <atom:link href="https://9renpoto.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TypeScript で coverage を計測する</title>
+      <link>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</link>
+      <pubDate>Sat, 20 Aug 2016 14:28:25 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</guid>
+      <description>
+
+&lt;h1 id=&#34;typescript-で-coverage-report-を計測する&#34;&gt;TypeScript で Coverage report を計測する&lt;/h1&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/remap-istanbul&#34;&gt;remap-istanbul&lt;/a&gt; を使う&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;npm install remap-istanbul&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sourcemap: true&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;memo&#34;&gt;Memo&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tsc&lt;/code&gt; &amp;gt; &lt;code&gt;npm test&lt;/code&gt; という流れになったため JavaScript としてテストをする形になる&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/espower-typescript&#34;&gt;espower-typescript&lt;/a&gt; を使わないようになる
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; は tsc の wrapper なのでtscする場合は使えなそう&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;power-assert&lt;/code&gt; が上手く構造を解釈してくれてなさそう
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が担っていた役割を別で与える必要がある?&lt;/li&gt;
+&lt;li&gt;TypeScript に依存するなら無駄にbabel pluginなどは使いたくない&lt;/li&gt;
+&lt;li&gt;TODO 考える&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.syati.info/post/typescript_coverage/&#34;&gt;http://blog.syati.info/post/typescript_coverage/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/ts/pull/34&#34;&gt;https://github.com/9renpoto/ts/pull/34&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>TypeScript with power-assert</title>
