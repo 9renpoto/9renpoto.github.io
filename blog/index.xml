@@ -1018,13 +1018,13 @@ atomなどでマルチカーソル操作をすると全部選択されてしま�
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/07/comment/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;vimだと矩形選択で頑張れるから甘えてましたが
 atomなど使っているとcommentショートカットが便利で
 良く使います&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34; alt=&#34;image2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;vimでも使えるようにしました
 便利&lt;/p&gt;
@@ -1037,7 +1037,7 @@ atomなど使っているとcommentショートカットが便利で
       <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/06/surround/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif&#34; &gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;surround.vim便利
 sublime-textでも使えるようですが
@@ -1051,7 +1051,7 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
       <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/05/vim-gitgutter/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; &gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;githubなどで開発しているとpullreqが便利で
 良くコードを見るようになりました
@@ -1072,7 +1072,7 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/03/vim-v-line/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34;/&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;同じ変数名を利用してハッシュのようなものを作成するときに
 情弱で、愚直な操作をしてしまっている。
@@ -1090,8 +1090,6 @@ atomやsublime-textでは、さらに愚直に入力してて良い方法がな�
       <description>&lt;p&gt;人間関係に悩んでおり、以下の本を読んでおりました&lt;/p&gt;
 
 &lt;p&gt;読み終えたので簡単な感想をメモ&lt;/p&gt;
-
-&lt;div class=&#34;booklog_html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;booklog_html_image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/Team-Geek-%E2%80%95Google%E3%81%AE%E3%82%AE%E3%83%BC%E3%82%AF%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%83%81%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%8B-Brian-Fitzpatrick/dp/4873116309%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog.jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873116309&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41SlY0zvpKL._SL160_.jpg&#34; width=&#34;105&#34; height=&#34;150&#34; style=&#34;border:0;border-radius:0;&#34; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&#34;booklog_html_info&#34; style=&#34;padding-left:20px;&#34;&gt;&lt;div class=&#34;booklog_html_title&#34; style=&#34;margin-bottom:10px;font-size:14px;font-weight:bold;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/Team-Geek-%E2%80%95Google%E3%81%AE%E3%82%AE%E3%83%BC%E3%82%AF%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%83%81%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%8B-Brian-Fitzpatrick/dp/4873116309%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog.jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873116309&#34; target=&#34;_blank&#34;&gt;Team Geek ―Googleのギークたちはいかにしてチームを作るのか&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;margin-bottom:10px;&#34;&gt;&lt;div class=&#34;booklog_html_author&#34; style=&#34;margin-bottom:15px;font-size:12px;;line-height:1.2em&#34;&gt;著者 : &lt;a href=&#34;http://booklog.jp/author/Brian+W.+Fitzpatrick&#34; target=&#34;_blank&#34;&gt;Brian W. Fitzpatrick&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_manufacturer&#34; style=&#34;margin-bottom:5px;font-size:12px;;line-height:1.2em&#34;&gt;オライリージャパン&lt;/div&gt;&lt;div class=&#34;booklog_html_release&#34; style=&#34;font-size:12px;;line-height:1.2em&#34;&gt;発売日 : 2013-07-20&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_link_amazon&#34;&gt;&lt;a href=&#34;http://booklog.jp/item/1/4873116309&#34; style=&#34;font-size:12px;&#34; target=&#34;_blank&#34;&gt;ブクログでレビューを見る»&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
 
 &lt;ul&gt;
 &lt;li&gt;大切
@@ -1119,14 +1117,15 @@ atomやsublime-textでは、さらに愚直に入力してて良い方法がな�
 
 &lt;blockquote&gt;
 &lt;p&gt;マーケティングの人のことを考えるとゾッとするのはなぜだろうか？
-  それはエンジニアリング文化と相入れないからだ．
+それはエンジニアリング文化と相入れないからだ．
 ぼくたちの文化は「事実」に満ちあふれている．
 コードはコンパイル「できる」と「できない」しかない．
 ソフトウェアは機能を「持つ」と「持たない」しかない．
 問題は解決「できる」と「できない」しかない．
 説明を「引き伸ばす」ことはしない．事実だけを話す．&lt;/p&gt;
 
-&lt;p&gt;Brian W.Fitzpatrick, Ben Collins-Sussman（2013) 『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
+&lt;p&gt;Brian W.Fitzpatrick, Ben Collins-Sussman（2013)
+『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;学びとは少しそれた話ですが、上記の言葉が何よりも共感できました&lt;/p&gt;

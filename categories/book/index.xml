@@ -19,8 +19,6 @@
 
 &lt;p&gt;読み終えたので簡単な感想をメモ&lt;/p&gt;
 
-&lt;div class=&#34;booklog_html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;booklog_html_image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/Team-Geek-%E2%80%95Google%E3%81%AE%E3%82%AE%E3%83%BC%E3%82%AF%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%83%81%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%8B-Brian-Fitzpatrick/dp/4873116309%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog.jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873116309&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/41SlY0zvpKL._SL160_.jpg&#34; width=&#34;105&#34; height=&#34;150&#34; style=&#34;border:0;border-radius:0;&#34; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&#34;booklog_html_info&#34; style=&#34;padding-left:20px;&#34;&gt;&lt;div class=&#34;booklog_html_title&#34; style=&#34;margin-bottom:10px;font-size:14px;font-weight:bold;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/Team-Geek-%E2%80%95Google%E3%81%AE%E3%82%AE%E3%83%BC%E3%82%AF%E3%81%9F%E3%81%A1%E3%81%AF%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E3%83%81%E3%83%BC%E3%83%A0%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%AE%E3%81%8B-Brian-Fitzpatrick/dp/4873116309%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog.jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873116309&#34; target=&#34;_blank&#34;&gt;Team Geek ―Googleのギークたちはいかにしてチームを作るのか&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;margin-bottom:10px;&#34;&gt;&lt;div class=&#34;booklog_html_author&#34; style=&#34;margin-bottom:15px;font-size:12px;;line-height:1.2em&#34;&gt;著者 : &lt;a href=&#34;http://booklog.jp/author/Brian+W.+Fitzpatrick&#34; target=&#34;_blank&#34;&gt;Brian W. Fitzpatrick&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_manufacturer&#34; style=&#34;margin-bottom:5px;font-size:12px;;line-height:1.2em&#34;&gt;オライリージャパン&lt;/div&gt;&lt;div class=&#34;booklog_html_release&#34; style=&#34;font-size:12px;;line-height:1.2em&#34;&gt;発売日 : 2013-07-20&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_link_amazon&#34;&gt;&lt;a href=&#34;http://booklog.jp/item/1/4873116309&#34; style=&#34;font-size:12px;&#34; target=&#34;_blank&#34;&gt;ブクログでレビューを見る»&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;大切
 
@@ -47,14 +45,15 @@
 
 &lt;blockquote&gt;
 &lt;p&gt;マーケティングの人のことを考えるとゾッとするのはなぜだろうか？
-  それはエンジニアリング文化と相入れないからだ．
+それはエンジニアリング文化と相入れないからだ．
 ぼくたちの文化は「事実」に満ちあふれている．
 コードはコンパイル「できる」と「できない」しかない．
 ソフトウェアは機能を「持つ」と「持たない」しかない．
 問題は解決「できる」と「できない」しかない．
 説明を「引き伸ばす」ことはしない．事実だけを話す．&lt;/p&gt;
 
-&lt;p&gt;Brian W.Fitzpatrick, Ben Collins-Sussman（2013) 『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
+&lt;p&gt;Brian W.Fitzpatrick, Ben Collins-Sussman（2013)
+『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;学びとは少しそれた話ですが、上記の言葉が何よりも共感できました&lt;/p&gt;
@@ -71,15 +70,11 @@
       <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</guid>
       <description>&lt;p&gt;アジャイル開発について悩んでおりましたので、噂のアジャイルサムライを読みました&lt;/p&gt;
 
-&lt;div class=&#34;booklog_html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;booklog_html_image&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E2%88%92%E9%81%94%E4%BA%BA%E9%96%8B%E7%99%BA%E8%80%85%E3%81%B8%E3%81%AE%E9%81%93%E2%88%92-Jonathan-Rasmusson/dp/4274068560%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog.jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4274068560&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/51b4P511wTL._SL160_.jpg&#34; width=&#34;105&#34; height=&#34;150&#34; style=&#34;border:0;border-radius:0;&#34; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;td class=&#34;booklog_html_info&#34; style=&#34;padding-left:20px;&#34;&gt;&lt;div class=&#34;booklog_html_title&#34; style=&#34;margin-bottom:10px;font-size:14px;font-weight:bold;&#34;&gt;&lt;a href=&#34;http://www.amazon.co.jp/%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%A0%E3%83%A9%E3%82%A4%E2%88%92%E9%81%94%E4%BA%BA%E9%96%8B%E7%99%BA%E8%80%85%E3%81%B8%E3%81%AE%E9%81%93%E2%88%92-Jonathan-Rasmusson/dp/4274068560%3FSubscriptionId%3D0AVSM5SVKRWTFMG7ZR82%26tag%3Dbooklog.jp-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4274068560&#34; target=&#34;_blank&#34;&gt;アジャイルサムライ−達人開発者への道−&lt;/a&gt;&lt;/div&gt;&lt;div style=&#34;margin-bottom:10px;&#34;&gt;&lt;div class=&#34;booklog_html_author&#34; style=&#34;margin-bottom:15px;font-size:12px;;line-height:1.2em&#34;&gt;著者 : &lt;a href=&#34;http://booklog.jp/author/Jonathan+Rasmusson&#34; target=&#34;_blank&#34;&gt;Jonathan Rasmusson&lt;/a&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_manufacturer&#34; style=&#34;margin-bottom:5px;font-size:12px;;line-height:1.2em&#34;&gt;オーム社&lt;/div&gt;&lt;div class=&#34;booklog_html_release&#34; style=&#34;font-size:12px;;line-height:1.2em&#34;&gt;発売日 : 2011-07-16&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;booklog_html_link_amazon&#34;&gt;&lt;a href=&#34;http://booklog.jp/item/1/4274068560&#34; style=&#34;font-size:12px;&#34; target=&#34;_blank&#34;&gt;ブクログでレビューを見る»&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;学べたこと
 
 &lt;ul&gt;
-&lt;li&gt;考え方
-
-&lt;ul&gt;
+&lt;li&gt;考え方&lt;/li&gt;
 &lt;li&gt;立場の明確化
 
 &lt;ul&gt;
@@ -103,31 +98,19 @@
 &lt;li&gt;現実は非常に大切&lt;/li&gt;
 &lt;li&gt;優先順位の大切さ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;流れ
 
 &lt;ul&gt;
-&lt;li&gt;プロダクトオーナー
-
-&lt;ul&gt;
+&lt;li&gt;プロダクトオーナー&lt;/li&gt;
 &lt;li&gt;作りたいものの決定&lt;/li&gt;
 &lt;li&gt;優先順位の決定&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;スクラムマスター
-
-&lt;ul&gt;
+&lt;li&gt;スクラムマスター&lt;/li&gt;
 &lt;li&gt;時間管理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;開発者
-
-&lt;ul&gt;
+&lt;li&gt;開発者&lt;/li&gt;
 &lt;li&gt;見積もる&lt;/li&gt;
 &lt;li&gt;作る&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ウォーターフォールとの違い
-
-&lt;ul&gt;
+&lt;li&gt;ウォーターフォールとの違い&lt;/li&gt;
 &lt;li&gt;見積もりが開発者に任せられてるところが良い&lt;/li&gt;
 &lt;li&gt;ストーリーポイントを基準に実現可能性を図る
 
@@ -139,7 +122,6 @@
 &lt;ul&gt;
 &lt;li&gt;細かなサイクルを回すというよりも、見積もれる範囲を大切にするという考えに共感&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;未完成に価値はない&lt;/strong&gt; 完成品を作る（レビューする）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -157,8 +139,6 @@
       <description>
 
 &lt;h1 id=&#34;リーダーブルコードよんだメモ&#34;&gt;リーダーブルコードよんだメモ&lt;/h1&gt;
-
-&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34;&gt;&lt;tr&gt;&lt;td valign=&#34;top&#34;&gt;&lt;div style=&#34;border:1px solid;margin:0px;padding:6px 0px;width:260px;text-align:center;float:left&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/1031da5e.07aed938.1031da5f.bbd557b9/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f11753651%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f15934325%2f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5658%2f9784873115658.jpg%3f_ex%3d240x240&amp;amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbook%2fcabinet%2f5658%2f9784873115658.jpg%3f_ex%3d80x80&#34; alt=&#34;リーダブルコード&#34; border=&#34;0&#34; style=&#34;margin:0px;padding:0px&#34;&gt;&lt;/a&gt;&lt;p style=&#34;font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px&#34;&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/1031da5e.07aed938.1031da5f.bbd557b9/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f11753651%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f15934325%2f&#34; target=&#34;_blank&#34;&gt;リーダブルコード&lt;/a&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;著者：ダスティン・ボズウェル&lt;/span&gt;&lt;br&gt;&lt;span style=&#34;&#34;&gt;価格：2,520円（税込、送料込）&lt;/span&gt;&lt;br&gt;&lt;a href=&#34;http://hb.afl.rakuten.co.jp/hgc/1031da5e.07aed938.1031da5f.bbd557b9/?pc=http%3a%2f%2fbooks.rakuten.co.jp%2frb%2f11753651%2f%3fscid%3daf_link_tbl&amp;amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbook%2fi%2f15934325%2f&#34; target=&#34;_blank&#34;&gt;楽天ブックスで詳細を見る&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
 &lt;p&gt;ちょっと前の話ですが、リーダーブルコードを読みましたのでその感想をメモ&lt;/p&gt;
 

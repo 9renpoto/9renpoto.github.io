@@ -44,13 +44,13 @@
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/07/comment/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;vimだと矩形選択で頑張れるから甘えてましたが
 atomなど使っているとcommentショートカットが便利で
 良く使います&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34; alt=&#34;image2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;vimでも使えるようにしました
 便利&lt;/p&gt;
@@ -63,7 +63,7 @@ atomなど使っているとcommentショートカットが便利で
       <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/06/surround/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif&#34; &gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;surround.vim便利
 sublime-textでも使えるようですが
@@ -77,7 +77,7 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
       <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/05/vim-gitgutter/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; &gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;githubなどで開発しているとpullreqが便利で
 良くコードを見るようになりました
@@ -98,7 +98,7 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/03/vim-v-line/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;u-max-full-width&#34; src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34;/&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;同じ変数名を利用してハッシュのようなものを作成するときに
 情弱で、愚直な操作をしてしまっている。

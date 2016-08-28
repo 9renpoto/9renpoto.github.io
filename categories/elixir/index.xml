@@ -15,7 +15,7 @@
       <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2012/12/20/elixir-install/</guid>
-      <description>&lt;p&gt;Elixir楽しそうなので勉強はじめます&lt;br /&gt;
+      <description>&lt;p&gt;Elixir楽しそうなので勉強はじめます
 まずはerlangのinstallから&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;brew install erlang
