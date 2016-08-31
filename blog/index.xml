@@ -6,8 +6,57 @@
     <description>Recent content in Blogs on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 20 Aug 2016 14:28:25 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 31 Aug 2016 21:26:35 +0900</lastBuildDate>
     <atom:link href="https://9renpoto.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TypeScript のテスト環境を考える</title>
+      <link>https://9renpoto.github.io/blog/2016/08/31/typescript-karma-webpack/</link>
+      <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/08/31/typescript-karma-webpack/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;上手く動かない&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アバウトな構成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;&amp;quot;devDependencies&amp;quot;: {
+  &amp;quot;@9renpoto/eslint-config&amp;quot;: &amp;quot;^1.1.0&amp;quot;,
+  &amp;quot;@9renpoto/tslint-config&amp;quot;: &amp;quot;^1.0.0&amp;quot;,
+  &amp;quot;@types/mocha&amp;quot;: &amp;quot;^2.2.31&amp;quot;,
+  &amp;quot;@types/power-assert&amp;quot;: &amp;quot;0.0.27&amp;quot;,
+  &amp;quot;awesome-typescript-loader&amp;quot;: &amp;quot;^2.2.1&amp;quot;,
+  &amp;quot;codecov&amp;quot;: &amp;quot;^1.0.1&amp;quot;,
+  &amp;quot;eslint&amp;quot;: &amp;quot;^3.4.0&amp;quot;,
+  &amp;quot;json-loader&amp;quot;: &amp;quot;^0.5.4&amp;quot;,
+  &amp;quot;karma&amp;quot;: &amp;quot;^1.2.0&amp;quot;,
+  &amp;quot;karma-coverage&amp;quot;: &amp;quot;^1.1.1&amp;quot;,
+  &amp;quot;karma-firefox-launcher&amp;quot;: &amp;quot;^1.0.0&amp;quot;,
+  &amp;quot;karma-mocha&amp;quot;: &amp;quot;^1.1.1&amp;quot;,
+  &amp;quot;karma-sourcemap-loader&amp;quot;: &amp;quot;^0.3.7&amp;quot;,
+  &amp;quot;karma-webpack&amp;quot;: &amp;quot;^1.8.0&amp;quot;,
+  &amp;quot;mocha&amp;quot;: &amp;quot;^3.0.2&amp;quot;,
+  &amp;quot;npm-run-all&amp;quot;: &amp;quot;^3.0.0&amp;quot;,
+  &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;,
+  &amp;quot;rimraf&amp;quot;: &amp;quot;^2.5.4&amp;quot;,
+  &amp;quot;tslint&amp;quot;: &amp;quot;^3.15.1&amp;quot;,
+  &amp;quot;typescript&amp;quot;: &amp;quot;^2.0.2&amp;quot;,
+  &amp;quot;webpack&amp;quot;: &amp;quot;^1.13.2&amp;quot;,
+  &amp;quot;webpack-espower-loader&amp;quot;: &amp;quot;^1.0.1&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; しても &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&#34;&gt;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに
+こちらが動かない理由は不明、頭を悩ませる&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>TypeScript で coverage を計測する</title>
@@ -1078,59 +1127,6 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
 情弱で、愚直な操作をしてしまっている。
 もっと簡単に入力する方法を知りたい。
 atomやsublime-textでは、さらに愚直に入力してて良い方法がないか知りたい。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>読書 Team Geek</title>
-      <link>https://9renpoto.github.io/blog/2013/12/25/team-geak/</link>
-      <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak/</guid>
-      <description>&lt;p&gt;人間関係に悩んでおり、以下の本を読んでおりました&lt;/p&gt;
-
-&lt;p&gt;読み終えたので簡単な感想をメモ&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;大切
-
-&lt;ul&gt;
-&lt;li&gt;謙虚&lt;/li&gt;
-&lt;li&gt;信頼&lt;/li&gt;
-&lt;li&gt;尊敬&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;オープンに
-
-&lt;ul&gt;
-&lt;li&gt;上の人は質問に堂々と答える&lt;/li&gt;
-&lt;li&gt;下の人な恐れず質問する&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;責任
-
-&lt;ul&gt;
-&lt;li&gt;重要&lt;/li&gt;
-&lt;li&gt;自分事化&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;まず今までの失敗を繰り返さぬよう沢山実践して、違う失敗しよう&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;マーケティングの人のことを考えるとゾッとするのはなぜだろうか？
-それはエンジニアリング文化と相入れないからだ．
-ぼくたちの文化は「事実」に満ちあふれている．
-コードはコンパイル「できる」と「できない」しかない．
-ソフトウェアは機能を「持つ」と「持たない」しかない．
-問題は解決「できる」と「できない」しかない．
-説明を「引き伸ばす」ことはしない．事実だけを話す．&lt;/p&gt;
-
-&lt;p&gt;Brian W.Fitzpatrick, Ben Collins-Sussman（2013)
-『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;学びとは少しそれた話ですが、上記の言葉が何よりも共感できました&lt;/p&gt;
-
-&lt;p&gt;自分はエンジニアで居心地が良い&lt;/p&gt;
 </description>
     </item>
     
