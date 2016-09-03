@@ -11,10 +11,10 @@
     
     <item>
       <title>TypeScript のテスト環境を考える</title>
-      <link>https://9renpoto.github.io/blog/2016/08/31/typescript-karma-webpack/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</link>
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/31/typescript-karma-webpack/</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;上手く動かない&lt;/p&gt;

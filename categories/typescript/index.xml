@@ -11,10 +11,10 @@
     
     <item>
       <title>TypeScript のテスト環境を考える</title>
-      <link>https://9renpoto.github.io/blog/2016/08/31/typescript-karma-webpack/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</link>
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/31/typescript-karma-webpack/</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;上手く動かない&lt;/p&gt;
@@ -60,10 +60,10 @@
     
     <item>
       <title>TypeScript で coverage を計測する</title>
-      <link>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/20/coverage/</link>
       <pubDate>Sat, 20 Aug 2016 14:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage/</guid>
       <description>
 
 &lt;h1 id=&#34;typescript-で-coverage-report-を計測する&#34;&gt;TypeScript で Coverage report を計測する&lt;/h1&gt;
@@ -110,10 +110,10 @@
     
     <item>
       <title>TypeScript with power-assert</title>
-      <link>https://9renpoto.github.io/blog/2016/08/11/typescript-module-test-2/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</link>
       <pubDate>Thu, 11 Aug 2016 21:43:32 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/11/typescript-module-test-2/</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</guid>
       <description>
 
 &lt;h1 id=&#34;typescript-で-power-assert-を使いたい&#34;&gt;TypeScript で power-assert を使いたい&lt;/h1&gt;
@@ -151,10 +151,10 @@
     
     <item>
       <title>typescript test</title>
-      <link>https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/</link>
+      <link>https://9renpoto.github.io/blog/2016/06/23/module-test/</link>
       <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/</guid>
+      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test/</guid>
       <description>&lt;p&gt;TypeScript の勉強を頑張ろう&lt;/p&gt;
 
 &lt;ul&gt;

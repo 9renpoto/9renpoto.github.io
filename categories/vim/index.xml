@@ -73,10 +73,10 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
     
     <item>
       <title>GitGutter便利すぎ</title>
-      <link>https://9renpoto.github.io/blog/2014/07/05/vim-gitgutter/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</link>
       <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/05/vim-gitgutter/</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;githubなどで開発しているとpullreqが便利で
@@ -94,10 +94,10 @@ atomの公式パッケージにも早くほしい&lt;/p&gt;
     
     <item>
       <title>同じkeyのハッシュのを作る時の操作</title>
-      <link>https://9renpoto.github.io/blog/2014/07/03/vim-v-line/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/03/v-line/</link>
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/03/vim-v-line/</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/03/v-line/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;同じ変数名を利用してハッシュのようなものを作成するときに
