@@ -6,11 +6,64 @@
     <description>Recent content in Blogs on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 03 Sep 2016 10:02:40 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Sep 2016 00:54:18 +0900</lastBuildDate>
     <atom:link href="https://9renpoto.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>\#html5j 参加メモ</title>
+      <title>勉強を続けること</title>
+      <link>https://9renpoto.github.io/blog/2016/09/05/study-motivation/</link>
+      <pubDate>Mon, 05 Sep 2016 00:54:18 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/09/05/study-motivation/</guid>
+      <description>
+
+&lt;h1 id=&#34;勉強する&#34;&gt;勉強する&lt;/h1&gt;
+
+&lt;p&gt;勉強について考える&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;勉強している人は本当に偉い&lt;/li&gt;
+&lt;li&gt;何事も尊敬できることは才能より努力&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;勉強から得られること&#34;&gt;勉強から得られること&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;出来ないことができるようになる&lt;/li&gt;
+&lt;li&gt;出来る人のことを尊敬できるようになる&lt;/li&gt;
+&lt;li&gt;人間の時間は有限
+
+&lt;ul&gt;
+&lt;li&gt;天才はいるが天才にはなれない&lt;/li&gt;
+&lt;li&gt;効率化は二の次&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;遊ぶことも勉強
+
+&lt;ul&gt;
+&lt;li&gt;新しい知識を得ることは楽しい&lt;/li&gt;
+&lt;li&gt;出来ないことができるようになるため努力が必要&lt;/li&gt;
+&lt;li&gt;自分と相性の良い天性のことなんて存在した試しがない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;勉強は楽しい&lt;/li&gt;
+&lt;li&gt;時間は有限&lt;/li&gt;
+&lt;li&gt;求められたら勉強する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;余談&#34;&gt;余談&lt;/h2&gt;
+
+&lt;p&gt;Overwatch で勝てないのが厳しい&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#html5j 参加メモ</title>
       <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</link>
       <pubDate>Sat, 03 Sep 2016 10:02:40 +0900</pubDate>
       
@@ -377,7 +430,7 @@
     </item>
     
     <item>
-      <title>riot.js 勉強会</title>
+      <title>riot.js 勉強会 #1</title>
       <link>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</link>
       <pubDate>Wed, 27 Jul 2016 19:31:28 +0900</pubDate>
       
@@ -1318,27 +1371,6 @@ atomなど使っているとcommentショートカットが便利で
 &lt;p&gt;surround.vim便利
 sublime-textでも使えるようですが
 atomの公式パッケージにも早くほしい&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GitGutter便利すぎ</title>
-      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</link>
-      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;githubなどで開発しているとpullreqが便利で
-良くコードを見るようになりました
-意味のないコード差分などはできれば出したくない&lt;/p&gt;
-
-&lt;p&gt;sublimeにもatomにもあってvimにはないのか！
-と思ってたら検索して3分で見つかりました&lt;/p&gt;
-
-&lt;p&gt;最高です&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/airblade/vim-gitgutter&#34;&gt;vim-gitgutter&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
