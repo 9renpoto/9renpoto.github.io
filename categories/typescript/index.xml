@@ -9,6 +9,87 @@
     <atom:link href="https://9renpoto.github.io/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>storybook を TypeScript で動かす</title>
+      <link>https://9renpoto.github.io/blog/2016/09/13/storybook/</link>
+      <pubDate>Tue, 13 Sep 2016 21:38:08 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook/</guid>
+      <description>
+
+&lt;h1 id=&#34;react-storybook-を試す&#34;&gt;React Storybook を試す&lt;/h1&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;react-storybook は component の styleguide&lt;/li&gt;
+&lt;li&gt;TypeScript のままでは動かせないので一度ビルドする(2016/09現在)&lt;/li&gt;
+&lt;li&gt;addon拡張で開発が便利になるエコシステムはある&lt;/li&gt;
+&lt;li&gt;途中経過
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/style/tree/aab6f82ccb228a6b56a18223f6f66bf0f3bd78b1&#34;&gt;9renpoto/style&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;storybook&#34;&gt;storybook&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;stories&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;add&lt;/code&gt; して一覧ページがカジュアルに作成できる&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gh-pages&lt;/code&gt; などで簡単にホストできる&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;HMR&lt;/code&gt; ができるのはありがたい&lt;/li&gt;
+&lt;li&gt;いろいろ watch したくなる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;webpack&lt;/code&gt; にどっぷり依存&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;typescript-with-react&#34;&gt;TypeScript with React&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gfx.hatenablog.com/entry/2016/09/12/162055&#34;&gt;2016年9月現在だとReactアプリのTypeScript採用は時期尚早&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;確かに現状の型定義は古い&lt;/li&gt;
+&lt;li&gt;まだそこで困るほど React 使いこなせていない&lt;/li&gt;
+&lt;li&gt;緩く型を信じる・困ったら考える(個人では)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tsx&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サポートありがたい&lt;/li&gt;
+&lt;li&gt;DOMを型付きで定義できることの安心感&lt;/li&gt;
+&lt;li&gt;テストを書くのは意識高めになる必要がある&lt;/li&gt;
+&lt;li&gt;便利だけど遅い&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;webpack&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;古いloaderが増えてきた ex. &lt;code&gt;ts-loader&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ts-loader&lt;/code&gt; などで watch はできないので &lt;code&gt;tsc -w&lt;/code&gt; で様子を見る&lt;/li&gt;
+&lt;li&gt;ガッツリ依存せず疎結合にできるところは疎結合にする&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;css-module&#34;&gt;CSS-module&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;基本的に使わない方が良さそう&lt;/li&gt;
+&lt;li&gt;使う場合は構造化cssとして育てるのではなく、 &lt;code&gt;local&lt;/code&gt; cssとしてビルドしたほうが良さそう
+
+&lt;ul&gt;
+&lt;li&gt;SDK などで利用するのはアリ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://developer.hatenastaff.com/entry/2016/04/14/150000&#34;&gt;react-storybookを用いたReactコンポーネント開発&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>TypeScript のテスト環境を考える</title>
       <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</link>
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
