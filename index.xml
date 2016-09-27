@@ -6,8 +6,44 @@
     <description>Recent content on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 16 Sep 2016 19:29:30 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Sep 2016 12:11:46 +0900</lastBuildDate>
     <atom:link href="https://9renpoto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>macOS キーチェインが動かなくなったので keychain を導入する</title>
+      <link>https://9renpoto.github.io/blog/2016/09/25/ssh-agent/</link>
+      <pubDate>Sun, 25 Sep 2016 12:11:46 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/09/25/ssh-agent/</guid>
+      <description>
+
+&lt;h1 id=&#34;macos-update-メモ&#34;&gt;macOS update メモ&lt;/h1&gt;
+
+&lt;p&gt;ssh passphrase を常に問い合わされるようになった&lt;/p&gt;
+
+&lt;h2 id=&#34;調査&#34;&gt;調査&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;keychain&lt;/li&gt;
+&lt;li&gt;ssh-agent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;keychain-入れてみる&#34;&gt;keychain 入れてみる&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/dotfiles/pull/32&#34;&gt;https://github.com/9renpoto/dotfiles/pull/32&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;解決出来た様子&lt;/p&gt;
+
+&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/u6k/items/5970618c4a8c23f71fb9&#34;&gt;http://qiita.com/u6k/items/5970618c4a8c23f71fb9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/tukiyo3/items/045f86c4242ec53953e2&#34;&gt;http://qiita.com/tukiyo3/items/045f86c4242ec53953e2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Frontend Meetup 01 参加メモ</title>
@@ -1216,377 +1252,6 @@ bar(); # undefined
 atomなどでマルチカーソル操作をすると全部選択されてしまってツラまる&lt;/p&gt;
 
 &lt;p&gt;良い方法が知りたい&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>#hcj-2014</title>
-      <link>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</link>
-      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</guid>
-      <description>
-
-&lt;h1 id=&#34;hadoop-conference-japan-2014に参加してきました&#34;&gt;Hadoop Conference Japan 2014に参加してきました&lt;/h1&gt;
-
-&lt;p&gt;個人的な所感としては&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;spark楽しそう（だけどまだ触るには勇気が）&lt;/li&gt;
-&lt;li&gt;Prestoも熱そう&lt;/li&gt;
-&lt;li&gt;MapR書くよりもSQL書く方がお手軽&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以下はメモ書き&lt;/p&gt;
-
-&lt;h2 id=&#34;keynote&#34;&gt;keynote&lt;/h2&gt;
-
-&lt;h3 id=&#34;hadoopを取り巻く環境について&#34;&gt;hadoopを取り巻く環境について&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;始めて普及した並列分散処理
-
-&lt;ul&gt;
-&lt;li&gt;データの読み込みのスループットを最大化&lt;/li&gt;
-&lt;li&gt;全件データの処理を実現&lt;/li&gt;
-&lt;li&gt;シンプルなモデル（MapReduce)&lt;/li&gt;
-&lt;li&gt;YARN&lt;/li&gt;
-&lt;li&gt;MapReduceからそれ以外のアルゴリズムも&lt;/li&gt;
-&lt;li&gt;複数の並列分散エンジンを併用できる環境&lt;/li&gt;
-&lt;li&gt;メモリーの大容量化、10Gbpsネットワークの普及
-
-&lt;ul&gt;
-&lt;li&gt;インメモリー処理の実現性の向上&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;the-future-of-data&#34;&gt;The Future of Data&lt;/h3&gt;
-
-&lt;p&gt;Doug Cutting&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;未来について
-
-&lt;ul&gt;
-&lt;li&gt;ハードウェアの価格の低下、性能の向上&lt;/li&gt;
-&lt;li&gt;データの重要性の向上&lt;/li&gt;
-&lt;li&gt;オープンソースが勝ち残る&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;the-future-of-spark&#34;&gt;The Future of spark&lt;/h3&gt;
-
-&lt;p&gt;Patric Wendlell&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sparkの目的
-
-&lt;ul&gt;
-&lt;li&gt;データサイエンティスト、エンジニア能力の拡張&lt;/li&gt;
-&lt;li&gt;表現力のあるクリーンなAPIの提供&lt;/li&gt;
-&lt;li&gt;多様な環境にわたって統合されたランタイム&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;API　stability
-
-&lt;ul&gt;
-&lt;li&gt;3か月サイクルでマイナーリリース&lt;/li&gt;
-&lt;li&gt;必要におおじてメンテナンスリリース&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Spark SQL&lt;/li&gt;
-&lt;li&gt;MLlib
-
-&lt;ul&gt;
-&lt;li&gt;Spark + R&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;DataBricks&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;hadoopエコシステムの片鱗と見えてきた使いドコロ&#34;&gt;Hadoopエコシステムの片鱗と見えてきた使いドコロ&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;TreasureData
-
-&lt;ul&gt;
-&lt;li&gt;なぜHadoop使うのか&lt;/li&gt;
-&lt;li&gt;Hadoopを使うのは最適な解か
-
-&lt;ul&gt;
-&lt;li&gt;安いストレージとして使うだけならHadoopより良い物は沢山ある&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;データの収集ソフトウェア
-
-&lt;ul&gt;
-&lt;li&gt;多種多様なデータ・ソース&lt;/li&gt;
-&lt;li&gt;fluentd,flumea,kafka,sqoop&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;ファイルフォーマット
-
-&lt;ul&gt;
-&lt;li&gt;Schema on Read&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;管理・人的コスト低減の支援&lt;/li&gt;
-&lt;li&gt;簡単にデータを扱うか
-
-&lt;ul&gt;
-&lt;li&gt;Tez, Spark&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;SQL on Hadoop
-
-&lt;ul&gt;
-&lt;li&gt;Impala, SlarkSQL, Presto Drill&lt;/li&gt;
-&lt;li&gt;Mahout, Spark MLlib&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;今までの時代
-
-&lt;ul&gt;
-&lt;li&gt;データを入れるだけ入れたけど、レポート化できる人の限られている&lt;/li&gt;
-&lt;li&gt;今までは何でも入れられるだけ&lt;/li&gt;
-&lt;li&gt;これからはだれでも取り出せるようにしないと意味がない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Hadoop -&amp;gt; MPP
-
-&lt;ul&gt;
-&lt;li&gt;Twitter: Hadoop -&amp;gt; Vertica&lt;/li&gt;
-&lt;li&gt;Pinterest: Hadoop -&amp;gt; redshift&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;非構造化データの領域に踏み込む&lt;/li&gt;
-&lt;li&gt;混沌の時代&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;セッション&#34;&gt;セッション&lt;/h2&gt;
-
-&lt;h3 id=&#34;マルチテナント化に向けたhadoopの最新セキュリティー事情&#34;&gt;マルチテナント化に向けたHadoopの最新セキュリティー事情&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Hadoopのユースケースの移り変わり
-
-&lt;ul&gt;
-&lt;li&gt;バッチ処理を効率よく行うため&lt;/li&gt;
-&lt;li&gt;部門単位での利用、クラスターの乱立&lt;/li&gt;
-&lt;li&gt;近年&lt;/li&gt;
-&lt;li&gt;バッチ処理 + インタラクティブな処理&lt;/li&gt;
-&lt;li&gt;SQLによるアクセス&lt;/li&gt;
-&lt;li&gt;データは一部の人だけのものではない&lt;/li&gt;
-&lt;li&gt;クラスターの共有（マルチテナント）&lt;/li&gt;
-&lt;li&gt;マルチテナントのメリット&lt;/li&gt;
-&lt;li&gt;データの複製不要&lt;/li&gt;
-&lt;li&gt;業務の取り巻き&lt;/li&gt;
-&lt;li&gt;性能・効率の改善&lt;/li&gt;
-&lt;li&gt;課題
-　- リソースの分離と管理&lt;/li&gt;
-&lt;li&gt;Role管理&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;マルチテナントとセキュリティーの関連性
-
-&lt;ul&gt;
-&lt;li&gt;認証&lt;/li&gt;
-&lt;li&gt;kerberos
-
-&lt;ul&gt;
-&lt;li&gt;相手が何者であるかを保証するプロトコル&lt;/li&gt;
-&lt;li&gt;暗号化&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;認可&lt;/li&gt;
-&lt;li&gt;HDFS ACL
-
-&lt;ul&gt;
-&lt;li&gt;ファイルシステムレベルでのaccess control&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Apache Sentry
-
-&lt;ul&gt;
-&lt;li&gt;データベース、テーブルview、行列の粒度でアクセス制御&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;認可モジュールSentryの紹介
-
-&lt;ul&gt;
-&lt;li&gt;Apache Sentryはモジュールとして開発されている&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;bigquery-and-the-world-after-mapreduce&#34;&gt;BigQuery and the world after MapReduce&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;BigData at Google
-
-&lt;ul&gt;
-&lt;li&gt;ログ分析するのにMapReduceを書いてる場合じゃない&lt;/li&gt;
-&lt;li&gt;BigQuery ( sql base )&lt;/li&gt;
-&lt;li&gt;indexなんてないんや&lt;/li&gt;
-&lt;li&gt;全文検索、120億行、10秒ぐらい&lt;/li&gt;
-&lt;li&gt;storage料金&lt;/li&gt;
-&lt;li&gt;Quesy料金&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Column Oriented Storage
-
-&lt;ul&gt;
-&lt;li&gt;もはやスタンダード&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Colossus File System
-
-&lt;ul&gt;
-&lt;li&gt;GFSの次のもの&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;MPP
-
-&lt;ul&gt;
-&lt;li&gt;1TBの内容を数秒で舐めるためには何台必要なのか&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;JOIN
-
-&lt;ul&gt;
-&lt;li&gt;small join&lt;/li&gt;
-&lt;li&gt;broadcast JOIN&lt;/li&gt;
-&lt;li&gt;ばらまいてコピー =&amp;gt; JOIN&lt;/li&gt;
-&lt;li&gt;JOIN Each&lt;/li&gt;
-&lt;li&gt;shuffleしてjoinできる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;BigQuery Streaming
-
-&lt;ul&gt;
-&lt;li&gt;fluentd!&lt;/li&gt;
-&lt;li&gt;fluent-plugin-bigquery&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;BigQuery User-Defined-Function-with-JavaScript
-
-&lt;ul&gt;
-&lt;li&gt;クエリ内にJavaScript書く&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Cloud Pub/Sub&lt;/li&gt;
-&lt;li&gt;FlumeJava
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://pages.cs.wisc.edu/~akella/CS838/F12/838-CloudPapers/FlumeJava.pdf&#34;&gt;論文あるよ!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;MillWheel
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://static.googleusercontent.com/media/research.google.com/ja//pubs/archive/41378.pdf&#34;&gt;論文あるよ!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;sqlによるバッチ処理とストリーム処理&#34;&gt;SQLによるバッチ処理とストリーム処理&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;@tagomoris
-
-&lt;ul&gt;
-&lt;li&gt;stream処理&lt;/li&gt;
-&lt;li&gt;norikra&lt;/li&gt;
-&lt;li&gt;Hadoop&lt;/li&gt;
-&lt;li&gt;Hive/ Presto&lt;/li&gt;
-&lt;li&gt;SQL is NOT the best;&lt;/li&gt;
-&lt;li&gt;But, SQL is better than NONE.&lt;/li&gt;
-&lt;li&gt;Batch processing&lt;/li&gt;
-&lt;li&gt;hive&lt;/li&gt;
-&lt;li&gt;Stream processing&lt;/li&gt;
-&lt;li&gt;storm, kafka, esper,norikra, fluentd&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Lamda Architecture
-
-&lt;ul&gt;
-&lt;li&gt;Streaming&lt;/li&gt;
-&lt;li&gt;速報値&lt;/li&gt;
-&lt;li&gt;Batch&lt;/li&gt;
-&lt;li&gt;確定値&lt;/li&gt;
-&lt;li&gt;両方に対応したい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Stream処理
-
-&lt;ul&gt;
-&lt;li&gt;レイテンシが低い&lt;/li&gt;
-&lt;li&gt;同じ処理をバッチとしても実行できる必要がある&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;yarn&#34;&gt;YARN&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;TD
-
-&lt;ul&gt;
-&lt;li&gt;PlazumaDB&lt;/li&gt;
-&lt;li&gt;S3上で動作&lt;/li&gt;
-&lt;li&gt;HDFS is not used&lt;/li&gt;
-&lt;li&gt;Hadoop Cluster&lt;/li&gt;
-&lt;li&gt;Customize hadoop&lt;/li&gt;
-&lt;li&gt;Customize hive&lt;/li&gt;
-&lt;li&gt;Customize Pig&lt;/li&gt;
-&lt;li&gt;PlazumaDB&lt;/li&gt;
-&lt;li&gt;Customize Impala&lt;/li&gt;
-&lt;li&gt;Customize Presto&lt;/li&gt;
-&lt;li&gt;独自queue&lt;/li&gt;
-&lt;li&gt;独自scheduler&lt;/li&gt;
-&lt;li&gt;YARN cluster&lt;/li&gt;
-&lt;li&gt;プロダクションにはまだ入れてないが
-環境整えている&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;YARNとは
-
-&lt;ul&gt;
-&lt;li&gt;Job History Server注意&lt;/li&gt;
-&lt;li&gt;起動してないと過去ログが追えなくなる&lt;/li&gt;
-&lt;li&gt;NOTE!&lt;/li&gt;
-&lt;li&gt;Use the Hadoop 2.4.0 and later !!!!
-
-&lt;ul&gt;
-&lt;li&gt;Capacity Scheduler、there is a bug!&lt;/li&gt;
-&lt;li&gt;deadlock!!!!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;hadoop-conf-pseudo doees not work&lt;/li&gt;
-&lt;li&gt;2.2.0 and 2.4.0
-
-&lt;ul&gt;
-&lt;li&gt;結構違うので注意&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;presto&#34;&gt;Presto&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;what is Presto
-
-&lt;ul&gt;
-&lt;li&gt;Facebookで作られてoss化&lt;/li&gt;
-&lt;li&gt;HDFS上のデータを可視化したい&lt;/li&gt;
-&lt;li&gt;うまくいかない&lt;/li&gt;
-&lt;li&gt;hiveが遅すぎる&lt;/li&gt;
-&lt;li&gt;hiveをバッチ化 =&amp;gt; 中間DBに入れる&lt;/li&gt;
-&lt;li&gt;中間DBはスケールしない&lt;/li&gt;
-&lt;li&gt;HDFSに保存してないものは入れなきゃならない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Presto
-
-&lt;ul&gt;
-&lt;li&gt;中間データベースの取り除く有効な手段&lt;/li&gt;
-&lt;li&gt;他のデータストアを舐めることにも対応&lt;/li&gt;
-&lt;li&gt;Hiveとの使い分けが必要&lt;/li&gt;
-&lt;li&gt;巨大なjoin&lt;/li&gt;
-&lt;li&gt;group by&lt;/li&gt;
-&lt;li&gt;Interactiveなクエリを発行できる&lt;/li&gt;
-&lt;li&gt;複数のデータ・セットをまとめて表示できる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;BI tools
-
-&lt;ul&gt;
-&lt;li&gt;可視化に利用していく&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ODBC/JDBC is very complicated!&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Prestoの実行モデルについて
-
-&lt;ul&gt;
-&lt;li&gt;not MapReduce&lt;/li&gt;
-&lt;li&gt;全部並行で動いてる&lt;/li&gt;
-&lt;li&gt;一個死んだら全部死ぬ&lt;/li&gt;
-&lt;li&gt;メモリー溢れてしまうとクエリが死んでしまう&lt;/li&gt;
-&lt;li&gt;メモリーの使用量はクラスターで管理されてて、クラスターが死ぬことはない（はず）&lt;/li&gt;
-&lt;li&gt;がクエリは死ぬ&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
