@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>:-)</title>
+    <link>https://9renpoto.github.io/categories/scala/index.xml</link>
+    <description>Recent content on :-)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <atom:link href="https://9renpoto.github.io/categories/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>第3回 Reactive System Meetup in 西新宿</title>
+      <link>https://9renpoto.github.io/blog/2016/09/29/reactive-shinjuku-03/</link>
+      <pubDate>Thu, 29 Sep 2016 19:02:35 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/09/29/reactive-shinjuku-03/</guid>
+      <description>
+
+&lt;h1 id=&#34;参加メモ&#34;&gt;参加メモ&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://reactive-shinjuku.connpass.com/event/38411/&#34;&gt;http://reactive-shinjuku.connpass.com/event/38411/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ハッシュタグ &lt;code&gt;#reactive_shinjuku&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;リアクティブdddについて&#34;&gt;リアクティブDDDについて&lt;/h2&gt;
+
+&lt;p&gt;ChatWork株式会社 加藤潤一氏（@j5ik2o）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;リアクティブDDD
+
+&lt;ul&gt;
+&lt;li&gt;リアクティブシステム &amp;amp;&amp;amp; ドメイン駆動設計&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Actor は DDDで示されるコンセプトを表現できる&lt;/li&gt;
+&lt;li&gt;リアクティブシステムと Akka&lt;/li&gt;
+&lt;li&gt;リアクティブ宣言 &lt;a href=&#34;http://www.reactivemanifesto.org/&#34;&gt;http://www.reactivemanifesto.org/&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Elastic&lt;/li&gt;
+&lt;li&gt;Responsive&lt;/li&gt;
+&lt;li&gt;Reslilient&lt;/li&gt;
+&lt;li&gt;Message Driven&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ソフトウェアの災いを表す用語
+
+&lt;ul&gt;
+&lt;li&gt;誤差・誤り(error)&lt;/li&gt;
+&lt;li&gt;欠陥(defect, バグを含む概念)&lt;/li&gt;
+&lt;li&gt;障害(fault)&lt;/li&gt;
+&lt;li&gt;故障(failure)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;メッセージ駆動&lt;/li&gt;
+&lt;li&gt;Akka
+
+&lt;ul&gt;
+&lt;li&gt;2011年の記事ではErlangの2倍のスループットを発揮した&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ドメインモデル
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;モデル = 考え方とコードを結びつけたソフトウェア&lt;/code&gt; を実現する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ドメイン層の隔離&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ここからスライドを参照してあとで勉強する&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/yoskhdia/modeling-the-domain-event&#34;&gt;https://speakerdeck.com/yoskhdia/modeling-the-domain-event&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;lagom-で学ぶ-reactive-microservices-architecture&#34;&gt;Lagom で学ぶ Reactive Microservices Architecture&lt;/h2&gt;
+
+&lt;p&gt;TIS株式会社 根来和輝（@negokaz）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reactive Microservices Architecture&lt;/li&gt;
+&lt;li&gt;Lagom
+
+&lt;ul&gt;
+&lt;li&gt;非同期・ノンブロッキングAPI&lt;/li&gt;
+&lt;li&gt;Sharding によるステートフルアーキテクト&lt;/li&gt;
+&lt;li&gt;分散型の永続化機構&lt;/li&gt;
+&lt;li&gt;CQRS + Event Sroucing&lt;/li&gt;
+&lt;li&gt;Circuit Breaker&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture&#34;&gt;http://www.slideshare.net/negokaz/lagom-reactive-microservices-architecture&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
