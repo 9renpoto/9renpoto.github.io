@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Hadoop on :-)</title>
     <link>https://9renpoto.github.io/categories/hadoop/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Hadoop on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/hadoop/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
 
 &lt;h1 id=&#34;hadoop-conference-japan-2014に参加してきました&#34;&gt;Hadoop Conference Japan 2014に参加してきました&lt;/h1&gt;
 
-&lt;p&gt;個人的な所感としては&lt;/p&gt;
+&lt;p&gt;個人的な所感としては。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;spark楽しそう（だけどまだ触るには勇気が）&lt;/li&gt;
@@ -26,14 +26,14 @@
 &lt;li&gt;MapR書くよりもSQL書く方がお手軽&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;以下はメモ書き&lt;/p&gt;
+&lt;p&gt;以下はメモ書き。&lt;/p&gt;
 
 &lt;h2 id=&#34;keynote&#34;&gt;keynote&lt;/h2&gt;
 
 &lt;h3 id=&#34;hadoopを取り巻く環境について&#34;&gt;hadoopを取り巻く環境について&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;始めて普及した並列分散処理
+&lt;li&gt;始めて普及した並列分散
 
 &lt;ul&gt;
 &lt;li&gt;データの読み込みのスループットを最大化&lt;/li&gt;
@@ -236,7 +236,7 @@
 &lt;li&gt;BigQuery Streaming
 
 &lt;ul&gt;
-&lt;li&gt;fluentd!&lt;/li&gt;
+&lt;li&gt;fluentd&lt;/li&gt;
 &lt;li&gt;fluent-plugin-bigquery&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;BigQuery User-Defined-Function-with-JavaScript
@@ -272,7 +272,11 @@
 &lt;li&gt;Batch processing&lt;/li&gt;
 &lt;li&gt;hive&lt;/li&gt;
 &lt;li&gt;Stream processing&lt;/li&gt;
-&lt;li&gt;storm, kafka, esper,norikra, fluentd&lt;/li&gt;
+&lt;li&gt;storm&lt;/li&gt;
+&lt;li&gt;kafka&lt;/li&gt;
+&lt;li&gt;esper&lt;/li&gt;
+&lt;li&gt;norikra&lt;/li&gt;
+&lt;li&gt;fluentd&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Lamda Architecture
 
@@ -318,12 +322,12 @@
 &lt;ul&gt;
 &lt;li&gt;Job History Server注意&lt;/li&gt;
 &lt;li&gt;起動してないと過去ログが追えなくなる&lt;/li&gt;
-&lt;li&gt;NOTE!&lt;/li&gt;
-&lt;li&gt;Use the Hadoop 2.4.0 and later !!!!
+&lt;li&gt;NOTE&lt;/li&gt;
+&lt;li&gt;Use the Hadoop 2.4.0 and later
 
 &lt;ul&gt;
-&lt;li&gt;Capacity Scheduler、there is a bug!&lt;/li&gt;
-&lt;li&gt;deadlock!!!!&lt;/li&gt;
+&lt;li&gt;Capacity Scheduler、there is a bug&lt;/li&gt;
+&lt;li&gt;deadlock&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;hadoop-conf-pseudo doees not work&lt;/li&gt;
 &lt;li&gt;2.2.0 and 2.4.0
@@ -372,7 +376,7 @@
 &lt;li&gt;全部並行で動いてる&lt;/li&gt;
 &lt;li&gt;一個死んだら全部死ぬ&lt;/li&gt;
 &lt;li&gt;メモリー溢れてしまうとクエリが死んでしまう&lt;/li&gt;
-&lt;li&gt;メモリーの使用量はクラスターで管理されてて、クラスターが死ぬことはない（はず）&lt;/li&gt;
+&lt;li&gt;メモリーの使用量はクラスターで管理されて、クラスターが死ぬことはない（はず）&lt;/li&gt;
 &lt;li&gt;がクエリは死ぬ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;

@@ -25,7 +25,7 @@
 
 &lt;h2 id=&#34;リアクティブdddについて&#34;&gt;リアクティブDDDについて&lt;/h2&gt;
 
-&lt;p&gt;ChatWork株式会社 加藤潤一氏（@j5ik2o）&lt;/p&gt;
+&lt;p&gt;株式会社ChatWork加藤潤一氏（@j5ik2o）&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;リアクティブDDD
@@ -33,8 +33,8 @@
 &lt;ul&gt;
 &lt;li&gt;リアクティブシステム &amp;amp;&amp;amp; ドメイン駆動設計&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Actor は DDDで示されるコンセプトを表現できる&lt;/li&gt;
-&lt;li&gt;リアクティブシステムと Akka&lt;/li&gt;
+&lt;li&gt;ActorはDDDで示されるコンセプトを表現できる&lt;/li&gt;
+&lt;li&gt;リアクティブシステムとAkka&lt;/li&gt;
 &lt;li&gt;リアクティブ宣言 &lt;a href=&#34;http://www.reactivemanifesto.org/&#34;&gt;http://www.reactivemanifesto.org/&lt;/a&gt;
 
 &lt;ul&gt;
@@ -46,10 +46,10 @@
 &lt;li&gt;ソフトウェアの災いを表す用語
 
 &lt;ul&gt;
-&lt;li&gt;誤差・誤り(error)&lt;/li&gt;
-&lt;li&gt;欠陥(defect, バグを含む概念)&lt;/li&gt;
-&lt;li&gt;障害(fault)&lt;/li&gt;
-&lt;li&gt;故障(failure)&lt;/li&gt;
+&lt;li&gt;誤差・誤り（error)&lt;/li&gt;
+&lt;li&gt;欠陥（defect, バグを含む概念）&lt;/li&gt;
+&lt;li&gt;障害（fault)&lt;/li&gt;
+&lt;li&gt;故障（failure)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;メッセージ駆動&lt;/li&gt;
 &lt;li&gt;Akka
@@ -65,13 +65,13 @@
 &lt;li&gt;ドメイン層の隔離&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;ここからスライドを参照してあとで勉強する&lt;/p&gt;
+&lt;p&gt;ここからスライドを参照してあとで勉強する。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/yoskhdia/modeling-the-domain-event&#34;&gt;https://speakerdeck.com/yoskhdia/modeling-the-domain-event&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lagom-で学ぶ-reactive-microservices-architecture&#34;&gt;Lagom で学ぶ Reactive Microservices Architecture&lt;/h2&gt;
+&lt;h2 id=&#34;lagomで学ぶreactive-microservices-architecture&#34;&gt;Lagomで学ぶReactive Microservices Architecture&lt;/h2&gt;
 
-&lt;p&gt;TIS株式会社 根来和輝（@negokaz）&lt;/p&gt;
+&lt;p&gt;株式会社TIS根来和輝（@negokaz）&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Reactive Microservices Architecture&lt;/li&gt;
@@ -79,7 +79,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;非同期・ノンブロッキングAPI&lt;/li&gt;
-&lt;li&gt;Sharding によるステートフルアーキテクト&lt;/li&gt;
+&lt;li&gt;Shardingによるステートフルアーキテクト&lt;/li&gt;
 &lt;li&gt;分散型の永続化機構&lt;/li&gt;
 &lt;li&gt;CQRS + Event Sroucing&lt;/li&gt;
 &lt;li&gt;Circuit Breaker&lt;/li&gt;
@@ -98,9 +98,9 @@
       <guid>https://9renpoto.github.io/blog/2016/09/25/ssh-agent/</guid>
       <description>
 
-&lt;h1 id=&#34;macos-update-メモ&#34;&gt;macOS update メモ&lt;/h1&gt;
+&lt;h1 id=&#34;macos-updateメモ&#34;&gt;macOS updateメモ&lt;/h1&gt;
 
-&lt;p&gt;ssh passphrase を常に問い合わされるようになった&lt;/p&gt;
+&lt;p&gt;ssh passphraseを常に問い合わされるようになった。&lt;/p&gt;
 
 &lt;h2 id=&#34;調査&#34;&gt;調査&lt;/h2&gt;
 
@@ -109,13 +109,13 @@
 &lt;li&gt;ssh-agent&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;keychain-入れてみる&#34;&gt;keychain 入れてみる&lt;/h2&gt;
+&lt;h2 id=&#34;keychain入れてみる&#34;&gt;keychain入れてみる&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/dotfiles/pull/32&#34;&gt;https://github.com/9renpoto/dotfiles/pull/32&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;解決出来た様子&lt;/p&gt;
+&lt;p&gt;解決出来た様子。&lt;/p&gt;
 
 &lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
 
@@ -138,7 +138,7 @@
 
 &lt;p&gt;&lt;a href=&#34;http://connpass.com/event/38112/&#34;&gt;http://connpass.com/event/38112/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;react-reduxで快適フロントエンドライフ-仮&#34;&gt;React/Reduxで快適フロントエンドライフ(仮)&lt;/h2&gt;
+&lt;h2 id=&#34;react-reduxで快適フロントエンドライフ-仮&#34;&gt;React/Reduxで快適フロントエンドライフ（仮）&lt;/h2&gt;
 
 &lt;p&gt;by @takayuki_shmz (株式会社FiNC)&lt;/p&gt;
 
@@ -149,7 +149,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;学習コスト&lt;/li&gt;
-&lt;li&gt;JSX(うんじゃら)&lt;/li&gt;
+&lt;li&gt;JSX(うんじゃら）&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;後悔したこと
 
@@ -165,27 +165,27 @@
 &lt;li&gt;smart component
 
 &lt;ul&gt;
-&lt;li&gt;dumb コンポーネントと action, storeを繋ぐ&lt;/li&gt;
+&lt;li&gt;dumbコンポーネントとaction, storeを繋ぐ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;dumb component&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Statelessコンポーネントが原則
 
 &lt;ul&gt;
-&lt;li&gt;case by case だけども&lt;/li&gt;
+&lt;li&gt;case by caseだけども&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;cssはコンポーネントと 1v1&lt;/li&gt;
+&lt;li&gt;cssはコンポーネントと1v1&lt;/li&gt;
 &lt;li&gt;this.contents
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://facebook.github.io/react/docs/context.html&#34;&gt;https://facebook.github.io/react/docs/context.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;API 層を context に渡し container を呼ぶ&lt;/li&gt;
+&lt;li&gt;API層をcontextに渡しcontainerを呼ぶ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;革命と秩序とspa-react-flux-flowtype&#34;&gt;革命と秩序とSPA(React、flux、flowtype)&lt;/h2&gt;
 
-&lt;p&gt;by @joe_re (freee株式会社)&lt;/p&gt;
+&lt;p&gt;by @joe_re (freee株式会社）&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/joere/ge-ming-tozhi-xu-tospa&#34;&gt;https://speakerdeck.com/joere/ge-ming-tozhi-xu-tospa&lt;/a&gt;&lt;/p&gt;
 
@@ -200,7 +200,7 @@
 &lt;li&gt;react &amp;amp; flux
 
 &lt;ul&gt;
-&lt;li&gt;single-state を途中から導入するのがツラい&lt;/li&gt;
+&lt;li&gt;single-stateを途中から導入するのがツラい&lt;/li&gt;
 &lt;li&gt;flux-utils&lt;/li&gt;
 &lt;li&gt;サポートの範囲が小さい分外しやすい&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -237,11 +237,11 @@
 &lt;li&gt;Rollbar
 
 &lt;ul&gt;
-&lt;li&gt;裏でsourcemap 連携&lt;/li&gt;
+&lt;li&gt;裏でsourcemap連携&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;##　コンテンツ配信とSPA&lt;/p&gt;
+&lt;p&gt;##　コンテンツ配信とSPA。&lt;/p&gt;
 
 &lt;p&gt;by @konpyu (Piece of cake,Inc)&lt;/p&gt;
 
@@ -250,7 +250,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;angular 1.3&lt;/li&gt;
-&lt;li&gt;mobile 遅い&lt;/li&gt;
+&lt;li&gt;mobile遅い&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Drupal8&lt;/li&gt;
 &lt;li&gt;SSR&lt;/li&gt;
@@ -259,7 +259,7 @@
 
 &lt;h2 id=&#34;spaと覚悟&#34;&gt;SPAと覚悟&lt;/h2&gt;
 
-&lt;p&gt;by @teppeis (サイボウズ)&lt;/p&gt;
+&lt;p&gt;by @teppeis (サイボウズ）&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;SPA
@@ -273,7 +273,7 @@
 &lt;li&gt;ブラウザーを越えすぎても駄目&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;angular2でつまづいたところ-仮&#34;&gt;Angular2でつまづいたところ(仮)&lt;/h2&gt;
+&lt;h2 id=&#34;angular2でつまづいたところ-仮&#34;&gt;Angular2でつまづいたところ（仮）&lt;/h2&gt;
 
 &lt;p&gt;by @nacika_ins&lt;/p&gt;
 
@@ -302,13 +302,13 @@
       <guid>https://9renpoto.github.io/blog/2016/09/13/storybook/</guid>
       <description>
 
-&lt;h1 id=&#34;react-storybook-を試す&#34;&gt;React Storybook を試す&lt;/h1&gt;
+&lt;h1 id=&#34;react-storybookを試す&#34;&gt;React Storybookを試す&lt;/h1&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;react-storybook は component の styleguide&lt;/li&gt;
-&lt;li&gt;TypeScript のままでは動かせないので一度ビルドする(2016/09現在)&lt;/li&gt;
+&lt;li&gt;react-storybookはcomponentのstyleguide&lt;/li&gt;
+&lt;li&gt;TypeScriptのままでは動かせないので一度ビルドする（2016/09現在）&lt;/li&gt;
 &lt;li&gt;addon拡張で開発が便利になるエコシステムはある&lt;/li&gt;
 &lt;li&gt;途中経過
 
@@ -326,7 +326,7 @@
 &lt;li&gt;&lt;code&gt;add&lt;/code&gt; して一覧ページがカジュアルに作成できる&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;gh-pages&lt;/code&gt; などで簡単にホストできる&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;HMR&lt;/code&gt; ができるのはありがたい&lt;/li&gt;
-&lt;li&gt;いろいろ watch したくなる&lt;/li&gt;
+&lt;li&gt;いろいろwatchしたくなる&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;webpack&lt;/code&gt; にどっぷり依存&lt;/li&gt;
 &lt;/ul&gt;
@@ -338,8 +338,8 @@
 
 &lt;ul&gt;
 &lt;li&gt;確かに現状の型定義は古い&lt;/li&gt;
-&lt;li&gt;まだそこで困るほど React 使いこなせていない&lt;/li&gt;
-&lt;li&gt;緩く型を信じる・困ったら考える(個人では)&lt;/li&gt;
+&lt;li&gt;まだそこで困るほどReact使いこなせていない&lt;/li&gt;
+&lt;li&gt;緩く型を信じる・困ったら考える（個人では）&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;tsx&lt;/code&gt;
 
@@ -352,8 +352,8 @@
 &lt;li&gt;&lt;code&gt;webpack&lt;/code&gt;
 
 &lt;ul&gt;
-&lt;li&gt;古いloaderが増えてきた ex. &lt;code&gt;ts-loader&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ts-loader&lt;/code&gt; などで watch はできないので &lt;code&gt;tsc -w&lt;/code&gt; で様子を見る&lt;/li&gt;
+&lt;li&gt;古いloaderが増えてきたex. &lt;code&gt;ts-loader&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ts-loader&lt;/code&gt; などでwatchはできないので &lt;code&gt;tsc -w&lt;/code&gt; で様子を見る&lt;/li&gt;
 &lt;li&gt;ガッツリ依存せず疎結合にできるところは疎結合にする&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -365,7 +365,7 @@
 &lt;li&gt;使う場合は構造化cssとして育てるのではなく、 &lt;code&gt;local&lt;/code&gt; cssとしてビルドしたほうが良さそう
 
 &lt;ul&gt;
-&lt;li&gt;SDK などで利用するのはアリ&lt;/li&gt;
+&lt;li&gt;SDKなどで利用するのはアリ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -385,7 +385,7 @@
 
 &lt;h1 id=&#34;勉強する&#34;&gt;勉強する&lt;/h1&gt;
 
-&lt;p&gt;勉強について考える&lt;/p&gt;
+&lt;p&gt;勉強について考える。&lt;/p&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
 
@@ -424,7 +424,7 @@
 
 &lt;h2 id=&#34;余談&#34;&gt;余談&lt;/h2&gt;
 
-&lt;p&gt;Overwatch で勝てないのが厳しい&lt;/p&gt;
+&lt;p&gt;Overwatchで勝てないのが厳しい。&lt;/p&gt;
 </description>
     </item>
     
@@ -444,13 +444,13 @@
 
 &lt;h2 id=&#34;基調講演&#34;&gt;基調講演&lt;/h2&gt;
 
-&lt;p&gt;speaker: 中村 修&lt;/p&gt;
+&lt;p&gt;speaker: 中村修。&lt;/p&gt;
 
-&lt;p&gt;大規模分散オペレーティングシステム&lt;/p&gt;
+&lt;p&gt;大規模分散オペレーティングシステム。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;Web は Web 以外に存在するデータ表現を全てできるべき&lt;/li&gt;
+&lt;li&gt;WebはWeb以外に存在するデータ表現を全てできるべき&lt;/li&gt;
 &lt;li&gt;全てinternetの上にある発想
 
 &lt;ol&gt;
@@ -466,10 +466,10 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;speaker: 及川 卓也&lt;/p&gt;
+&lt;p&gt;speaker: 及川卓也。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;IE7 担当してました&lt;/li&gt;
+&lt;li&gt;IE7担当してました&lt;/li&gt;
 &lt;li&gt;アプリケーションとしてのWeb
 
 &lt;ul&gt;
@@ -483,7 +483,7 @@
 &lt;ul&gt;
 &lt;li&gt;ニュースキュレーションアプリ&lt;/li&gt;
 &lt;li&gt;AMP&lt;/li&gt;
-&lt;li&gt;CMS やツールに依存している場合&lt;/li&gt;
+&lt;li&gt;CMSやツールに依存している場合&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;今こそWebに再投資しよう&lt;/li&gt;
 &lt;/ul&gt;
@@ -494,11 +494,11 @@
 
 &lt;ul&gt;
 &lt;li&gt;Stateless Function Components(SFC)&lt;/li&gt;
-&lt;li&gt;state はviewに関係あるものだけで十分&lt;/li&gt;
+&lt;li&gt;stateはviewに関係あるものだけで十分&lt;/li&gt;
 &lt;li&gt;React.PureComponent(v15.3.0~)
 
 &lt;ul&gt;
-&lt;li&gt;ShoudComponentUpdate に類似(後で調べる)&lt;/li&gt;
+&lt;li&gt;ShoudComponentUpdateに類似（後で調べる）&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;react-addons-perf&lt;/code&gt;
 
@@ -509,7 +509,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;徐々に非推奨&lt;/li&gt;
-&lt;li&gt;React.Component へ&lt;/li&gt;
+&lt;li&gt;React.Componentへ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;High Order Function
 
@@ -534,7 +534,7 @@
 &lt;li&gt;Viewの構築を担う&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Component をテストする
+&lt;li&gt;Componentをテストする
 
 &lt;ul&gt;
 &lt;li&gt;TestUtil.renderInfoDocument&lt;/li&gt;
@@ -619,7 +619,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;transform: translateZ(0)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;凶悪&lt;/li&gt;
-&lt;li&gt;Web標準: &lt;code&gt;will-change: transform&lt;/code&gt;
+&lt;li&gt;Web標準： &lt;code&gt;will-change: transform&lt;/code&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Reduce GPU Memory&lt;/li&gt;
@@ -631,7 +631,7 @@
 &lt;li&gt;&lt;code&gt;&amp;lt;img lazyload&amp;gt;&lt;/code&gt; :innocent:&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;intersectionObserver&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;throttle &lt;a href=&#34;http://blog.tsumikiinc.com/article/20141125_javascript-event-throttle.html&#34;&gt;http://blog.tsumikiinc.com/article/20141125_javascript-event-throttle.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;TODO 調べる&lt;/li&gt;
+&lt;li&gt;TODO調べる&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Task Optimization
 
@@ -640,7 +640,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;progressive-web-apps-の導入基礎&#34;&gt;Progressive Web Apps の導入基礎&lt;/h2&gt;
+&lt;h2 id=&#34;progressive-web-appsの導入基礎&#34;&gt;Progressive Web Appsの導入基礎&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Push Notification
@@ -661,9 +661,11 @@
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;上手く動かない&lt;/p&gt;
+&lt;h1 id=&#34;上手く動かない&#34;&gt;上手く動かない&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;アバウトな構成&lt;/li&gt;
@@ -695,12 +697,12 @@
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; しても &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; しても &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&#34;&gt;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに
-こちらが動かない理由は不明、頭を悩ませる&lt;/p&gt;
+こちらが動かない理由は不明、頭を悩ませる。&lt;/p&gt;
 </description>
     </item>
     
@@ -712,7 +714,7 @@
       <guid>https://9renpoto.github.io/blog/2016/08/20/coverage/</guid>
       <description>
 
-&lt;h1 id=&#34;typescript-で-coverage-report-を計測する&#34;&gt;TypeScript で Coverage report を計測する&lt;/h1&gt;
+&lt;h1 id=&#34;typescriptでcoverage-reportを計測する&#34;&gt;TypeScriptでCoverage reportを計測する&lt;/h1&gt;
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
 
@@ -730,18 +732,18 @@
 &lt;h2 id=&#34;memo&#34;&gt;Memo&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;tsc&lt;/code&gt; &amp;gt; &lt;code&gt;npm test&lt;/code&gt; という流れになったため JavaScript としてテストをする形になる&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tsc&lt;/code&gt; &amp;gt; &lt;code&gt;npm test&lt;/code&gt; という流れになったためJavaScriptとしてテストをする形になる&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/espower-typescript&#34;&gt;espower-typescript&lt;/a&gt; を使わないようになる
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; は tsc の wrapper なのでtscする場合は使えなそう&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; はtscのwrapperなのでtscする場合は使えなそう&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;power-assert&lt;/code&gt; が上手く構造を解釈してくれてなさそう
 
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が担っていた役割を別で与える必要がある?&lt;/li&gt;
-&lt;li&gt;TypeScript に依存するなら無駄にbabel pluginなどは使いたくない&lt;/li&gt;
-&lt;li&gt;TODO 考える&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が担っていた役割を別で与える必要がある&lt;/li&gt;
+&lt;li&gt;TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない&lt;/li&gt;
+&lt;li&gt;TODO考える&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -762,9 +764,9 @@
       <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</guid>
       <description>
 
-&lt;h1 id=&#34;typescript-で-power-assert-を使いたい&#34;&gt;TypeScript で power-assert を使いたい&lt;/h1&gt;
+&lt;h1 id=&#34;typescriptでpower-assertを使いたい&#34;&gt;TypeScriptでpower-assertを使いたい&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/&#34;&gt;TypeScriptテストについて&lt;/a&gt; 少し調べました&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/&#34;&gt;TypeScriptテストについて&lt;/a&gt; 少し調べました。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/ts/pull/31&#34;&gt;https://github.com/9renpoto/ts/pull/31&lt;/a&gt;&lt;/li&gt;
@@ -773,7 +775,7 @@
 &lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;TypeScript がファイルパスを相対パスか絶対パスのどちらかで返す場合がある
+&lt;li&gt;TypeScriptがファイルパスを相対パスか絶対パスのどちらかで返す場合がある
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825&#34;&gt;https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825&lt;/a&gt;&lt;/li&gt;
@@ -790,7 +792,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;rootDir&lt;/code&gt;, &lt;code&gt;outDir&lt;/code&gt; の組み合わせで挙動が変わることを理解する必要がある&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rootDirs&lt;/code&gt; が入る(TypeScript 2.0~)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rootDirs&lt;/code&gt; が入る（TypeScript 2.0~)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -803,7 +805,7 @@
       <guid>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</guid>
       <description>
 
-&lt;h1 id=&#34;riot-js-勉強会-1&#34;&gt;Riot.js 勉強会 #1&lt;/h1&gt;
+&lt;h1 id=&#34;riot-js勉強会-1&#34;&gt;Riot.js勉強会 #1&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://riotjs-jp.connpass.com/event/35724/&#34;&gt;http://riotjs-jp.connpass.com/event/35724/&lt;/a&gt;&lt;/li&gt;
@@ -819,13 +821,13 @@
 &lt;h2 id=&#34;悩み&#34;&gt;悩み&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;web component 時代のcss , html との付き合い方
+&lt;li&gt;web component時代のcss , htmlとの付き合い方
 
 &lt;ul&gt;
-&lt;li&gt;styleguide はどこまで責任を持つべきか&lt;/li&gt;
-&lt;li&gt;web component ライブラリーを含めて書くべきか&lt;/li&gt;
+&lt;li&gt;styleguideはどこまで責任を持つべきか&lt;/li&gt;
+&lt;li&gt;web componentライブラリーを含めて書くべきか&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://morishitter.hatenablog.com/entry/2016/07/29/204642&#34;&gt;http://morishitter.hatenablog.com/entry/2016/07/29/204642&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;まだ CSS Modules を使うべきか個人レベルではわからない&lt;/li&gt;
+&lt;li&gt;まだCSS Modulesを使うべきか個人レベルではわからない&lt;/li&gt;
 &lt;li&gt;この記事を理解するための勉強あ必要&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -833,12 +835,12 @@
 &lt;h2 id=&#34;next&#34;&gt;Next&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;styleguide を書く
+&lt;li&gt;styleguideを書く
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/style&#34;&gt;https://github.com/9renpoto/style&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;riot を使った簡単なものを作る
+&lt;li&gt;riotを使った簡単なものを作る
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/profile&#34;&gt;https://github.com/9renpoto/profile&lt;/a&gt;&lt;/li&gt;
@@ -859,7 +861,9 @@
       <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2016/06/23/module-test/</guid>
-      <description>&lt;p&gt;TypeScript の勉強を頑張ろう&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;typescriptの勉強を頑張ろう&#34;&gt;TypeScriptの勉強を頑張ろう&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/javascript/pull/19&#34;&gt;9renpoto/javascript/pull/19&lt;/a&gt;&lt;/li&gt;
@@ -879,15 +883,15 @@
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;下記を満たす簡単なサンプルを書く&lt;/p&gt;
+&lt;p&gt;下記を満たす簡単なサンプルを書く。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;複数 module&lt;/li&gt;
-&lt;li&gt;mocha によるテスト&lt;/li&gt;
+&lt;li&gt;複数module&lt;/li&gt;
+&lt;li&gt;mochaによるテスト&lt;/li&gt;
 &lt;li&gt;power-assertによるテスト&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が通らないので中身を見て調べる&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が通らないので中身を見て調べる。&lt;/p&gt;
 </description>
     </item>
     
@@ -908,7 +912,7 @@
 
 &lt;h2 id=&#34;hugoを利用してgh-pagesにデプロイ&#34;&gt;Hugoを利用してgh-pagesにデプロイ&lt;/h2&gt;
 
-&lt;p&gt;公式ドキュメントでwercker-ciを利用したデプロイ方法が&lt;a href=&#34;https://gohugo.io/tutorials/automated-deployments/&#34;&gt;紹介&lt;/a&gt;されており、そちらを利用していましたが&lt;/p&gt;
+&lt;p&gt;公式ドキュメントでwercker-ciを利用したデプロイ方法が&lt;a href=&#34;https://gohugo.io/tutorials/automated-deployments/&#34;&gt;紹介&lt;/a&gt;されており、そちらを利用していましたが。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;http://9renpoto.github.io/&amp;lt;project_name&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -925,7 +929,7 @@
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;&amp;lt;username&amp;gt;.github.io
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;リポジトリーを作成し &lt;code&gt;master&lt;/code&gt; ブランチにpushされることによって公開される（not gh-pages branch)ようなので&lt;/p&gt;
+&lt;p&gt;リポジトリーを作成し &lt;code&gt;master&lt;/code&gt; ブランチにpushされることによって公開される（not gh-pages branch)ようなので。&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;public/&lt;/code&gt; に生成されたものを &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; にdestするように修正しました。&lt;/p&gt;
 
@@ -935,7 +939,7 @@
 
 &lt;h2 id=&#34;feature&#34;&gt;Feature&lt;/h2&gt;
 
-&lt;p&gt;ビルド・デプロイタスクを直す&lt;/p&gt;
+&lt;p&gt;ビルド・デプロイタスクを直す。&lt;/p&gt;
 </description>
     </item>
     
@@ -949,7 +953,7 @@
 
 &lt;h1 id=&#34;yapc-asia-memo&#34;&gt;yapc asia memo&lt;/h1&gt;
 
-&lt;p&gt;yapcasiaに参加したときのメモを残します&lt;/p&gt;
+&lt;p&gt;yapcasiaに参加したときのメモを残します。&lt;/p&gt;
 
 &lt;h2 id=&#34;effective-es6&#34;&gt;Effective ES6&lt;/h2&gt;
 
@@ -1071,7 +1075,7 @@ bar(); # undefined
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;balel　っていこう&lt;/li&gt;
+&lt;li&gt;balelっていこう&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;今フロントエンドで何が起こっているのか&#34;&gt;今フロントエンドで何が起こっているのか&lt;/h2&gt;
@@ -1154,7 +1158,7 @@ bar(); # undefined
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;どうしてこうなった-node-jsとio-jsの分裂と統合の行方-これからどう進化していくのか&#34;&gt;どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？&lt;/h2&gt;
+&lt;h2 id=&#34;どうしてこうなったnode-jsとio-jsの分裂と統合の行方-これからどう進化していくのか&#34;&gt;どうしてこうなったNode.jsとio.jsの分裂と統合の行方。これからどう進化していくのか&lt;/h2&gt;
 
 &lt;h3 id=&#34;node-jsの歴史-node-jsとは-node-jsが生まれた背景&#34;&gt;Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）&lt;/h3&gt;
 
@@ -1241,7 +1245,7 @@ bar(); # undefined
 
 &lt;h2 id=&#34;themeを書くために&#34;&gt;themeを書くために&lt;/h2&gt;
 
-&lt;p&gt;cmd1つでテンプレート作成&lt;/p&gt;
+&lt;p&gt;cmd1つでテンプレート作成。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ hugo new theme foo
 .
@@ -1264,7 +1268,7 @@ bar(); # undefined
     └── theme.toml
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Document&lt;/a&gt; がよくまとまっていますので参考に&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Document&lt;/a&gt; がよくまとまっていますので参考に。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;このあたりが特にお世話になりました
@@ -1285,10 +1289,10 @@ bar(); # undefined
 
 &lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
 
-&lt;p&gt;octpressの時はtheme流用してたので手作りも勉強になりました&lt;/p&gt;
+&lt;p&gt;octpressの時はtheme流用してたので手作りも勉強になりました。&lt;/p&gt;
 
 &lt;p&gt;t32kさんの&lt;a href=&#34;https://github.com/t32k/mol&#34;&gt;mol&lt;/a&gt;を参考（ほぼコピー&amp;amp;ペーストして）に作りました
-ありがとうございます&lt;/p&gt;
+ありがとうございます。&lt;/p&gt;
 </description>
     </item>
     
@@ -1302,13 +1306,13 @@ bar(); # undefined
 
 &lt;h1 id=&#34;vimなど使ってるとescapeしてimeが残ってるとイライライラ&#34;&gt;vimなど使ってるとEscapeしてIMEが残ってるとイライライラ&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://nobeans.hatenablog.com/entry/20090211/1234326782&#34;&gt;ESCで確実にIMEをオフにする&lt;/a&gt;を参考に設定を反映してみるも直ってないご様子&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://nobeans.hatenablog.com/entry/20090211/1234326782&#34;&gt;ESCで確実にIMEをオフにする&lt;/a&gt;を参考に設定を反映してみるも直ってないご様子。&lt;/p&gt;
 
-&lt;p&gt;どうもGoogleIMEには神設定があるらしい&lt;/p&gt;
+&lt;p&gt;どうもGoogleIMEには神設定があるらしい。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/64daf9848e558c14efc0df858aef8388.png&#34; alt=&#34;image-googe-input&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;これで &lt;code&gt;Esc&lt;/code&gt; を使って快適に抜けられる最高&lt;/p&gt;
+&lt;p&gt;これで &lt;code&gt;Esc&lt;/code&gt; を使って快適に抜けられる最高。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/2708f90efe1cebb5d4f5aad5195b1ce8.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 

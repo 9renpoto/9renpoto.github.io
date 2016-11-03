@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Atom on :-)</title>
     <link>https://9renpoto.github.io/categories/atom/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Atom on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/atom/index.xml" rel="self" type="application/rss+xml" />
@@ -14,12 +14,16 @@
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/10/hash-to-json/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/6f717eaff8e129c8669029f0a13a03e6.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;使い所がわからない&#34;&gt;使い所がわからない&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/6f717eaff8e129c8669029f0a13a03e6.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;ハッシュの中だけを &lt;code&gt;{ foo: 1 }&lt;/code&gt; のようなjsonフォーマットに直したいとき
-atomなどでマルチカーソル操作をすると全部選択されてしまってツラまる&lt;/p&gt;
+atomなどでマルチカーソル操作をすると全部選択されてしまってツラまる。&lt;/p&gt;
 
-&lt;p&gt;良い方法が知りたい&lt;/p&gt;
+&lt;p&gt;良い方法が知りたい。&lt;/p&gt;
 </description>
     </item>
     
@@ -29,16 +33,20 @@ atomなどでマルチカーソル操作をすると全部選択されてしま�
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2014/07/07/comment/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;comment&#34;&gt;comment&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;vimだと矩形選択で頑張れるから甘えてましたが
 atomなど使っているとcommentショートカットが便利で
-良く使います&lt;/p&gt;
+良く使います。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34; alt=&#34;image2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;vimでも使えるようにしました
-便利&lt;/p&gt;
+便利。&lt;/p&gt;
 </description>
     </item>
     

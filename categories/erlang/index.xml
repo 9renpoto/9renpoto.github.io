@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Erlang on :-)</title>
     <link>https://9renpoto.github.io/categories/erlang/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Erlang on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/erlang/index.xml" rel="self" type="application/rss+xml" />
@@ -20,7 +20,7 @@
 
 &lt;h2 id=&#34;rtb-and-freakout&#34;&gt;RTB and FreakOut&lt;/h2&gt;
 
-&lt;p&gt;RTB概略&lt;/p&gt;
+&lt;p&gt;RTB概略。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ディスプレー広告の新しい見せ方
@@ -31,9 +31,9 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;広告主のネット広告におけるROI最適を目指す&lt;/p&gt;
+&lt;p&gt;広告主のネット広告におけるROI最適を目指す。&lt;/p&gt;
 
-&lt;p&gt;RTBの技術的課題&lt;/p&gt;
+&lt;p&gt;RTBの技術的課題。&lt;/p&gt;
 
 &lt;h3 id=&#34;広告表示の時間は0-1秒&#34;&gt;広告表示の時間は0.1秒&lt;/h3&gt;
 
@@ -65,14 +65,14 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;yokozuna日本語検索機能を評価しました&#34;&gt;Yokozuna日本語検索機能を評価しました&lt;/h3&gt;
+&lt;h3 id=&#34;yokozuna日本語検索を評価しました&#34;&gt;Yokozuna日本語検索を評価しました&lt;/h3&gt;
 
 &lt;p&gt;@rev4t @yosisa&lt;/p&gt;
 
-&lt;p&gt;日本語検索： Yokozuna&lt;/p&gt;
+&lt;p&gt;日本語検索： Yokozuna。&lt;/p&gt;
 
 &lt;p&gt;Solr XMLスキーマを利用した検索が可能
-便利そう&lt;/p&gt;
+便利そう。&lt;/p&gt;
 </description>
     </item>
     
@@ -89,7 +89,7 @@
 &lt;p&gt;@kuenishi&lt;/p&gt;
 
 &lt;p&gt;分散システムの研究や開発は5年ぐらい
-日本法人が9月に出来た&lt;/p&gt;
+日本法人が9月に出来た。&lt;/p&gt;
 
 &lt;h2 id=&#34;riakの紹介&#34;&gt;Riakの紹介&lt;/h2&gt;
 
@@ -110,7 +110,7 @@
 &lt;li&gt;&lt;p&gt;Consistent Hassing and Replicas / Vecteor Clocks&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;分散システム、ざっくり&lt;/p&gt;
+&lt;p&gt;分散システム、ざっくり。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Graph&lt;/li&gt;
@@ -166,7 +166,7 @@
 
 &lt;li&gt;&lt;p&gt;Riakはバックエンドでたてないとダメ&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Riak Searchを使って全文検索可能&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Riak Searchを使って全文検索が可能&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;今後、Yokozunaに移行予定&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;

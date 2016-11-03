@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Scala on :-)</title>
     <link>https://9renpoto.github.io/categories/scala/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Scala on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/scala/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
 
 &lt;h2 id=&#34;リアクティブdddについて&#34;&gt;リアクティブDDDについて&lt;/h2&gt;
 
-&lt;p&gt;ChatWork株式会社 加藤潤一氏（@j5ik2o）&lt;/p&gt;
+&lt;p&gt;株式会社ChatWork加藤潤一氏（@j5ik2o）&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;リアクティブDDD
@@ -32,8 +32,8 @@
 &lt;ul&gt;
 &lt;li&gt;リアクティブシステム &amp;amp;&amp;amp; ドメイン駆動設計&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Actor は DDDで示されるコンセプトを表現できる&lt;/li&gt;
-&lt;li&gt;リアクティブシステムと Akka&lt;/li&gt;
+&lt;li&gt;ActorはDDDで示されるコンセプトを表現できる&lt;/li&gt;
+&lt;li&gt;リアクティブシステムとAkka&lt;/li&gt;
 &lt;li&gt;リアクティブ宣言 &lt;a href=&#34;http://www.reactivemanifesto.org/&#34;&gt;http://www.reactivemanifesto.org/&lt;/a&gt;
 
 &lt;ul&gt;
@@ -45,10 +45,10 @@
 &lt;li&gt;ソフトウェアの災いを表す用語
 
 &lt;ul&gt;
-&lt;li&gt;誤差・誤り(error)&lt;/li&gt;
-&lt;li&gt;欠陥(defect, バグを含む概念)&lt;/li&gt;
-&lt;li&gt;障害(fault)&lt;/li&gt;
-&lt;li&gt;故障(failure)&lt;/li&gt;
+&lt;li&gt;誤差・誤り（error)&lt;/li&gt;
+&lt;li&gt;欠陥（defect, バグを含む概念）&lt;/li&gt;
+&lt;li&gt;障害（fault)&lt;/li&gt;
+&lt;li&gt;故障（failure)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;メッセージ駆動&lt;/li&gt;
 &lt;li&gt;Akka
@@ -64,13 +64,13 @@
 &lt;li&gt;ドメイン層の隔離&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;ここからスライドを参照してあとで勉強する&lt;/p&gt;
+&lt;p&gt;ここからスライドを参照してあとで勉強する。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/yoskhdia/modeling-the-domain-event&#34;&gt;https://speakerdeck.com/yoskhdia/modeling-the-domain-event&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lagom-で学ぶ-reactive-microservices-architecture&#34;&gt;Lagom で学ぶ Reactive Microservices Architecture&lt;/h2&gt;
+&lt;h2 id=&#34;lagomで学ぶreactive-microservices-architecture&#34;&gt;Lagomで学ぶReactive Microservices Architecture&lt;/h2&gt;
 
-&lt;p&gt;TIS株式会社 根来和輝（@negokaz）&lt;/p&gt;
+&lt;p&gt;株式会社TIS根来和輝（@negokaz）&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Reactive Microservices Architecture&lt;/li&gt;
@@ -78,7 +78,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;非同期・ノンブロッキングAPI&lt;/li&gt;
-&lt;li&gt;Sharding によるステートフルアーキテクト&lt;/li&gt;
+&lt;li&gt;Shardingによるステートフルアーキテクト&lt;/li&gt;
 &lt;li&gt;分散型の永続化機構&lt;/li&gt;
 &lt;li&gt;CQRS + Event Sroucing&lt;/li&gt;
 &lt;li&gt;Circuit Breaker&lt;/li&gt;

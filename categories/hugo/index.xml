@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Hugo on :-)</title>
     <link>https://9renpoto.github.io/categories/hugo/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Hugo on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -25,7 +25,7 @@
 
 &lt;h2 id=&#34;themeを書くために&#34;&gt;themeを書くために&lt;/h2&gt;
 
-&lt;p&gt;cmd1つでテンプレート作成&lt;/p&gt;
+&lt;p&gt;cmd1つでテンプレート作成。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ hugo new theme foo
 .
@@ -48,7 +48,7 @@
     └── theme.toml
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Document&lt;/a&gt; がよくまとまっていますので参考に&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Document&lt;/a&gt; がよくまとまっていますので参考に。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;このあたりが特にお世話になりました
@@ -69,10 +69,10 @@
 
 &lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
 
-&lt;p&gt;octpressの時はtheme流用してたので手作りも勉強になりました&lt;/p&gt;
+&lt;p&gt;octpressの時はtheme流用してたので手作りも勉強になりました。&lt;/p&gt;
 
 &lt;p&gt;t32kさんの&lt;a href=&#34;https://github.com/t32k/mol&#34;&gt;mol&lt;/a&gt;を参考（ほぼコピー&amp;amp;ペーストして）に作りました
-ありがとうございます&lt;/p&gt;
+ありがとうございます。&lt;/p&gt;
 </description>
     </item>
     

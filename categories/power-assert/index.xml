@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Power Assert on :-)</title>
     <link>https://9renpoto.github.io/categories/power-assert/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Power Assert on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/power-assert/index.xml" rel="self" type="application/rss+xml" />
@@ -14,9 +14,11 @@
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;上手く動かない&lt;/p&gt;
+&lt;h1 id=&#34;上手く動かない&#34;&gt;上手く動かない&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;アバウトな構成&lt;/li&gt;
@@ -48,12 +50,12 @@
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; しても &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; しても &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&#34;&gt;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに
-こちらが動かない理由は不明、頭を悩ませる&lt;/p&gt;
+こちらが動かない理由は不明、頭を悩ませる。&lt;/p&gt;
 </description>
     </item>
     

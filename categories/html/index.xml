@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Html on :-)</title>
     <link>https://9renpoto.github.io/categories/html/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Html on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/html/index.xml" rel="self" type="application/rss+xml" />
@@ -24,13 +24,13 @@
 
 &lt;h2 id=&#34;基調講演&#34;&gt;基調講演&lt;/h2&gt;
 
-&lt;p&gt;speaker: 中村 修&lt;/p&gt;
+&lt;p&gt;speaker: 中村修。&lt;/p&gt;
 
-&lt;p&gt;大規模分散オペレーティングシステム&lt;/p&gt;
+&lt;p&gt;大規模分散オペレーティングシステム。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;Web は Web 以外に存在するデータ表現を全てできるべき&lt;/li&gt;
+&lt;li&gt;WebはWeb以外に存在するデータ表現を全てできるべき&lt;/li&gt;
 &lt;li&gt;全てinternetの上にある発想
 
 &lt;ol&gt;
@@ -46,10 +46,10 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;speaker: 及川 卓也&lt;/p&gt;
+&lt;p&gt;speaker: 及川卓也。&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;IE7 担当してました&lt;/li&gt;
+&lt;li&gt;IE7担当してました&lt;/li&gt;
 &lt;li&gt;アプリケーションとしてのWeb
 
 &lt;ul&gt;
@@ -63,7 +63,7 @@
 &lt;ul&gt;
 &lt;li&gt;ニュースキュレーションアプリ&lt;/li&gt;
 &lt;li&gt;AMP&lt;/li&gt;
-&lt;li&gt;CMS やツールに依存している場合&lt;/li&gt;
+&lt;li&gt;CMSやツールに依存している場合&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;今こそWebに再投資しよう&lt;/li&gt;
 &lt;/ul&gt;
@@ -74,11 +74,11 @@
 
 &lt;ul&gt;
 &lt;li&gt;Stateless Function Components(SFC)&lt;/li&gt;
-&lt;li&gt;state はviewに関係あるものだけで十分&lt;/li&gt;
+&lt;li&gt;stateはviewに関係あるものだけで十分&lt;/li&gt;
 &lt;li&gt;React.PureComponent(v15.3.0~)
 
 &lt;ul&gt;
-&lt;li&gt;ShoudComponentUpdate に類似(後で調べる)&lt;/li&gt;
+&lt;li&gt;ShoudComponentUpdateに類似（後で調べる）&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;react-addons-perf&lt;/code&gt;
 
@@ -89,7 +89,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;徐々に非推奨&lt;/li&gt;
-&lt;li&gt;React.Component へ&lt;/li&gt;
+&lt;li&gt;React.Componentへ&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;High Order Function
 
@@ -114,7 +114,7 @@
 &lt;li&gt;Viewの構築を担う&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Component をテストする
+&lt;li&gt;Componentをテストする
 
 &lt;ul&gt;
 &lt;li&gt;TestUtil.renderInfoDocument&lt;/li&gt;
@@ -199,7 +199,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;transform: translateZ(0)&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;凶悪&lt;/li&gt;
-&lt;li&gt;Web標準: &lt;code&gt;will-change: transform&lt;/code&gt;
+&lt;li&gt;Web標準： &lt;code&gt;will-change: transform&lt;/code&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Reduce GPU Memory&lt;/li&gt;
@@ -211,7 +211,7 @@
 &lt;li&gt;&lt;code&gt;&amp;lt;img lazyload&amp;gt;&lt;/code&gt; :innocent:&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;intersectionObserver&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;throttle &lt;a href=&#34;http://blog.tsumikiinc.com/article/20141125_javascript-event-throttle.html&#34;&gt;http://blog.tsumikiinc.com/article/20141125_javascript-event-throttle.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;TODO 調べる&lt;/li&gt;
+&lt;li&gt;TODO調べる&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Task Optimization
 
@@ -220,7 +220,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;progressive-web-apps-の導入基礎&#34;&gt;Progressive Web Apps の導入基礎&lt;/h2&gt;
+&lt;h2 id=&#34;progressive-web-appsの導入基礎&#34;&gt;Progressive Web Appsの導入基礎&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Push Notification

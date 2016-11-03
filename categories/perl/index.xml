@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Perl on :-)</title>
     <link>https://9renpoto.github.io/categories/perl/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Perl on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/perl/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,7 @@
 
 &lt;h1 id=&#34;yapc-asia-memo&#34;&gt;yapc asia memo&lt;/h1&gt;
 
-&lt;p&gt;yapcasiaに参加したときのメモを残します&lt;/p&gt;
+&lt;p&gt;yapcasiaに参加したときのメモを残します。&lt;/p&gt;
 
 &lt;h2 id=&#34;effective-es6&#34;&gt;Effective ES6&lt;/h2&gt;
 
@@ -140,7 +140,7 @@ bar(); # undefined
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;balel　っていこう&lt;/li&gt;
+&lt;li&gt;balelっていこう&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;今フロントエンドで何が起こっているのか&#34;&gt;今フロントエンドで何が起こっているのか&lt;/h2&gt;
@@ -223,7 +223,7 @@ bar(); # undefined
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;どうしてこうなった-node-jsとio-jsの分裂と統合の行方-これからどう進化していくのか&#34;&gt;どうしてこうなった？　Node.jsとio.jsの分裂と統合の行方。これからどう進化していくのか？&lt;/h2&gt;
+&lt;h2 id=&#34;どうしてこうなったnode-jsとio-jsの分裂と統合の行方-これからどう進化していくのか&#34;&gt;どうしてこうなったNode.jsとio.jsの分裂と統合の行方。これからどう進化していくのか&lt;/h2&gt;
 
 &lt;h3 id=&#34;node-jsの歴史-node-jsとは-node-jsが生まれた背景&#34;&gt;Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）&lt;/h3&gt;
 

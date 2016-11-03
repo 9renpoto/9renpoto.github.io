@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Python on :-)</title>
     <link>https://9renpoto.github.io/categories/python/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Python on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
@@ -14,11 +14,15 @@
       <pubDate>Sat, 16 Mar 2013 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-fe0PcN4vym0/UtoeWi_4knI/AAAAAAAAEuI/kgBwRtcB6hk/w437-h583-no/IMG_0230.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;今回も楽しいお話がたくさん聞けました&lt;/p&gt;
+&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
 
-&lt;p&gt;ありがとうございました&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-fe0PcN4vym0/UtoeWi_4knI/AAAAAAAAEuI/kgBwRtcB6hk/w437-h583-no/IMG_0230.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今回も楽しいお話がたくさん聞けました。&lt;/p&gt;
+
+&lt;p&gt;ありがとうございました。&lt;/p&gt;
 </description>
     </item>
     
@@ -34,7 +38,7 @@
 
 &lt;h2 id=&#34;cloudera-impalaについて&#34;&gt;Cloudera Impalaについて&lt;/h2&gt;
 
-&lt;p&gt;@shiumachiさんより&lt;/p&gt;
+&lt;p&gt;@shiumachiさんより。&lt;/p&gt;
 
 &lt;h3 id=&#34;impalaとは&#34;&gt;Impalaとは&lt;/h3&gt;
 
@@ -54,14 +58,15 @@
 &lt;h5 id=&#34;02時点&#34;&gt;02時点&lt;/h5&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Trevni, RCFileのサポートは現状まだ、今後対応予定&lt;/li&gt;
+&lt;li&gt;Trevni, RCFileのサポートは現状まだ、今後に対応予定&lt;/li&gt;
 &lt;li&gt;Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;なぜ開発されたのか&#34;&gt;なぜ開発されたのか&lt;/h3&gt;
 
-&lt;p&gt;Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる
-Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかった&lt;/p&gt;
+&lt;p&gt;Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる。&lt;/p&gt;
+
+&lt;p&gt;Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかったからです。&lt;/p&gt;
 
 &lt;h3 id=&#34;mapreduceとは&#34;&gt;MapReduceとは&lt;/h3&gt;
 
@@ -86,17 +91,17 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 
 &lt;h3 id=&#34;よくある質問&#34;&gt;よくある質問&lt;/h3&gt;
 
-&lt;h4 id=&#34;qもうhiveいらないんじゃない&#34;&gt;QもうHiveいらないんじゃない？&lt;/h4&gt;
+&lt;h4 id=&#34;qもうhiveいらないんじゃない&#34;&gt;QもうHiveいらないんじゃない&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;定期的に実行を行うクエリなどはHiveのほうが適しているのではないか&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;qimpalaが落ちたらどうするの&#34;&gt;Qimpalaが落ちたらどうするの？&lt;/h4&gt;
+&lt;h4 id=&#34;qimpalaが落ちたらどうするの&#34;&gt;Qimpalaが落ちたらどうするの&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;クエリが全部こけます&lt;/li&gt;
-&lt;li&gt;JOINのサイズ制限あるの？
+&lt;li&gt;JOINのサイズ制限あるの
 
 &lt;ul&gt;
 &lt;li&gt;あります&lt;/li&gt;
@@ -105,7 +110,7 @@ Hiveのようで手軽に使えるSQLのインターフェイスをもち、か�
 
 &lt;h2 id=&#34;python-in-webkit&#34;&gt;Python in Webkit&lt;/h2&gt;
 
-&lt;p&gt;@omo2009さんより&lt;/p&gt;
+&lt;p&gt;@omo2009さんより。&lt;/p&gt;
 
 &lt;h3 id=&#34;third-party-tools&#34;&gt;Third party Tools&lt;/h3&gt;
 
@@ -130,7 +135,7 @@ webkit-patch rollout
 #
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;プロジェクト特有の問題を解決するために使っている&lt;/p&gt;
+&lt;p&gt;プロジェクト特有の問題を解決するために使っている。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;watchlist
 suggest-reviewers
@@ -145,12 +150,12 @@ IRC
 &lt;li&gt;探すのに便利&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;IRCでレビューを頼むと断られにくい&lt;/p&gt;
+&lt;p&gt;IRCでレビューを頼むと断られにくい。&lt;/p&gt;
 
 &lt;h2 id=&#34;connpassについて&#34;&gt;Connpassについて&lt;/h2&gt;
 
 &lt;p&gt;@lanMLewis, @ae35
-概要と技術について&lt;/p&gt;
+概要と技術について。&lt;/p&gt;
 
 &lt;h3 id=&#34;connpassとは&#34;&gt;connpassとは&lt;/h3&gt;
 
@@ -187,7 +192,7 @@ IRC
 &lt;ul&gt;
 &lt;li&gt;CoffeeScript&lt;/li&gt;
 &lt;li&gt;REQUIRE JS&lt;/li&gt;
-&lt;li&gt;JavaScript 怖い&lt;/li&gt;
+&lt;li&gt;JavaScript怖い&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -201,7 +206,7 @@ IRC
 &lt;ul&gt;
 &lt;li&gt;yieldキーワードの追加&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;foreachで変数分解だ！&lt;/li&gt;
+&lt;li&gt;foreachで変数分解だ&lt;/li&gt;
 &lt;li&gt;empty()の括弧内に変数以外が指定可能に&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;finally&lt;/code&gt;
 
@@ -212,9 +217,9 @@ IRC
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Pythonでお仕事している人が日本にもたくさんいて嬉しいです！&lt;/p&gt;
+&lt;p&gt;Pythonでお仕事している人が日本にもたくさんいて嬉しいです。&lt;/p&gt;
 
-&lt;p&gt;発表者のみなさまおつかれさまでした！&lt;/p&gt;
+&lt;p&gt;発表者のみなさまおつかれさまでした。&lt;/p&gt;
 </description>
     </item>
     
@@ -228,11 +233,11 @@ IRC
 
 &lt;h1 id=&#34;first-python&#34;&gt;first Python&lt;/h1&gt;
 
-&lt;p&gt;Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から！&lt;/p&gt;
+&lt;p&gt;Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から。&lt;/p&gt;
 
 &lt;h2 id=&#34;pythonのversion管理&#34;&gt;Pythonのversion管理&lt;/h2&gt;
 
-&lt;p&gt;Pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます&lt;/p&gt;
+&lt;p&gt;Pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます。&lt;/p&gt;
 
 &lt;h2 id=&#34;pythonbrewの環境構築&#34;&gt;pythonbrewの環境構築&lt;/h2&gt;
 
@@ -242,7 +247,7 @@ chmod +x pythonbrew-install
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;pythonbrewの環境変数を通す
-zshの場合でも以下の内容を書くらしい&lt;/p&gt;
+zshの場合でも以下の内容を書くらしい。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;[[ -s $HOME/.pythonbrew/etc/bashrc ]] &amp;amp;&amp;amp; source $HOME/.pythonbrew/etc/bashrc
 
@@ -250,7 +255,7 @@ pythonbrew list -k # インストールできるversion確認
 pythonbrew update # pythonbrewのupdate
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;2系と3系の環境構築&lt;/p&gt;
+&lt;p&gt;2系と3系の環境構築。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pythonbrew install 2.7.2
 pythonbrew switch 2.7.2
@@ -259,7 +264,7 @@ pythonbrew install 3.2
 pythonbrew switch 3.2
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;virtualenv の環境はまた今度する&lt;/p&gt;
+&lt;p&gt;virtualenvの環境はまた今度する。&lt;/p&gt;
 </description>
     </item>
     

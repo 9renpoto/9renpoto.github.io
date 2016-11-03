@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Ruby on :-)</title>
     <link>https://9renpoto.github.io/categories/ruby/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Ruby on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
@@ -21,7 +21,7 @@
 &lt;p&gt;環境構築といえば、chefだという噂を随分と聞くようになってきましたが、
 なんだかんだと使ってなかったのでメモ。
 とはいえ、レシピは誰かが書いてるので、
-今回は出来る限りレシピを使う方法で構築を目指す&lt;/p&gt;
+今回は出来る限りレシピを使う方法で構築を目指す。&lt;/p&gt;
 
 &lt;h2 id=&#34;前準備&#34;&gt;前準備&lt;/h2&gt;
 
@@ -33,19 +33,19 @@ gem &#39;chef&#39;
 gem &#39;knife-solo&#39;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;必要なgemをいつものように&lt;/p&gt;
+&lt;p&gt;必要なgemをいつものように。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle install
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;chef-soloを使えるように初期設定を行う&lt;/p&gt;
+&lt;p&gt;chef-soloを使えるように初期設定を行う。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife configure
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;そろそろchef&#34;&gt;そろそろchef&lt;/h2&gt;
 
-&lt;p&gt;ひな形の生成&lt;/p&gt;
+&lt;p&gt;ひな形の生成。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ bundle exec knife solo init chef-repo
 $ tree chef-repo/
@@ -58,7 +58,7 @@ chef-repo/
 └── solo。rb
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;忘れないうちにコミット&lt;/p&gt;
+&lt;p&gt;忘れないうちにコミット。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd chef-repo
 git init
@@ -66,7 +66,7 @@ git add 。
 git commit -m &#39;first commit&#39;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;公式なり、Githubにて公開されているレシピを利用しやすくるものとして &lt;strong&gt;Berksfile&lt;/strong&gt; があります&lt;/p&gt;
+&lt;p&gt;公式なり、Githubにて公開されているレシピを利用しやすくるものとして &lt;strong&gt;Berksfile&lt;/strong&gt; があります。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;site :opscode # Berksfile
 
@@ -78,18 +78,18 @@ cookbook &#39;the_silver_searcher&#39;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;公開されているレシピの情報を記述しておけば、コマンド1つで落としてこれます。
-便利&lt;/p&gt;
+便利。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec berks install --path cookbooks
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;vagrant側でchefが使えるように以下のコマンドを実行&lt;/p&gt;
+&lt;p&gt;vagrant側でchefが使えるように以下のコマンドを実行。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo prepare nodename
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;インストールしたいレシピを追加
-node/nodename.json&lt;/p&gt;
+node/nodename.json。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;{
   &amp;quot;run_list&amp;quot;: [
@@ -102,7 +102,7 @@ node/nodename.json&lt;/p&gt;
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;レシピはできたのでcookしましょう&lt;/p&gt;
+&lt;p&gt;レシピはできたのでcookしましょう。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo cook nodename
 &lt;/code&gt;&lt;/pre&gt;
@@ -123,9 +123,9 @@ node/nodename.json&lt;/p&gt;
       <guid>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup/</guid>
       <description>
 
-&lt;h1 id=&#34;octpress-試す&#34;&gt;octpress 試す&lt;/h1&gt;
+&lt;h1 id=&#34;octpress試す&#34;&gt;octpress試す&lt;/h1&gt;
 
-&lt;p&gt;Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ&lt;/p&gt;
+&lt;p&gt;Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。&lt;/p&gt;
 
 &lt;h2 id=&#34;github-pageの初期化&#34;&gt;github pageの初期化&lt;/h2&gt;
 
@@ -143,7 +143,7 @@ git push -u origin master
 
 &lt;h3 id=&#34;octpressのインストール&#34;&gt;octpressのインストール&lt;/h3&gt;
 
-&lt;p&gt;先ほど作成した &lt;em&gt;username.github.com&lt;/em&gt; と同じ階層にoctpressをcloneする&lt;/p&gt;
+&lt;p&gt;先ほど作成した &lt;em&gt;username.github.com&lt;/em&gt; と同じ階層にoctpressをcloneする。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone git://github.com/imathis/octopress.git octopress
 
@@ -163,18 +163,18 @@ rake deploy
 &lt;h3 id=&#34;記事投稿&#34;&gt;記事投稿&lt;/h3&gt;
 
 &lt;p&gt;記事の作成もコマンド1つ
-タイトルは英語で&lt;/p&gt;
+タイトルは英語で。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;rake new_post[&amp;quot;my-new-page&amp;quot;]
 # zshは以下のように書く
 rake new_post\[&amp;quot;my-new-page&amp;quot;\]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組み&lt;/p&gt;
+&lt;p&gt;markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組み。&lt;/p&gt;
 
-&lt;p&gt;いろいろ勉強します&lt;/p&gt;
+&lt;p&gt;いろいろ勉強します。&lt;/p&gt;
 
-&lt;p&gt;参考文献&lt;/p&gt;
+&lt;p&gt;参考文献。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://octopress.org/&#34;&gt;http://octopress.org/&lt;/a&gt;&lt;/li&gt;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:-)</title>
+    <title>Book on :-)</title>
     <link>https://9renpoto.github.io/categories/book/index.xml</link>
-    <description>Recent content on :-)</description>
+    <description>Recent content in Book on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <atom:link href="https://9renpoto.github.io/categories/book/index.xml" rel="self" type="application/rss+xml" />
@@ -14,9 +14,13 @@
       <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak/</guid>
-      <description>&lt;p&gt;人間関係に悩んでおり、以下の本を読んでおりました&lt;/p&gt;
+      <description>
 
-&lt;p&gt;読み終えたので簡単な感想をメモ&lt;/p&gt;
+&lt;h1 id=&#34;メモ&#34;&gt;メモ&lt;/h1&gt;
+
+&lt;p&gt;人間関係に悩んでおり、以下の本を読んでおりました。&lt;/p&gt;
+
+&lt;p&gt;読み終えたので簡単な感想をメモ。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;大切
@@ -40,7 +44,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;まず今までの失敗を繰り返さぬよう沢山実践して、違う失敗しよう&lt;/p&gt;
+&lt;p&gt;まず今までの失敗を繰り返さぬよう沢山実践して、違う失敗しよう。&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;マーケティングの人のことを考えるとゾッとするのはなぜだろうか？
@@ -55,9 +59,9 @@
 『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;学びとは少しそれた話ですが、上記の言葉が何よりも共感できました&lt;/p&gt;
+&lt;p&gt;学びとは少しそれた話ですが、上記の言葉が何よりも共感できました。&lt;/p&gt;
 
-&lt;p&gt;自分はエンジニアで居心地が良い&lt;/p&gt;
+&lt;p&gt;自分はエンジニアで居心地が良い。&lt;/p&gt;
 </description>
     </item>
     
@@ -67,7 +71,11 @@
       <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</guid>
-      <description>&lt;p&gt;アジャイル開発について悩んでおりましたので、噂のアジャイルサムライを読みました&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;メモ&#34;&gt;メモ&lt;/h1&gt;
+
+&lt;p&gt;アジャイル開発について悩んでおりましたので、噂のアジャイルサムライを読みました。&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;学べたこと
@@ -125,7 +133,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;なるほどわかりやすい&lt;/p&gt;
+&lt;p&gt;なるほどわかりやすい。&lt;/p&gt;
 </description>
     </item>
     
@@ -139,7 +147,7 @@
 
 &lt;h1 id=&#34;リーダーブルコードよんだメモ&#34;&gt;リーダーブルコードよんだメモ&lt;/h1&gt;
 
-&lt;p&gt;ちょっと前の話ですが、リーダーブルコードを読みましたのでその感想をメモ&lt;/p&gt;
+&lt;p&gt;ちょっと前の話ですが、リーダーブルコードを読みましたのでその感想をメモ。&lt;/p&gt;
 
 &lt;h2 id=&#34;印象に残った学び&#34;&gt;印象に残った学び&lt;/h2&gt;
 
