@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</loc>
+    <lastmod>2016-12-17T14:03:55+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</loc>
     <lastmod>2016-11-13T09:51:54+09:00</lastmod>
   </url>
@@ -188,7 +193,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/</loc>
-    <lastmod>2016-11-13T09:51:54+09:00</lastmod>
+    <lastmod>2016-12-17T14:03:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,7 +211,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/blog/</loc>
-    <lastmod>2016-11-13T09:51:54+09:00</lastmod>
+    <lastmod>2016-12-17T14:03:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -294,6 +299,12 @@
   </url>
   
   <url>
+    <loc>https://9renpoto.github.io/categories/neovim/</loc>
+    <lastmod>2016-12-17T14:03:55+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/categories/node/</loc>
     <lastmod>2016-11-13T09:51:54+09:00</lastmod>
     <priority>0</priority>
@@ -355,7 +366,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/categories/vim/</loc>
-    <lastmod>2014-07-11T00:00:00+00:00</lastmod>
+    <lastmod>2016-12-17T14:03:55+09:00</lastmod>
     <priority>0</priority>
   </url>
   
