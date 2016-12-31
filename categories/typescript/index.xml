@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typescript on :-)</title>
-    <link>https://9renpoto.github.io/categories/typescript/index.xml</link>
+    <link>https://9renpoto.github.io/categories/typescript.xml</link>
     <description>Recent content in Typescript on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://9renpoto.github.io/categories/typescript.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>storybook を TypeScript で動かす</title>

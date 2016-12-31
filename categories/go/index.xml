@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on :-)</title>
-    <link>https://9renpoto.github.io/categories/go/index.xml</link>
+    <link>https://9renpoto.github.io/categories/go.xml</link>
     <description>Recent content in Go on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://9renpoto.github.io/categories/go.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Go Conference 2013 spring参加してきました #gocon</title>

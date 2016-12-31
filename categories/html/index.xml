@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on :-)</title>
-    <link>https://9renpoto.github.io/categories/html/index.xml</link>
+    <link>https://9renpoto.github.io/categories/html.xml</link>
     <description>Recent content in Html on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://9renpoto.github.io/categories/html.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>#html5j 参加メモ</title>
