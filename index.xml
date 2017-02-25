@@ -6,8 +6,59 @@
     <description>Recent content on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 19 Jan 2017 23:51:16 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Feb 2017 00:48:56 +0900</lastBuildDate>
     <atom:link href="https://9renpoto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PS4破損</title>
+      <link>https://9renpoto.github.io/blog/2017/02/26/goodbye-ps4/</link>
+      <pubDate>Sun, 26 Feb 2017 00:48:56 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/02/26/goodbye-ps4/</guid>
+      <description>
+
+&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;修理は見送り&lt;/li&gt;
+&lt;li&gt;気が向いたらスリムを買い直す（4Kテレビを買う予定がない）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://9renpoto.github.io/images/ps4-CUH-1200AB01.png&#34; alt=&#34;ps4&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;言われてみればplaystationは初破損&#34;&gt;言われてみればPlayStationは初破損&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;購入したのはBloodborne発売次期だったはずなので2015年春頃
+
+&lt;ul&gt;
+&lt;li&gt;ちょうど2年目で破損&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PS1からPS4までなんだかんだ買っていたが壊れたのは初めて&lt;/li&gt;
+&lt;li&gt;最後に壊したハードはXbox360アーケードだった記憶&lt;/li&gt;
+&lt;li&gt;PS4でプレイしたもの
+
+&lt;ul&gt;
+&lt;li&gt;Overwatch&lt;/li&gt;
+&lt;li&gt;Dark Souls 3&lt;/li&gt;
+&lt;li&gt;Bloodborne&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;積み
+
+&lt;ul&gt;
+&lt;li&gt;BIOHAZARD7&lt;/li&gt;
+&lt;li&gt;Bloodborne DLC&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;次買うなら&#34;&gt;次買うなら&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;とりあえずスタンバイ起動でのアップデートはやめる&lt;/li&gt;
+&lt;li&gt;過去の経験的に3年ぐらいは保証されたい&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>sticker 選手権</title>
@@ -2037,64 +2088,6 @@ Atomics.wait
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;rootDir&lt;/code&gt;, &lt;code&gt;outDir&lt;/code&gt; の組み合わせで挙動が変わることを理解する必要がある&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;rootDirs&lt;/code&gt; が入る（TypeScript 2.0~)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>riot.js 勉強会 #1</title>
-      <link>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</link>
-      <pubDate>Wed, 27 Jul 2016 19:31:28 +0900</pubDate>
-      
-      <guid>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</guid>
-      <description>
-
-&lt;h1 id=&#34;riot-js勉強会-1&#34;&gt;Riot.js勉強会 #1&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://riotjs-jp.connpass.com/event/35724/&#34;&gt;https://riotjs-jp.connpass.com/event/35724/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;参加メモ&#34;&gt;参加メモ&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;小さいライブラリーを維持するための努力は大変&lt;/li&gt;
-&lt;li&gt;セマンティックバージョニングは大事&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;悩み&#34;&gt;悩み&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;web component時代のcss , htmlとの付き合い方
-
-&lt;ul&gt;
-&lt;li&gt;styleguideはどこまで責任を持つべきか&lt;/li&gt;
-&lt;li&gt;web componentライブラリーを含めて書くべきか&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://morishitter.hatenablog.com/entry/2016/07/29/204642&#34;&gt;http://morishitter.hatenablog.com/entry/2016/07/29/204642&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;まだCSS Modulesを使うべきか個人レベルではわからない&lt;/li&gt;
-&lt;li&gt;この記事を理解するための勉強あ必要&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;next&#34;&gt;Next&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;styleguideを書く
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/react-components&#34;&gt;https://github.com/9renpoto/react-components&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;riotを使った簡単なものを作る
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/profile&#34;&gt;https://github.com/9renpoto/profile&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;気持ち&#34;&gt;気持ち&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;できるだけ型のある世界で生きていく&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
