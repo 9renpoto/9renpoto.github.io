@@ -131,7 +131,7 @@
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; しても &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; ・ &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&#34;&gt;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&lt;/a&gt;&lt;/p&gt;
 
