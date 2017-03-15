@@ -2092,5 +2092,2089 @@ Atomics.wait
 </description>
     </item>
     
+    <item>
+      <title>riot.js 勉強会 #1</title>
+      <link>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</link>
+      <pubDate>Wed, 27 Jul 2016 19:31:28 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</guid>
+      <description>
+
+&lt;h1 id=&#34;riot-js勉強会-1&#34;&gt;Riot.js勉強会 #1&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://riotjs-jp.connpass.com/event/35724/&#34;&gt;https://riotjs-jp.connpass.com/event/35724/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;参加メモ&#34;&gt;参加メモ&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;小さいライブラリーを維持するための努力は大変&lt;/li&gt;
+&lt;li&gt;セマンティックバージョニングは大事&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;悩み&#34;&gt;悩み&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;web component時代のcss , htmlとの付き合い方
+
+&lt;ul&gt;
+&lt;li&gt;styleguideはどこまで責任を持つべきか&lt;/li&gt;
+&lt;li&gt;web componentライブラリーを含めて書くべきか&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://morishitter.hatenablog.com/entry/2016/07/29/204642&#34;&gt;http://morishitter.hatenablog.com/entry/2016/07/29/204642&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;まだCSS Modulesを使うべきか個人レベルではわからない&lt;/li&gt;
+&lt;li&gt;この記事を理解するための勉強あ必要&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;next&#34;&gt;Next&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;styleguideを書く
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/react-components&#34;&gt;https://github.com/9renpoto/react-components&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;riotを使った簡単なものを作る
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/profile&#34;&gt;https://github.com/9renpoto/profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;気持ち&#34;&gt;気持ち&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;できるだけ型のある世界で生きていく&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>typescript test</title>
+      <link>https://9renpoto.github.io/blog/2016/06/23/module-test/</link>
+      <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test/</guid>
+      <description>
+
+&lt;h1 id=&#34;typescriptの勉強を頑張ろう&#34;&gt;TypeScriptの勉強を頑張ろう&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/js/pull/19&#34;&gt;9renpoto/javascript/pull/19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;devDependencies&amp;quot;: {
+    &amp;quot;eslint&amp;quot;: &amp;quot;^2.13.1&amp;quot;,
+    &amp;quot;espower-typescript&amp;quot;: &amp;quot;^5.0.1&amp;quot;,
+    &amp;quot;mocha&amp;quot;: &amp;quot;^2.5.3&amp;quot;,
+    &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;,
+    &amp;quot;tslint&amp;quot;: &amp;quot;^3.11.0&amp;quot;,
+    &amp;quot;typescript-eslint-parser&amp;quot;: &amp;quot;0.1.0-alpha-1&amp;quot;,
+    &amp;quot;typings&amp;quot;: &amp;quot;^1.3.0&amp;quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下記を満たす簡単なサンプルを書く。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;複数module&lt;/li&gt;
+&lt;li&gt;mochaによるテスト&lt;/li&gt;
+&lt;li&gt;power-assertによるテスト&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が通らないので中身を見て調べる。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Update Blog</title>
+      <link>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</link>
+      <pubDate>Wed, 13 Jan 2016 22:29:22 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</guid>
+      <description>
+
+&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hugoを利用して &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; に公開&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/oghliner&#34;&gt;mozilla/oghliner&lt;/a&gt;を利用してオフライン対応&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;hugoを利用してgh-pagesにデプロイ&#34;&gt;Hugoを利用してgh-pagesにデプロイ&lt;/h2&gt;
+
+&lt;p&gt;公式ドキュメントでwercker-ciを利用したデプロイ方法が&lt;a href=&#34;https://gohugo.io/tutorials/automated-deployments/&#34;&gt;紹介&lt;/a&gt;されており、そちらを利用していましたが。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;http://9renpoto.github.io/&amp;lt;project_name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;という名前になってしまい、個人ページとして構築を目的とした場合不満があったため環境を見直し。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;pages.github.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/eichann/items/4fe61b8b9bbafcfbe847#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%922%E3%81%A4%E4%BD%9C%E6%88%90&#34;&gt;qiita.com/eichann/items/4fe61b8b9bbafcfbe847&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;を参考に問題を解決するために手を動かし始めました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;&amp;lt;username&amp;gt;.github.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;リポジトリーを作成し &lt;code&gt;master&lt;/code&gt; ブランチにpushされることによって公開される（not gh-pages branch)ようなので。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;public/&lt;/code&gt; に生成されたものを &lt;code&gt;&amp;lt;username&amp;gt;.github.io&lt;/code&gt; にdestするように修正しました。&lt;/p&gt;
+
+&lt;h2 id=&#34;オフライン対応&#34;&gt;オフライン対応&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mozilla/oghliner&#34;&gt;mozilla/oghliner&lt;/a&gt;がserviceWorkerを利用したオフライン化を簡単に提供していたので試しに使ってみる。&lt;/p&gt;
+
+&lt;h2 id=&#34;feature&#34;&gt;Feature&lt;/h2&gt;
+
+&lt;p&gt;ビルド・デプロイタスクを直す。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>yapcasia</title>
+      <link>https://9renpoto.github.io/blog/2015/08/21/yapcasia/</link>
+      <pubDate>Fri, 21 Aug 2015 09:53:55 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2015/08/21/yapcasia/</guid>
+      <description>
+
+&lt;h1 id=&#34;yapc-asia-memo&#34;&gt;yapc asia memo&lt;/h1&gt;
+
+&lt;p&gt;yapcasiaに参加したときのメモを残します。&lt;/p&gt;
+
+&lt;h2 id=&#34;effective-es6&#34;&gt;Effective ES6&lt;/h2&gt;
+
+&lt;h3 id=&#34;denger&#34;&gt;denger&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function Persion(name) {
+  this.name = name
+}
+
+var p = Person(&#39;bob&#39;);
+# p.name == undefined
+# window.name = &#39;bob&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;class
+
+&lt;ul&gt;
+&lt;li&gt;constractor&lt;/li&gt;
+&lt;li&gt;newナシで呼ぶとError&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;IE11 ES6は実装しない&lt;/li&gt;
+&lt;li&gt;transpiler
+
+&lt;ul&gt;
+&lt;li&gt;ES6 to ES5&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;polyfill
+
+&lt;ul&gt;
+&lt;li&gt;buildinのclassをjs環境で動かすようにする&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Babel&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;core.js # polyfill toolsもあるよ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ES6 feature&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;new syntax&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;arrow function&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var add =&amp;gt; (a,b) =&amp;gt; {
+return a + b;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;class&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;class Programmer extends Person {
+    constracor(name ,language) {
+        super(name);
+        this.language = language;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;module&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;export var foo = &#39;foo&#39;;
+import (foo) from &#39;./module/path&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;use strict&amp;rsquo;
+
+&lt;ul&gt;
+&lt;li&gt;書かなくていい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;block scope&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var a = &#39;outer&#39;
+function bar() {
+    console.log(a);
+    a = &#39;inner&#39;;
+}
+bar(); # undefined
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;arguments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function foo(...rest) {
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function draw(x,y,{height:1,width:1} = {}) {
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;template literal
+` で文字列を囲むと改行付き文字列が定義できる&lt;/li&gt;
+&lt;li&gt;Promise
+
+&lt;ul&gt;
+&lt;li&gt;callback地獄回避&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;map/set&lt;/li&gt;
+&lt;li&gt;codePoint
+
+&lt;ul&gt;
+&lt;li&gt;吉野家isvalid&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;trap&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  if (a =&amp;gt; 1) # if ( a &amp;gt;= 1 ) が正
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;balelっていこう&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;今フロントエンドで何が起こっているのか&#34;&gt;今フロントエンドで何が起こっているのか&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;htmlだけ返せばよかったような時代&lt;/li&gt;
+&lt;li&gt;ajaxの登場
+
+&lt;ul&gt;
+&lt;li&gt;google map etc&lt;/li&gt;
+&lt;li&gt;ECMAscript5&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;coffeescript&lt;/li&gt;
+&lt;li&gt;jQuery(from 2006)&lt;/li&gt;
+&lt;li&gt;backbonejs&lt;/li&gt;
+&lt;li&gt;nodejs(2009)&lt;/li&gt;
+&lt;li&gt;grunt(2012)
+
+&lt;ul&gt;
+&lt;li&gt;config&lt;/li&gt;
+&lt;li&gt;plugin base&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;typescript(2012)&lt;/li&gt;
+&lt;li&gt;AST
+
+&lt;ul&gt;
+&lt;li&gt;abstract syntax template&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SPA
+
+&lt;ul&gt;
+&lt;li&gt;問題&lt;/li&gt;
+&lt;li&gt;SEO&lt;/li&gt;
+&lt;li&gt;Performance&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;AngularJS(2009)
+
+&lt;ul&gt;
+&lt;li&gt;2way data binding&lt;/li&gt;
+&lt;li&gt;fullstack&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;gulp
+
+&lt;ul&gt;
+&lt;li&gt;stream base&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Browserify&lt;/li&gt;
+&lt;li&gt;ECMAscript 2015
+
+&lt;ul&gt;
+&lt;li&gt;Stateless&lt;/li&gt;
+&lt;li&gt;Composable&lt;/li&gt;
+&lt;li&gt;stream&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;babel (2014)&lt;/li&gt;
+&lt;li&gt;Service Workers
+
+&lt;ul&gt;
+&lt;li&gt;Intercept Requeest&lt;/li&gt;
+&lt;li&gt;offline / cahce&lt;/li&gt;
+&lt;li&gt;Background Sync&lt;/li&gt;
+&lt;li&gt;Push Notification&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Extensible Web&lt;/li&gt;
+&lt;li&gt;Reactjs
+
+&lt;ul&gt;
+&lt;li&gt;Stateless Component&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Flux&lt;/li&gt;
+&lt;li&gt;FRP
+
+&lt;ul&gt;
+&lt;li&gt;Rx.js, Bacon.js&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Redux
+
+&lt;ul&gt;
+&lt;li&gt;Inspired by Flux and Elm&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;どうしてこうなったnode-jsとio-jsの分裂と統合の行方-これからどう進化していくのか&#34;&gt;どうしてこうなったNode.jsとio.jsの分裂と統合の行方。これからどう進化していくのか&lt;/h2&gt;
+
+&lt;h3 id=&#34;node-jsの歴史-node-jsとは-node-jsが生まれた背景&#34;&gt;Node.jsの歴史 (Node.jsとは、Node.jsが生まれた背景）&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2001
+
+&lt;ul&gt;
+&lt;li&gt;C10K Problem&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2007
+
+&lt;ul&gt;
+&lt;li&gt;Web 2.0&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2009 ~ 2012
+
+&lt;ul&gt;
+&lt;li&gt;JSConf EU&lt;/li&gt;
+&lt;li&gt;Server-side JavaScript&lt;/li&gt;
+&lt;li&gt;Evented Non Blocking I/O&lt;/li&gt;
+&lt;li&gt;v8&lt;/li&gt;
+&lt;li&gt;EventLoop Model&lt;/li&gt;
+&lt;li&gt;libebb =&amp;gt; libev/libeio &amp;amp; libuv (Windows向け）&lt;/li&gt;
+&lt;li&gt;netv8 =&amp;gt; node&lt;/li&gt;
+&lt;li&gt;Joyent&lt;/li&gt;
+&lt;li&gt;破壊と創造&lt;/li&gt;
+&lt;li&gt;APIがかなり深刻に変わる&lt;/li&gt;
+&lt;li&gt;BDFL (優しい終身の独裁者モデル）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;2012 ~ 2014
+
+&lt;ul&gt;
+&lt;li&gt;Socket.IO&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;node-io-jsの機能的な違いと性能的な違い&#34;&gt;Node/io.jsの機能的な違いと性能的な違い&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;2014 ~
+
+&lt;ul&gt;
+&lt;li&gt;node forward&lt;/li&gt;
+&lt;li&gt;BDFL =&amp;gt; community model&lt;/li&gt;
+&lt;li&gt;Technical committee&lt;/li&gt;
+&lt;li&gt;コアメンバー委員会&lt;/li&gt;
+&lt;li&gt;Collaborator&lt;/li&gt;
+&lt;li&gt;Working group&lt;/li&gt;
+&lt;li&gt;Semantic Versioning&lt;/li&gt;
+&lt;li&gt;major.minor.patch&lt;/li&gt;
+&lt;li&gt;オープンガバナーンスモデル&lt;/li&gt;
+&lt;li&gt;Feature Node.js&lt;/li&gt;
+&lt;li&gt;io.jsのこと&lt;/li&gt;
+&lt;li&gt;node Foundation&lt;/li&gt;
+&lt;li&gt;log term suport&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;node-io-jsのロードマップ&#34;&gt;Node/io.jsのロードマップ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ES6 compat ％ up&lt;/li&gt;
+&lt;li&gt;StrongScript&lt;/li&gt;
+&lt;li&gt;SimpleSteam&lt;/li&gt;
+&lt;li&gt;improve pref&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>create hugo theme</title>
+      <link>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme/</link>
+      <pubDate>Mon, 11 May 2015 22:54:56 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme/</guid>
+      <description>
+
+&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ブログを &lt;code&gt;octpress&lt;/code&gt; から &lt;code&gt;hugo&lt;/code&gt; へ移行しました&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/delic&#34;&gt;hugo theme&lt;/a&gt; 書きました&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themeを書くために&#34;&gt;themeを書くために&lt;/h2&gt;
+
+&lt;p&gt;cmd1つでテンプレート作成。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ hugo new theme foo
+.
+└── themes
+    └── foo
+    ├── LICENSE.md
+    ├── archetypes
+    │   └── default.md
+    ├── layouts
+    │   ├── _default
+    │   │   ├── list.html
+    │   │   └── single.html
+    │   ├── index.html
+    │   └── partials
+    │       ├── footer.html
+    │       └── header.html
+    ├── static
+    │   ├── css
+    │   └── js
+    └── theme.toml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Document&lt;/a&gt; がよくまとまっていますので参考に。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;このあたりが特にお世話になりました
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/templates/functions/&#34;&gt;functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gohugo.io/templates/variables/&#34;&gt;variables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;layouts/_default&lt;/code&gt; 以外の使い方調べる&lt;/li&gt;
+&lt;li&gt;rss作成&lt;/li&gt;
+&lt;li&gt;bower installするbuild script&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
+
+&lt;p&gt;octpressの時はtheme流用してたので手作りも勉強になりました。&lt;/p&gt;
+
+&lt;p&gt;t32kさんの&lt;a href=&#34;https://github.com/t32k/mol&#34;&gt;mol&lt;/a&gt;を参考（ほぼコピー&amp;amp;ペーストして）に作りました
+ありがとうございます。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EscでIMEを抜ける</title>
+      <link>https://9renpoto.github.io/blog/2014/07/11/escape-ime/</link>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/11/escape-ime/</guid>
+      <description>
+
+&lt;h1 id=&#34;vimなど使ってるとescapeしてimeが残ってるとイライライラ&#34;&gt;vimなど使ってるとEscapeしてIMEが残ってるとイライライラ&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nobeans.hatenablog.com/entry/20090211/1234326782&#34;&gt;ESCで確実にIMEをオフにする&lt;/a&gt;を参考に設定を反映してみるも直ってないご様子。&lt;/p&gt;
+
+&lt;p&gt;どうもGoogleIMEには神設定があるらしい。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/64daf9848e558c14efc0df858aef8388.png&#34; alt=&#34;image-googe-input&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;これで &lt;code&gt;Esc&lt;/code&gt; を使って快適に抜けられる最高。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/2708f90efe1cebb5d4f5aad5195b1ce8.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vimでコマンドモードに戻るときIMEをオフにする &lt;code&gt;hotolab.net/blog/vim_ime&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://nobeans.hatenablog.com/entry/20090211/1234326782&#34;&gt;ESCで確実にIMEをオフにする&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>マルチカーソル</title>
+      <link>https://9renpoto.github.io/blog/2014/07/10/hash-to-json/</link>
+      <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/10/hash-to-json/</guid>
+      <description>
+
+&lt;h1 id=&#34;使い所がわからない&#34;&gt;使い所がわからない&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/6f717eaff8e129c8669029f0a13a03e6.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;ハッシュの中だけを &lt;code&gt;{ foo: 1 }&lt;/code&gt; のようなjsonフォーマットに直したいとき
+atomなどでマルチカーソル操作をすると全部選択されてしまってツラまる。&lt;/p&gt;
+
+&lt;p&gt;良い方法が知りたい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#hcj-2014</title>
+      <link>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</link>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</guid>
+      <description>
+
+&lt;h1 id=&#34;hadoop-conference-japan-2014に参加してきました&#34;&gt;Hadoop Conference Japan 2014に参加してきました&lt;/h1&gt;
+
+&lt;p&gt;個人的な所感としては。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;spark楽しそう（だけどまだ触るには勇気が）&lt;/li&gt;
+&lt;li&gt;Prestoも熱そう&lt;/li&gt;
+&lt;li&gt;MapR書くよりもSQL書く方がお手軽&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以下はメモ書き。&lt;/p&gt;
+
+&lt;h2 id=&#34;keynote&#34;&gt;keynote&lt;/h2&gt;
+
+&lt;h3 id=&#34;hadoopを取り巻く環境について&#34;&gt;hadoopを取り巻く環境について&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;始めて普及した並列分散
+
+&lt;ul&gt;
+&lt;li&gt;データの読み込みのスループットを最大化&lt;/li&gt;
+&lt;li&gt;全件データの処理を実現&lt;/li&gt;
+&lt;li&gt;シンプルなモデル（MapReduce)&lt;/li&gt;
+&lt;li&gt;YARN&lt;/li&gt;
+&lt;li&gt;MapReduceからそれ以外のアルゴリズムも&lt;/li&gt;
+&lt;li&gt;複数の並列分散エンジンを併用できる環境&lt;/li&gt;
+&lt;li&gt;メモリーの大容量化、10Gbpsネットワークの普及
+
+&lt;ul&gt;
+&lt;li&gt;インメモリー処理の実現性の向上&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;the-future-of-data&#34;&gt;The Future of Data&lt;/h3&gt;
+
+&lt;p&gt;Doug Cutting&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;未来について
+
+&lt;ul&gt;
+&lt;li&gt;ハードウェアの価格の低下、性能の向上&lt;/li&gt;
+&lt;li&gt;データの重要性の向上&lt;/li&gt;
+&lt;li&gt;オープンソースが勝ち残る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;the-future-of-spark&#34;&gt;The Future of spark&lt;/h3&gt;
+
+&lt;p&gt;Patric Wendlell&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sparkの目的
+
+&lt;ul&gt;
+&lt;li&gt;データサイエンティスト、エンジニア能力の拡張&lt;/li&gt;
+&lt;li&gt;表現力のあるクリーンなAPIの提供&lt;/li&gt;
+&lt;li&gt;多様な環境にわたって統合されたランタイム&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;API　stability
+
+&lt;ul&gt;
+&lt;li&gt;3か月サイクルでマイナーリリース&lt;/li&gt;
+&lt;li&gt;必要におおじてメンテナンスリリース&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Spark SQL&lt;/li&gt;
+&lt;li&gt;MLlib
+
+&lt;ul&gt;
+&lt;li&gt;Spark + R&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;DataBricks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;hadoopエコシステムの片鱗と見えてきた使いドコロ&#34;&gt;Hadoopエコシステムの片鱗と見えてきた使いドコロ&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TreasureData
+
+&lt;ul&gt;
+&lt;li&gt;なぜHadoop使うのか&lt;/li&gt;
+&lt;li&gt;Hadoopを使うのは最適な解か
+
+&lt;ul&gt;
+&lt;li&gt;安いストレージとして使うだけならHadoopより良い物は沢山ある&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;データの収集ソフトウェア
+
+&lt;ul&gt;
+&lt;li&gt;多種多様なデータ・ソース&lt;/li&gt;
+&lt;li&gt;fluentd,flumea,kafka,sqoop&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ファイルフォーマット
+
+&lt;ul&gt;
+&lt;li&gt;Schema on Read&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;管理・人的コスト低減の支援&lt;/li&gt;
+&lt;li&gt;簡単にデータを扱うか
+
+&lt;ul&gt;
+&lt;li&gt;Tez, Spark&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;SQL on Hadoop
+
+&lt;ul&gt;
+&lt;li&gt;Impala, SlarkSQL, Presto Drill&lt;/li&gt;
+&lt;li&gt;Mahout, Spark MLlib&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;今までの時代
+
+&lt;ul&gt;
+&lt;li&gt;データを入れるだけ入れたけど、レポート化できる人の限られている&lt;/li&gt;
+&lt;li&gt;今までは何でも入れられるだけ&lt;/li&gt;
+&lt;li&gt;これからはだれでも取り出せるようにしないと意味がない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Hadoop -&amp;gt; MPP
+
+&lt;ul&gt;
+&lt;li&gt;Twitter: Hadoop -&amp;gt; Vertica&lt;/li&gt;
+&lt;li&gt;Pinterest: Hadoop -&amp;gt; redshift&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;非構造化データの領域に踏み込む&lt;/li&gt;
+&lt;li&gt;混沌の時代&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;セッション&#34;&gt;セッション&lt;/h2&gt;
+
+&lt;h3 id=&#34;マルチテナント化に向けたhadoopの最新セキュリティー事情&#34;&gt;マルチテナント化に向けたHadoopの最新セキュリティー事情&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hadoopのユースケースの移り変わり
+
+&lt;ul&gt;
+&lt;li&gt;バッチ処理を効率よく行うため&lt;/li&gt;
+&lt;li&gt;部門単位での利用、クラスターの乱立&lt;/li&gt;
+&lt;li&gt;近年&lt;/li&gt;
+&lt;li&gt;バッチ処理 + インタラクティブな処理&lt;/li&gt;
+&lt;li&gt;SQLによるアクセス&lt;/li&gt;
+&lt;li&gt;データは一部の人だけのものではない&lt;/li&gt;
+&lt;li&gt;クラスターの共有（マルチテナント）&lt;/li&gt;
+&lt;li&gt;マルチテナントのメリット&lt;/li&gt;
+&lt;li&gt;データの複製不要&lt;/li&gt;
+&lt;li&gt;業務の取り巻き&lt;/li&gt;
+&lt;li&gt;性能・効率の改善&lt;/li&gt;
+&lt;li&gt;課題
+　- リソースの分離と管理&lt;/li&gt;
+&lt;li&gt;Role管理&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;マルチテナントとセキュリティーの関連性
+
+&lt;ul&gt;
+&lt;li&gt;認証&lt;/li&gt;
+&lt;li&gt;kerberos
+
+&lt;ul&gt;
+&lt;li&gt;相手が何者であるかを保証するプロトコル&lt;/li&gt;
+&lt;li&gt;暗号化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;認可&lt;/li&gt;
+&lt;li&gt;HDFS ACL
+
+&lt;ul&gt;
+&lt;li&gt;ファイルシステムレベルでのaccess control&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Apache Sentry
+
+&lt;ul&gt;
+&lt;li&gt;データベース、テーブルview、行列の粒度でアクセス制御&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;認可モジュールSentryの紹介
+
+&lt;ul&gt;
+&lt;li&gt;Apache Sentryはモジュールとして開発されている&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bigquery-and-the-world-after-mapreduce&#34;&gt;BigQuery and the world after MapReduce&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BigData at Google
+
+&lt;ul&gt;
+&lt;li&gt;ログ分析するのにMapReduceを書いてる場合じゃない&lt;/li&gt;
+&lt;li&gt;BigQuery ( sql base )&lt;/li&gt;
+&lt;li&gt;indexなんてないんや&lt;/li&gt;
+&lt;li&gt;全文検索、120億行、10秒ぐらい&lt;/li&gt;
+&lt;li&gt;storage料金&lt;/li&gt;
+&lt;li&gt;Quesy料金&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Column Oriented Storage
+
+&lt;ul&gt;
+&lt;li&gt;もはやスタンダード&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Colossus File System
+
+&lt;ul&gt;
+&lt;li&gt;GFSの次のもの&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;MPP
+
+&lt;ul&gt;
+&lt;li&gt;1TBの内容を数秒で舐めるためには何台必要なのか&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;JOIN
+
+&lt;ul&gt;
+&lt;li&gt;small join&lt;/li&gt;
+&lt;li&gt;broadcast JOIN&lt;/li&gt;
+&lt;li&gt;ばらまいてコピー =&amp;gt; JOIN&lt;/li&gt;
+&lt;li&gt;JOIN Each&lt;/li&gt;
+&lt;li&gt;shuffleしてjoinできる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;BigQuery Streaming
+
+&lt;ul&gt;
+&lt;li&gt;fluentd&lt;/li&gt;
+&lt;li&gt;fluent-plugin-bigquery&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;BigQuery User-Defined-Function-with-JavaScript
+
+&lt;ul&gt;
+&lt;li&gt;クエリ内にJavaScript書く&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Cloud Pub/Sub&lt;/li&gt;
+&lt;li&gt;FlumeJava
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://pages.cs.wisc.edu/~akella/CS838/F12/838-CloudPapers/FlumeJava.pdf&#34;&gt;論文あるよ!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;MillWheel
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://static.googleusercontent.com/media/research.google.com/ja//pubs/archive/41378.pdf&#34;&gt;論文あるよ!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;sqlによるバッチ処理とストリーム処理&#34;&gt;SQLによるバッチ処理とストリーム処理&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;@tagomoris
+
+&lt;ul&gt;
+&lt;li&gt;stream処理&lt;/li&gt;
+&lt;li&gt;norikra&lt;/li&gt;
+&lt;li&gt;Hadoop&lt;/li&gt;
+&lt;li&gt;Hive/ Presto&lt;/li&gt;
+&lt;li&gt;SQL is NOT the best;&lt;/li&gt;
+&lt;li&gt;But, SQL is better than NONE.&lt;/li&gt;
+&lt;li&gt;Batch processing&lt;/li&gt;
+&lt;li&gt;hive&lt;/li&gt;
+&lt;li&gt;Stream processing&lt;/li&gt;
+&lt;li&gt;storm&lt;/li&gt;
+&lt;li&gt;kafka&lt;/li&gt;
+&lt;li&gt;esper&lt;/li&gt;
+&lt;li&gt;norikra&lt;/li&gt;
+&lt;li&gt;fluentd&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Lamda Architecture
+
+&lt;ul&gt;
+&lt;li&gt;Streaming&lt;/li&gt;
+&lt;li&gt;速報値&lt;/li&gt;
+&lt;li&gt;Batch&lt;/li&gt;
+&lt;li&gt;確定値&lt;/li&gt;
+&lt;li&gt;両方に対応したい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Stream処理
+
+&lt;ul&gt;
+&lt;li&gt;レイテンシが低い&lt;/li&gt;
+&lt;li&gt;同じ処理をバッチとしても実行できる必要がある&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;yarn&#34;&gt;YARN&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TD
+
+&lt;ul&gt;
+&lt;li&gt;PlazumaDB&lt;/li&gt;
+&lt;li&gt;S3上で動作&lt;/li&gt;
+&lt;li&gt;HDFS is not used&lt;/li&gt;
+&lt;li&gt;Hadoop Cluster&lt;/li&gt;
+&lt;li&gt;Customize hadoop&lt;/li&gt;
+&lt;li&gt;Customize hive&lt;/li&gt;
+&lt;li&gt;Customize Pig&lt;/li&gt;
+&lt;li&gt;PlazumaDB&lt;/li&gt;
+&lt;li&gt;Customize Impala&lt;/li&gt;
+&lt;li&gt;Customize Presto&lt;/li&gt;
+&lt;li&gt;独自queue&lt;/li&gt;
+&lt;li&gt;独自scheduler&lt;/li&gt;
+&lt;li&gt;YARN cluster&lt;/li&gt;
+&lt;li&gt;プロダクションにはまだ入れてないが
+環境整えている&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;YARNとは
+
+&lt;ul&gt;
+&lt;li&gt;Job History Server注意&lt;/li&gt;
+&lt;li&gt;起動してないと過去ログが追えなくなる&lt;/li&gt;
+&lt;li&gt;NOTE&lt;/li&gt;
+&lt;li&gt;Use the Hadoop 2.4.0 and later
+
+&lt;ul&gt;
+&lt;li&gt;Capacity Scheduler、there is a bug&lt;/li&gt;
+&lt;li&gt;deadlock&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;hadoop-conf-pseudo doees not work&lt;/li&gt;
+&lt;li&gt;2.2.0 and 2.4.0
+
+&lt;ul&gt;
+&lt;li&gt;結構違うので注意&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;presto&#34;&gt;Presto&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;what is Presto
+
+&lt;ul&gt;
+&lt;li&gt;Facebookで作られてoss化&lt;/li&gt;
+&lt;li&gt;HDFS上のデータを可視化したい&lt;/li&gt;
+&lt;li&gt;うまくいかない&lt;/li&gt;
+&lt;li&gt;hiveが遅すぎる&lt;/li&gt;
+&lt;li&gt;hiveをバッチ化 =&amp;gt; 中間DBに入れる&lt;/li&gt;
+&lt;li&gt;中間DBはスケールしない&lt;/li&gt;
+&lt;li&gt;HDFSに保存してないものは入れなきゃならない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Presto
+
+&lt;ul&gt;
+&lt;li&gt;中間データベースの取り除く有効な手段&lt;/li&gt;
+&lt;li&gt;他のデータストアを舐めることにも対応&lt;/li&gt;
+&lt;li&gt;Hiveとの使い分けが必要&lt;/li&gt;
+&lt;li&gt;巨大なjoin&lt;/li&gt;
+&lt;li&gt;group by&lt;/li&gt;
+&lt;li&gt;Interactiveなクエリを発行できる&lt;/li&gt;
+&lt;li&gt;複数のデータ・セットをまとめて表示できる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;BI tools
+
+&lt;ul&gt;
+&lt;li&gt;可視化に利用していく&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ODBC/JDBC is very complicated!&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Prestoの実行モデルについて
+
+&lt;ul&gt;
+&lt;li&gt;not MapReduce&lt;/li&gt;
+&lt;li&gt;全部並行で動いてる&lt;/li&gt;
+&lt;li&gt;一個死んだら全部死ぬ&lt;/li&gt;
+&lt;li&gt;メモリー溢れてしまうとクエリが死んでしまう&lt;/li&gt;
+&lt;li&gt;メモリーの使用量はクラスターで管理されて、クラスターが死ぬことはない（はず）&lt;/li&gt;
+&lt;li&gt;がクエリは死ぬ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>コメントを楽に入れる</title>
+      <link>https://9renpoto.github.io/blog/2014/07/07/comment/</link>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/07/comment/</guid>
+      <description>
+
+&lt;h1 id=&#34;comment&#34;&gt;comment&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;vimだと矩形選択で頑張れるから甘えてましたが
+atomなど使っているとcommentショートカットが便利で
+良く使います。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34; alt=&#34;image2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;vimでも使えるようにしました
+便利。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>括弧の入力には欠かせない</title>
+      <link>https://9renpoto.github.io/blog/2014/07/06/surround/</link>
+      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/06/surround/</guid>
+      <description>
+
+&lt;h1 id=&#34;surround&#34;&gt;Surround&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;surround.vim便利
+sublime-textでも使えるようですが
+atomの公式パッケージにも早くほしい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GitGutter便利すぎ</title>
+      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</link>
+      <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</guid>
+      <description>
+
+&lt;h1 id=&#34;gutter&#34;&gt;Gutter&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;githubなどで開発しているとPRが便利で
+良くコードを見るようになりました
+意味のないコード差分などはできれば出したくない。&lt;/p&gt;
+
+&lt;p&gt;sublime, atomにもあってvimにはないのか
+と思ってたら検索して3分で見つかりました。&lt;/p&gt;
+
+&lt;p&gt;最高です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/airblade/vim-gitgutter&#34;&gt;vim-gitgutter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>同じkeyのハッシュのを作る時の操作</title>
+      <link>https://9renpoto.github.io/blog/2014/07/03/v-line/</link>
+      <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2014/07/03/v-line/</guid>
+      <description>
+
+&lt;h1 id=&#34;v-line-edit&#34;&gt;v-line edit&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;同じ変数名を利用してハッシュのようなものを作成するときに
+情弱で、愚直な操作をしてしまっている。
+もっと簡単に入力する方法を知りたい。
+atomやsublime-textでは、さらに愚直に入力しており良い方法がないか知りたい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>読書 Team Geek</title>
+      <link>https://9renpoto.github.io/blog/2013/12/25/team-geak/</link>
+      <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak/</guid>
+      <description>
+
+&lt;h1 id=&#34;メモ&#34;&gt;メモ&lt;/h1&gt;
+
+&lt;p&gt;人間関係に悩んでおり、以下の本を読んでおりました。&lt;/p&gt;
+
+&lt;p&gt;読み終えたので簡単な感想をメモ。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大切
+
+&lt;ul&gt;
+&lt;li&gt;謙虚&lt;/li&gt;
+&lt;li&gt;信頼&lt;/li&gt;
+&lt;li&gt;尊敬&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;オープンに
+
+&lt;ul&gt;
+&lt;li&gt;上の人は質問に堂々と答える&lt;/li&gt;
+&lt;li&gt;下の人な恐れず質問する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;責任
+
+&lt;ul&gt;
+&lt;li&gt;重要&lt;/li&gt;
+&lt;li&gt;自分事化&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;まず今までの失敗を繰り返さぬよう沢山実践して、違う失敗しよう。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;マーケティングの人のことを考えるとゾッとするのはなぜだろうか？
+それはエンジニアリング文化と相入れないからだ．
+ぼくたちの文化は「事実」に満ちあふれている．
+コードはコンパイル「できる」と「できない」しかない．
+ソフトウェアは機能を「持つ」と「持たない」しかない．
+問題は解決「できる」と「できない」しかない．
+説明を「引き伸ばす」ことはしない．事実だけを話す．&lt;/p&gt;
+
+&lt;p&gt;Brian W.Fitzpatrick, Ben Collins-Sussman（2013)
+『Team Geek Googleのギークたちはいかにしてチームを作るのか』株式会社オライリー・ジャパン 150pp.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;学びとは少しそれた話ですが、上記の言葉が何よりも共感できました。&lt;/p&gt;
+
+&lt;p&gt;自分はエンジニアで居心地が良い。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>読書 アジャイルサムライ</title>
+      <link>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</link>
+      <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</guid>
+      <description>
+
+&lt;h1 id=&#34;メモ&#34;&gt;メモ&lt;/h1&gt;
+
+&lt;p&gt;アジャイル開発について悩んでおりましたので、噂のアジャイルサムライを読みました。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;学べたこと
+
+&lt;ul&gt;
+&lt;li&gt;考え方&lt;/li&gt;
+&lt;li&gt;立場の明確化
+
+&lt;ul&gt;
+&lt;li&gt;プロダクトオーナー&lt;/li&gt;
+&lt;li&gt;スクラムマスター&lt;/li&gt;
+&lt;li&gt;開発者&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;立場に対して自分の役割が明確にある
+
+&lt;ul&gt;
+&lt;li&gt;わかりやすい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;大切なのは&lt;strong&gt;モノ&lt;/strong&gt;を作ること
+
+&lt;ul&gt;
+&lt;li&gt;未完成に価値はない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;時間・リソース・金は有限
+
+&lt;ul&gt;
+&lt;li&gt;現実は非常に大切&lt;/li&gt;
+&lt;li&gt;優先順位の大切さ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;流れ
+
+&lt;ul&gt;
+&lt;li&gt;プロダクトオーナー&lt;/li&gt;
+&lt;li&gt;作りたいものの決定&lt;/li&gt;
+&lt;li&gt;優先順位の決定&lt;/li&gt;
+&lt;li&gt;スクラムマスター&lt;/li&gt;
+&lt;li&gt;時間管理&lt;/li&gt;
+&lt;li&gt;開発者&lt;/li&gt;
+&lt;li&gt;見積もる&lt;/li&gt;
+&lt;li&gt;作る&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;ウォーターフォールとの違い&lt;/li&gt;
+&lt;li&gt;見積もりが開発者に任せられてるところが良い&lt;/li&gt;
+&lt;li&gt;ストーリーポイントを基準に実現可能性を図る
+
+&lt;ul&gt;
+&lt;li&gt;現実を見ている&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;見積もれるタスク
+
+&lt;ul&gt;
+&lt;li&gt;細かなサイクルを回すというよりも、見積もれる範囲を大切にするという考えに共感&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未完成に価値はない&lt;/strong&gt; 完成品を作る（レビューする）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;なるほどわかりやすい。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>入門chef</title>
+      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</link>
+      <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</guid>
+      <description>
+
+&lt;h1 id=&#34;chef-memo&#34;&gt;chef memo&lt;/h1&gt;
+
+&lt;p&gt;環境構築といえば、chefだという噂を随分と聞くようになってきましたが、
+なんだかんだと使ってなかったのでメモ。
+とはいえ、レシピは誰かが書いてるので、
+今回は出来る限りレシピを使う方法で構築を目指す。&lt;/p&gt;
+
+&lt;h2 id=&#34;前準備&#34;&gt;前準備&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Gemfileに記載
+source &#39;https://rubygems。org&#39;  # URLの指定。呪文だと思って毎回書く
+
+gem &#39;berkshelf&#39;
+gem &#39;chef&#39;
+gem &#39;knife-solo&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;必要なgemをいつものように。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;chef-soloを使えるように初期設定を行う。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife configure
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;そろそろchef&#34;&gt;そろそろchef&lt;/h2&gt;
+
+&lt;p&gt;ひな形の生成。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ bundle exec knife solo init chef-repo
+$ tree chef-repo/
+chef-repo/
+├── cookbooks
+├── data_bags
+├── nodes
+├── roles
+├── site-cookbooks
+└── solo。rb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;忘れないうちにコミット。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd chef-repo
+git init
+git add 。
+git commit -m &#39;first commit&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;公式なり、Githubにて公開されているレシピを利用しやすくるものとして &lt;strong&gt;Berksfile&lt;/strong&gt; があります。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;site :opscode # Berksfile
+
+cookbook &amp;quot;apt&amp;quot;
+cookbook &amp;quot;git&amp;quot;
+cookbook &amp;quot;zsh&amp;quot;
+cookbook &#39;vim&#39;
+cookbook &#39;the_silver_searcher&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;公開されているレシピの情報を記述しておけば、コマンド1つで落としてこれます。
+便利。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec berks install --path cookbooks
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;vagrant側でchefが使えるように以下のコマンドを実行。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo prepare nodename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;インストールしたいレシピを追加
+node/nodename.json。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;{
+  &amp;quot;run_list&amp;quot;: [
+    &amp;quot;recipe[apt]&amp;quot;,
+    &amp;quot;recipe[git]&amp;quot;,
+    &amp;quot;recipe[zsh]&amp;quot;,
+    &amp;quot;recipe[vim]&amp;quot;,
+    &amp;quot;recipe[the_silver_searcher]&amp;quot;
+  ]
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;レシピはできたのでcookしましょう。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo cook nodename
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://qiita.com/uchiunyo/items/5aa243f7a39ae443e10d&#34;&gt;qiita.com/uchiunyo/item&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>クラス図を簡単に - PlantUML</title>
+      <link>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</guid>
+      <description>
+
+&lt;h1 id=&#34;plantuml&#34;&gt;PlantUML&lt;/h1&gt;
+
+&lt;p&gt;これから設計をはじめます、という時に
+今までは小さな機能では、スキーマの設計から始めてしまっていたのですが。&lt;/p&gt;
+
+&lt;p&gt;久々に「クラス図を書いてみよう」という話になり
+どう書こうとなったのでメモ。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://plantuml.sourceforge.net/logoc.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CUIで書けるのが最高です。&lt;/p&gt;
+
+&lt;p&gt;依存関係をテキストベースのみで記述できるので非常に助かりました。&lt;/p&gt;
+
+&lt;p&gt;図の綺麗さなどを意識せず関係を記述することに集中できるのが魅力。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget http://sourceforge.net/projects/plantuml/files/plantuml.jar/download -O plantuml.jar
+java -jar &amp;quot;plantuml.jarのパス&amp;quot; [option] 入力ファイル [...]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;で入力ファイルを目的のUMLを生成します。&lt;/p&gt;
+
+&lt;p&gt;Graphvizが必要なのでインストールしておきます
+macはbrewだけで入りました。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install graphviz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;これだけで使えます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;@startuml
+  class Bugs {
+    -bug_id
+    -description
+    -created_at
+  }
+
+  class Comments {
+    -comment_id
+    -bug_id
+    -auther
+  }
+
+  class Auther {
+    -id
+    -name
+  }
+
+  Bugs --* Comments
+  Auther --* Comments
+@enduml
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dl.dropboxusercontent.com/u/9060848/PlantUML/PlantUML.png&#34; alt=&#34;sample&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;便利。&lt;/p&gt;
+
+&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://abicky.net/2012/10/16/093737/&#34;&gt;https://abicky.net/2012/10/16/093737/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yohshiy.blog.fc2.com/blog-entry-152.html&#34;&gt;http://yohshiy.blog.fc2.com/blog-entry-152.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gui関連&#34;&gt;GUI関連&lt;/h2&gt;
+
+&lt;p&gt;Officeなどを使って作っても良いのですが、
+専用のツールもメモ。&lt;/p&gt;
+
+&lt;h3 id=&#34;astah&#34;&gt;astah*&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://astah-cdn2.change-vision.com/ja/images/stories/logo/astah_community_rectangle_m.png.pagespeed.ce.C-174ew438.png&#34; alt=&#34;astah&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Officeツール以外で関連ツールを探すと上位に出てくる&lt;a href=&#34;http://astah.change-vision.com/ja/product/astah-community.html&#34;&gt;良いツール&lt;/a&gt;です。&lt;/p&gt;
+
+&lt;h3 id=&#34;cacoo&#34;&gt;Cacoo&lt;/h3&gt;
+
+&lt;p&gt;今までなかなか縁がなく利用していなかったCacooですが、そういえば使ってなかったなと思い軽く使ってみました。&lt;/p&gt;
+
+&lt;p&gt;ChromeAppなどで使えますし、お気軽さではダントツ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>riak meetup tokyo 2 に参加してきました</title>
+      <link>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</guid>
+      <description>
+
+&lt;h1 id=&#34;riak-meetup-tokyo-2-memo&#34;&gt;riak meetup tokyo 2 memo&lt;/h1&gt;
+
+&lt;h2 id=&#34;rtb-and-freakout&#34;&gt;RTB and FreakOut&lt;/h2&gt;
+
+&lt;p&gt;RTB概略。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ディスプレー広告の新しい見せ方
+
+&lt;ul&gt;
+&lt;li&gt;1回の広告表示ごとに買い付け&lt;/li&gt;
+&lt;li&gt;オークション形式によりアラカルトメニュー&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;広告主のネット広告におけるROI最適を目指す。&lt;/p&gt;
+
+&lt;p&gt;RTBの技術的課題。&lt;/p&gt;
+
+&lt;h3 id=&#34;広告表示の時間は0-1秒&#34;&gt;広告表示の時間は0.1秒&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;レイテンシの軽減&lt;/li&gt;
+&lt;li&gt;多数のRTBを処理&lt;/li&gt;
+&lt;li&gt;50mc or die&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tokoy-kyoto-tyrant-tycoon&#34;&gt;[Tokoy|Kyoto] [Tyrant|Tycoon]&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;高速&lt;/li&gt;
+&lt;li&gt;スケールは簡単にできない&lt;/li&gt;
+&lt;li&gt;運用実績はあるが用件を満たすのが難しい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riak-and-freakout&#34;&gt;Riak and FreakOut&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;スループットを向上させるために
+
+&lt;ul&gt;
+&lt;li&gt;hashからpartitionを特定する&lt;/li&gt;
+&lt;li&gt;素のままでは50mc or die的に厳しいため&lt;/li&gt;
+&lt;li&gt;構成の工夫が必要&lt;/li&gt;
+&lt;li&gt;スケーラビリティの問題を克服できるメリットは大きい&lt;/li&gt;
+&lt;li&gt;「サーバーを足すだけで運用」&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;yokozuna日本語検索を評価しました&#34;&gt;Yokozuna日本語検索を評価しました&lt;/h3&gt;
+
+&lt;p&gt;@rev4t @yosisa&lt;/p&gt;
+
+&lt;p&gt;日本語検索： Yokozuna。&lt;/p&gt;
+
+&lt;p&gt;Solr XMLスキーマを利用した検索が可能
+便利そう。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go Conference 2013 spring参加してきました #gocon</title>
+      <link>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring/</link>
+      <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring/</guid>
+      <description>
+
+&lt;h1 id=&#34;go-conference参加メモ&#34;&gt;Go Conference参加メモ&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/-QHzKGzPe248/UtoeV0tBZyI/AAAAAAAAEuA/zr0wYEPCETE/s583-no/IMG_0299.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;go言語で作るwebアプリ-tenntenn&#34;&gt;Go言語で作るWebアプリ @tenntenn&lt;/h2&gt;
+
+&lt;p&gt;HTTPサーバー簡単に書ける。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000#slide=id.gb8818ff4_2_0&#34;&gt;https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000#slide=id.gb8818ff4_2_0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;go-on-appengine-najeira&#34;&gt;Go on AppEngine @najeira&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go言語のメリット
+
+&lt;ul&gt;
+&lt;li&gt;簡単&lt;/li&gt;
+&lt;li&gt;Nativeで速い、少メモリ&lt;/li&gt;
+&lt;li&gt;モダン（並列、型推論、Stractual subtyping(部分型）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;AppEngineのメリット
+
+&lt;ul&gt;
+&lt;li&gt;保守しなくてよいので開発に集中できる&lt;/li&gt;
+&lt;li&gt;大規模、伸縮&lt;/li&gt;
+&lt;li&gt;モダン（TQ、memcachedサポート）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Testing
+
+&lt;ul&gt;
+&lt;li&gt;AppEngine上でGo言語だけでテストを行うことは難しい&lt;/li&gt;
+&lt;li&gt;testbed &lt;a href=&#34;https://github.com/najeira/testbed&#34;&gt;https://github.com/najeira/testbed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Goの優位性
+
+&lt;ul&gt;
+&lt;li&gt;起動が速い（AppEngineとの相性は良い）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;速度についての補足
+
+&lt;ul&gt;
+&lt;li&gt;常にGoが速いというわけではない（I/O、etc)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;まだ完全以降にコストかけて頑張るほどのノウハウはたまってない&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gorutine-and-channel-jxck&#34;&gt;Gorutine and channel @Jxck_&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;メモ漏れ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;go-schaduler-methane&#34;&gt;Go Schaduler @methane&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/methane/5377227#file-goscheduler-md&#34;&gt;https://gist.github.com/methane/5377227#file-goscheduler-md&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Goroutine&lt;/li&gt;
+&lt;li&gt;奥が深い&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;goのどのあたりが良いか鵜飼さん&#34;&gt;Goのどのあたりが良いか鵜飼さん&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Goの第一印象
+
+&lt;ul&gt;
+&lt;li&gt;慣れた言語から見ると違和感がある&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;設計方針
+&lt;code&gt;markdown
+many on the decisions in Go are motivated by experience working on
+and maintaing large code bases at Google.
+&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;書きやすさより読みやすさ、修正しやすさ&lt;/li&gt;
+&lt;li&gt;シンプルな仕様、簡潔な文法&lt;/li&gt;
+&lt;li&gt;細部まできちんと考えたコードを書くようになる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;型宣言
+
+&lt;ul&gt;
+&lt;li&gt;逆&lt;/li&gt;
+&lt;li&gt;これは複雑な変数定義を行った際に分かりやすい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コメント書くぐらいならコンパイラーにチェックさせろよ&lt;/li&gt;
+&lt;li&gt;クラス
+
+&lt;ul&gt;
+&lt;li&gt;型定義&lt;/li&gt;
+&lt;li&gt;型に対してメソッドを追加する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;使われないコード
+
+&lt;ul&gt;
+&lt;li&gt;Goはコンパイルエラーを徹底的に出す&lt;/li&gt;
+&lt;li&gt;大規模なコードになってきたとき、容易に肥大化してしまう問題を防ぐ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;エラー処理
+
+&lt;ul&gt;
+&lt;li&gt;try ~ catchにしたがる&lt;/li&gt;
+&lt;li&gt;制御の流れが複雑になる&lt;/li&gt;
+&lt;li&gt;変なGOTOをしているような感じ&lt;/li&gt;
+&lt;li&gt;基本的にエラーはその場で処理させる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;無題-moriyoshi&#34;&gt;無題 @moriyoshi&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Goでゲームを作るためのライブラリー紹介
+
+&lt;ul&gt;
+&lt;li&gt;画面出力&lt;/li&gt;
+&lt;li&gt;SDL系： go-sdl / gosdl&lt;/li&gt;
+&lt;li&gt;OpenGL系： gl / GoGL&lt;/li&gt;
+&lt;li&gt;音&lt;/li&gt;
+&lt;li&gt;portaudio-go / go-openal / pulsego&lt;/li&gt;
+&lt;li&gt;入力&lt;/li&gt;
+&lt;li&gt;入力のSDL系は標準でできる&lt;/li&gt;
+&lt;li&gt;OpenGL系ではGo-GLUT / glfwなど使える&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/moriyoshi/gohex&#34;&gt;https://github.com/moriyoshi/gohex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pyfes 2013/3</title>
+      <link>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</link>
+      <pubDate>Sat, 16 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</guid>
+      <description>
+
+&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-fe0PcN4vym0/UtoeWi_4knI/AAAAAAAAEuI/kgBwRtcB6hk/w437-h583-no/IMG_0230.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今回も楽しいお話がたくさん聞けました。&lt;/p&gt;
+
+&lt;p&gt;ありがとうございました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>riak meetup tokyoに参加してきました</title>
+      <link>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</link>
+      <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</guid>
+      <description>
+
+&lt;h1 id=&#34;riak-intro-ricon報告&#34;&gt;Riak intro &amp;amp; RICON報告&lt;/h1&gt;
+
+&lt;p&gt;@kuenishi&lt;/p&gt;
+
+&lt;p&gt;分散システムの研究や開発は5年ぐらい
+日本法人が9月に出来た。&lt;/p&gt;
+
+&lt;h2 id=&#34;riakの紹介&#34;&gt;Riakの紹介&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dynamoにインスパイアされた&lt;/li&gt;
+&lt;li&gt;Consistent Hassingによる水平分割する&lt;/li&gt;
+&lt;li&gt;Vector Clocksを用いてレプリケーション&lt;/li&gt;
+&lt;li&gt;Erlang/OTPで動作&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;分散KVS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HTTP / Protocol Buffers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Secondary Index/ MapReduce&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Link Walking&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Consistent Hassing and Replicas / Vecteor Clocks&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;分散システム、ざっくり。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Graph&lt;/li&gt;
+&lt;li&gt;SQL&lt;/li&gt;
+&lt;li&gt;Document&lt;/li&gt;
+&lt;li&gt;Scale out&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riconについて&#34;&gt;RICONについて&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;分散システム、分散DBのカンファレンス&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;事例&#34;&gt;事例&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Redis側でロックして、裏側はRiakで構築
+
+&lt;ul&gt;
+&lt;li&gt;壊れても大丈夫なようにするのが鉄板のパターン&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;面白かった話&#34;&gt;面白かった話&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rak Pipe&lt;/li&gt;
+&lt;li&gt;Introduction Yokozuna&lt;/li&gt;
+&lt;li&gt;Building Riak CS on Riak&lt;/li&gt;
+&lt;li&gt;Cloning the Cloud&lt;/li&gt;
+&lt;li&gt;Bringing Consistency on Riak&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;riak-with-engine-yard&#34;&gt;Riak with Engine yard&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;EC2上のGentoo&lt;/li&gt;
+&lt;li&gt;すべてはChefで構築&lt;/li&gt;
+&lt;li&gt;その上にアプリをデプロイ&lt;/li&gt;
+&lt;li&gt;再起動も1から構築&lt;/li&gt;
+&lt;li&gt;ssh / sudo可能&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;何台、何度でも再現可能&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;DB&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PostgressSQL&lt;/li&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Riak&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riakはバックエンドでたてないとダメ&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riak Searchを使って全文検索が可能&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;今後、Yokozunaに移行予定&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>リーダブルコード読みました</title>
+      <link>https://9renpoto.github.io/blog/2013/02/03/readable-code/</link>
+      <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/02/03/readable-code/</guid>
+      <description>
+
+&lt;h1 id=&#34;リーダーブルコードよんだメモ&#34;&gt;リーダーブルコードよんだメモ&lt;/h1&gt;
+
+&lt;p&gt;ちょっと前の話ですが、リーダーブルコードを読みましたのでその感想をメモ。&lt;/p&gt;
+
+&lt;h2 id=&#34;印象に残った学び&#34;&gt;印象に残った学び&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;名前の大切さ
+
+&lt;ul&gt;
+&lt;li&gt;プログラムで一番難しいところ&lt;/li&gt;
+&lt;li&gt;良い名前ほど理解しやすい&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コメントの大切さ
+
+&lt;ul&gt;
+&lt;li&gt;コメントを書く目的&lt;/li&gt;
+&lt;li&gt;意味のあるコメントを書かないと意味がない&lt;/li&gt;
+&lt;li&gt;コメントはコードの理解を助けるもの&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コードの分割
+
+&lt;ul&gt;
+&lt;li&gt;小さければ小さいほど正義と読む前まで考えていた&lt;/li&gt;
+&lt;li&gt;どう分割すべきか&lt;/li&gt;
+&lt;li&gt;重複コードとは何なのか&lt;/li&gt;
+&lt;li&gt;理解しやすいように分割する&lt;/li&gt;
+&lt;li&gt;意味が明確に分かれるよう分割する&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;短いコードを書く
+
+&lt;ul&gt;
+&lt;li&gt;これは非常に難しいが理屈はよくわかる&lt;/li&gt;
+&lt;li&gt;よいメソッドよいモジュールを積極的に使っていくことが大事&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>25歳になりました</title>
+      <link>https://9renpoto.github.io/blog/2013/01/22/happy-birthday-for-me/</link>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2013/01/22/happy-birthday-for-me/</guid>
+      <description>
+
+&lt;h1 id=&#34;去年の自分&#34;&gt;去年の自分&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh6.googleusercontent.com/-WIyjTfgk1Uc/UWlAsazqCFI/AAAAAAAAEE8/DaWEW_h96zc/s719/IMG_0129.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1年ぐらいでは何も変わらなかった。&lt;/p&gt;
+
+&lt;p&gt;とりあえず納期までのプログラム書く。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>elixir install</title>
+      <link>https://9renpoto.github.io/blog/2012/12/20/install/</link>
+      <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2012/12/20/install/</guid>
+      <description>
+
+&lt;h1 id=&#34;elixirはじめよう&#34;&gt;Elixirはじめよう&lt;/h1&gt;
+
+&lt;p&gt;Elixir楽しそうなので勉強はじめます
+まずはerlangのinstallから。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install erlang
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;erlangもbrewから入れられるなんて楽な世の中になったものです。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install elixir
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;brewだけでinstall終わり。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Erlang R15B03 (erts-5.9.3.1) [source] [64-bit] [smp:4:4] [async-threads:0]
+[hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (0.7.2) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;terminalでiexと打つと正常に起動。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python Developer Festa 参加してきました</title>
+      <link>https://9renpoto.github.io/blog/2012/11/24/developder-festa/</link>
+      <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2012/11/24/developder-festa/</guid>
+      <description>
+
+&lt;h1 id=&#34;python-developer-festa参加してきたので-そのメモ&#34;&gt;Python Developer Festa参加してきたので、そのメモ&lt;/h1&gt;
+
+&lt;h2 id=&#34;cloudera-impalaについて&#34;&gt;Cloudera Impalaについて&lt;/h2&gt;
+
+&lt;p&gt;@shiumachiさんより。&lt;/p&gt;
+
+&lt;h3 id=&#34;impalaとは&#34;&gt;Impalaとは&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤
+
+&lt;ul&gt;
+&lt;li&gt;google Dremel, Google F1などにインスパイアされて開発された&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;データサイエンティストが使うことを想定している&lt;/li&gt;
+&lt;li&gt;Hadoopはクエリの内容がメモリーに乗っからなかった場合、HDDに逃げちゃう&lt;/li&gt;
+&lt;li&gt;Impalaはオンメモリー上で頑張ろうとする&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;impala-support状況&#34;&gt;Impala support状況&lt;/h4&gt;
+
+&lt;h5 id=&#34;02時点&#34;&gt;02時点&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Trevni, RCFileのサポートは現状まだ、今後に対応予定&lt;/li&gt;
+&lt;li&gt;Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;なぜ開発されたのか&#34;&gt;なぜ開発されたのか&lt;/h3&gt;
+
+&lt;p&gt;Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる。&lt;/p&gt;
+
+&lt;p&gt;Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかったからです。&lt;/p&gt;
+
+&lt;h3 id=&#34;mapreduceとは&#34;&gt;MapReduceとは&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apache MapReduceとは
+
+&lt;ul&gt;
+&lt;li&gt;バッチ処理を分散して行うシステム&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Apache Hive
+
+&lt;ul&gt;
+&lt;li&gt;SQLライクに書ける&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;MapReduceの問題
+
+&lt;ul&gt;
+&lt;li&gt;レイテンシが高い&lt;/li&gt;
+&lt;li&gt;小さいキューを出しても数十秒時間かかる&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;よくある質問&#34;&gt;よくある質問&lt;/h3&gt;
+
+&lt;h4 id=&#34;qもうhiveいらないんじゃない&#34;&gt;QもうHiveいらないんじゃない&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;定期的に実行を行うクエリなどはHiveのほうが適しているのではないか&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;qimpalaが落ちたらどうするの&#34;&gt;Qimpalaが落ちたらどうするの&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;クエリが全部こけます&lt;/li&gt;
+&lt;li&gt;JOINのサイズ制限あるの
+
+&lt;ul&gt;
+&lt;li&gt;あります&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;python-in-webkit&#34;&gt;Python in Webkit&lt;/h2&gt;
+
+&lt;p&gt;@omo2009さんより。&lt;/p&gt;
+
+&lt;h3 id=&#34;third-party-tools&#34;&gt;Third party Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WebKit
+
+&lt;ul&gt;
+&lt;li&gt;Buildbot&lt;/li&gt;
+&lt;li&gt;Trac&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;今回は-webkit-patch-について&#34;&gt;今回は &lt;code&gt;webkit-patch&lt;/code&gt; について&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;# Submitting for review
+webkit-patch post
+# Commiting a reviewd patch
+# Commit log は自動で書く
+webkit-patch land
+# Reverting specific version
+webkit-patch rollout
+#
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;プロジェクト特有の問題を解決するために使っている。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;watchlist
+suggest-reviewers
+suggest-nominations
+Bugzilla autocompletion
+IRC
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;誰にレビューしてもらえば良いかわからない&lt;/li&gt;
+&lt;li&gt;誰にレビューしてもらったか忘れちゃう&lt;/li&gt;
+&lt;li&gt;探すのに便利&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IRCでレビューを頼むと断られにくい。&lt;/p&gt;
+
+&lt;h2 id=&#34;connpassについて&#34;&gt;Connpassについて&lt;/h2&gt;
+
+&lt;p&gt;@lanMLewis, @ae35
+概要と技術について。&lt;/p&gt;
+
+&lt;h3 id=&#34;connpassとは&#34;&gt;connpassとは&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BePROUDで運営しているイベント支援サイト
+
+&lt;ul&gt;
+&lt;li&gt;&lt;sup&gt;2010&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt; django dash&lt;/li&gt;
+&lt;li&gt;djangoを使って48時間でサービスを作ろう&lt;/li&gt;
+&lt;li&gt;既存のイベント支援サービス（ATND)使いにくいよね&lt;/li&gt;
+&lt;li&gt;作ってみよう&lt;/li&gt;
+&lt;li&gt;大事だと思ってること&lt;/li&gt;
+&lt;li&gt;実生活のつながり&lt;/li&gt;
+&lt;li&gt;共有・成長する&lt;/li&gt;
+&lt;li&gt;イベントから広がるコミュニティ&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;connpassで使われている技術&#34;&gt;connpassで使われている技術&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;サーバーサイド
+
+&lt;ul&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;Django&lt;/li&gt;
+&lt;li&gt;Unix&lt;/li&gt;
+&lt;li&gt;Nginx&lt;/li&gt;
+&lt;li&gt;Gunicorn&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;クライアントサイド
+
+&lt;ul&gt;
+&lt;li&gt;CoffeeScript&lt;/li&gt;
+&lt;li&gt;REQUIRE JS&lt;/li&gt;
+&lt;li&gt;JavaScript怖い&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;php-language-update&#34;&gt;PHP Language Update&lt;/h2&gt;
+
+&lt;h3 id=&#34;php-5-5の目玉&#34;&gt;PHP 5.5の目玉&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ジェネレートとコールーチン
+
+&lt;ul&gt;
+&lt;li&gt;yieldキーワードの追加&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;foreachで変数分解だ&lt;/li&gt;
+&lt;li&gt;empty()の括弧内に変数以外が指定可能に&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;finally&lt;/code&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;try-catch-finally&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;なぜ今までになかったのか&lt;/li&gt;
+&lt;li&gt;fatal errorが発生すると &lt;code&gt;finaly&lt;/code&gt; が呼ばれない&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pythonでお仕事している人が日本にもたくさんいて嬉しいです。&lt;/p&gt;
+
+&lt;p&gt;発表者のみなさまおつかれさまでした。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>python install</title>
+      <link>https://9renpoto.github.io/blog/2012/09/13/install/</link>
+      <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2012/09/13/install/</guid>
+      <description>
+
+&lt;h1 id=&#34;first-python&#34;&gt;first Python&lt;/h1&gt;
+
+&lt;p&gt;Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から。&lt;/p&gt;
+
+&lt;h2 id=&#34;pythonのversion管理&#34;&gt;Pythonのversion管理&lt;/h2&gt;
+
+&lt;p&gt;Pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます。&lt;/p&gt;
+
+&lt;h2 id=&#34;pythonbrewの環境構築&#34;&gt;pythonbrewの環境構築&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl -kLO https://github.com/utahta/pythonbrew/raw/master/pythonbrew-install
+chmod +x pythonbrew-install
+./pythonbrew-install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;pythonbrewの環境変数を通す
+zshの場合でも以下の内容を書くらしい。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;[[ -s $HOME/.pythonbrew/etc/bashrc ]] &amp;amp;&amp;amp; source $HOME/.pythonbrew/etc/bashrc
+
+pythonbrew list -k # インストールできるversion確認
+pythonbrew update # pythonbrewのupdate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;2系と3系の環境構築。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pythonbrew install 2.7.2
+pythonbrew switch 2.7.2
+
+pythonbrew install 3.2
+pythonbrew switch 3.2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;virtualenvの環境はまた今度する。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>octpress install and setup</title>
+      <link>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup/</link>
+      <pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup/</guid>
+      <description>
+
+&lt;h1 id=&#34;octpress試す&#34;&gt;octpress試す&lt;/h1&gt;
+
+&lt;p&gt;Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。&lt;/p&gt;
+
+&lt;h2 id=&#34;github-pageの初期化&#34;&gt;github pageの初期化&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir username.github.com
+cd username.github.com
+git init
+
+touch README.md
+git add README.md
+git commit -m &#39;first commit&#39;
+
+git remote add origin git@GitHub.com:username/username.github.com.git
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;octpressのインストール&#34;&gt;octpressのインストール&lt;/h3&gt;
+
+&lt;p&gt;先ほど作成した &lt;em&gt;username.github.com&lt;/em&gt; と同じ階層にoctpressをcloneする。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone git://github.com/imathis/octopress.git octopress
+
+cd octopress
+gem install bundler
+
+bundle install
+Rake setup_github_pages
+
+Rake generate
+rake deploy
+
+# 2つ一度にする
+# Rake gen_deploy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;記事投稿&#34;&gt;記事投稿&lt;/h3&gt;
+
+&lt;p&gt;記事の作成もコマンド1つ
+タイトルは英語で。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;rake new_post[&amp;quot;my-new-page&amp;quot;]
+# zshは以下のように書く
+rake new_post\[&amp;quot;my-new-page&amp;quot;\]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組み。&lt;/p&gt;
+
+&lt;p&gt;いろいろ勉強します。&lt;/p&gt;
+
+&lt;p&gt;参考文献。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://octopress.org/&#34;&gt;http://octopress.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://tokkonopapa.github.io/blog/2011/12/30/octopress-on-github-and-bitbucket/&#34;&gt;http://tokkonopapa.github.io/blog/2011/12/30/octopress-on-github-and-bitbucket/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.glidenote.com/blog/2011/11/07/install-octopress-on-github/&#34;&gt;http://blog.glidenote.com/blog/2011/11/07/install-octopress-on-github/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>start blog</title>
+      <link>https://9renpoto.github.io/blog/2012/09/09/start-blog/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2012/09/09/start-blog/</guid>
+      <description>
+
+&lt;h1 id=&#34;とりあえず&#34;&gt;とりあえず&lt;/h1&gt;
+
+&lt;p&gt;Blogger使っていたのですが
+いろいろと使いにくく感じていたのでこちらに移転。&lt;/p&gt;
+
+&lt;p&gt;適当に更新していきます。&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
