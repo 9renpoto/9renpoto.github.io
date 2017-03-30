@@ -2,272 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Typescript on :-)</title>
-    <link>https://9renpoto.github.io/categories/typescript.xml</link>
+    <link>https://9renpoto.github.io/categories/typescript.html</link>
     <description>Recent content in Typescript on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/typescript.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Sep 2016 21:38:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>storybook を TypeScript で動かす</title>
-      <link>https://9renpoto.github.io/blog/2016/09/13/storybook/</link>
+      <link>https://9renpoto.github.io/blog/2016/09/13/storybook.html</link>
       <pubDate>Tue, 13 Sep 2016 21:38:08 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook/</guid>
-      <description>
-
-&lt;h1 id=&#34;react-storybookを試す&#34;&gt;React Storybookを試す&lt;/h1&gt;
-
-&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;react-storybookはcomponentのstyleguide&lt;/li&gt;
-&lt;li&gt;TypeScriptのままでは動かせないので一度ビルドする（2016/09現在）&lt;/li&gt;
-&lt;li&gt;addon拡張で開発が便利になるエコシステムはある&lt;/li&gt;
-&lt;li&gt;途中経過
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/react-components/tree/aab6f82ccb228a6b56a18223f6f66bf0f3bd78b1&#34;&gt;9renpoto/style&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;storybook&#34;&gt;storybook&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;stories&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;add&lt;/code&gt; して一覧ページがカジュアルに作成できる&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gh-pages&lt;/code&gt; などで簡単にホストできる&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;HMR&lt;/code&gt; ができるのはありがたい&lt;/li&gt;
-&lt;li&gt;いろいろwatchしたくなる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;webpack&lt;/code&gt; にどっぷり依存&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;typescript-with-react&#34;&gt;TypeScript with React&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gfx.hatenablog.com/entry/2016/09/12/162055&#34;&gt;2016年9月現在だとReactアプリのTypeScript採用は時期尚早&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;確かに現状の型定義は古い&lt;/li&gt;
-&lt;li&gt;まだそこで困るほどReact使いこなせていない&lt;/li&gt;
-&lt;li&gt;緩く型を信じる・困ったら考える（個人では）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;tsx&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;サポートありがたい&lt;/li&gt;
-&lt;li&gt;DOMを型付きで定義できることの安心感&lt;/li&gt;
-&lt;li&gt;テストを書くのは意識高めになる必要がある&lt;/li&gt;
-&lt;li&gt;便利だけど遅い&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;webpack&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;古いloaderが増えてきたex. &lt;code&gt;ts-loader&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ts-loader&lt;/code&gt; などでwatchはできないので &lt;code&gt;tsc -w&lt;/code&gt; で様子を見る&lt;/li&gt;
-&lt;li&gt;ガッツリ依存せず疎結合にできるところは疎結合にする&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;css-module&#34;&gt;CSS-module&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;基本的に使わない方が良さそう&lt;/li&gt;
-&lt;li&gt;使う場合は構造化cssとして育てるのではなく、 &lt;code&gt;local&lt;/code&gt; cssとしてビルドしたほうが良さそう
-
-&lt;ul&gt;
-&lt;li&gt;SDKなどで利用するのはアリ&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://developer.hatenastaff.com/entry/2016/04/14/150000&#34;&gt;react-storybookを用いたReactコンポーネント開発&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook.html</guid>
+      <description>React Storybookを試す TL;DR  react-storybookはcomponentのstyleguide TypeScriptのままでは動かせないので一度ビルドする（2016/09現在） addon拡張で開発が便利になるエコシステムはある 途中経過  9renpoto/style   storybook  stories  add して一覧ページがカジュアルに作成できる gh-pages などで簡単にホストできる HMR ができるのはありがたい いろいろwatchしたくなる  webpack にどっぷり依存  TypeScript with React  2016年9月現在だとReactアプリのTypeScript採用は時期尚早  確かに現状の型定義は古い まだそこで困るほどReact使いこなせていない 緩く型を信じる・困ったら考える（個人では）  tsx  サポートありがたい DOMを型付きで定義できることの安心感 テストを書くのは意識高めになる必要がある 便利だけど遅い  webpack  古いloaderが増えてきたex. ts-loader ts-loader などでwatchはできないので tsc -w で様子を見る ガッツリ依存せず疎結合にできるところは疎結合にする   CSS-module  基本的に使わない方が良さそう 使う場合は構造化cssとして育てるのではなく、 local cssとしてビルドしたほうが良さそう  SDKなどで利用するのはアリ   Refs react-storybookを用いたReactコンポーネント開発</description>
     </item>
     
     <item>
       <title>TypeScript のテスト環境を考える</title>
-      <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack.html</link>
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</guid>
-      <description>
-
-&lt;h1 id=&#34;上手く動かない&#34;&gt;上手く動かない&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://travis-ci.org/9renpoto/ts/builds/156475663&#34;&gt;https://travis-ci.org/9renpoto/ts/builds/156475663&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;アバウトな構成&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;&amp;quot;devDependencies&amp;quot;: {
-  &amp;quot;@9renpoto/eslint-config&amp;quot;: &amp;quot;^1.1.0&amp;quot;,
-  &amp;quot;@9renpoto/tslint-config&amp;quot;: &amp;quot;^1.0.0&amp;quot;,
-  &amp;quot;@types/mocha&amp;quot;: &amp;quot;^2.2.31&amp;quot;,
-  &amp;quot;@types/power-assert&amp;quot;: &amp;quot;0.0.27&amp;quot;,
-  &amp;quot;awesome-typescript-loader&amp;quot;: &amp;quot;^2.2.1&amp;quot;,
-  &amp;quot;codecov&amp;quot;: &amp;quot;^1.0.1&amp;quot;,
-  &amp;quot;eslint&amp;quot;: &amp;quot;^3.4.0&amp;quot;,
-  &amp;quot;json-loader&amp;quot;: &amp;quot;^0.5.4&amp;quot;,
-  &amp;quot;karma&amp;quot;: &amp;quot;^1.2.0&amp;quot;,
-  &amp;quot;karma-coverage&amp;quot;: &amp;quot;^1.1.1&amp;quot;,
-  &amp;quot;karma-firefox-launcher&amp;quot;: &amp;quot;^1.0.0&amp;quot;,
-  &amp;quot;karma-mocha&amp;quot;: &amp;quot;^1.1.1&amp;quot;,
-  &amp;quot;karma-sourcemap-loader&amp;quot;: &amp;quot;^0.3.7&amp;quot;,
-  &amp;quot;karma-webpack&amp;quot;: &amp;quot;^1.8.0&amp;quot;,
-  &amp;quot;mocha&amp;quot;: &amp;quot;^3.0.2&amp;quot;,
-  &amp;quot;npm-run-all&amp;quot;: &amp;quot;^3.0.0&amp;quot;,
-  &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;,
-  &amp;quot;rimraf&amp;quot;: &amp;quot;^2.5.4&amp;quot;,
-  &amp;quot;tslint&amp;quot;: &amp;quot;^3.15.1&amp;quot;,
-  &amp;quot;typescript&amp;quot;: &amp;quot;^2.0.2&amp;quot;,
-  &amp;quot;webpack&amp;quot;: &amp;quot;^1.13.2&amp;quot;,
-  &amp;quot;webpack-espower-loader&amp;quot;: &amp;quot;^1.0.1&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;tsc&lt;/code&gt; ・ &lt;code&gt;webpack&lt;/code&gt; しても問題ないように見えるが、 &lt;code&gt;karma&lt;/code&gt; を通した場合 &lt;code&gt;SyntaxError&lt;/code&gt; など出てきて非常に厳しい。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&#34;&gt;https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに
-こちらが動かない理由は不明、頭を悩ませる。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack.html</guid>
+      <description>上手く動かない https://travis-ci.org/9renpoto/ts/builds/156475663
+ アバウトな構成  &amp;quot;devDependencies&amp;quot;: { &amp;quot;@9renpoto/eslint-config&amp;quot;: &amp;quot;^1.1.0&amp;quot;, &amp;quot;@9renpoto/tslint-config&amp;quot;: &amp;quot;^1.0.0&amp;quot;, &amp;quot;@types/mocha&amp;quot;: &amp;quot;^2.2.31&amp;quot;, &amp;quot;@types/power-assert&amp;quot;: &amp;quot;0.0.27&amp;quot;, &amp;quot;awesome-typescript-loader&amp;quot;: &amp;quot;^2.2.1&amp;quot;, &amp;quot;codecov&amp;quot;: &amp;quot;^1.0.1&amp;quot;, &amp;quot;eslint&amp;quot;: &amp;quot;^3.4.0&amp;quot;, &amp;quot;json-loader&amp;quot;: &amp;quot;^0.5.4&amp;quot;, &amp;quot;karma&amp;quot;: &amp;quot;^1.2.0&amp;quot;, &amp;quot;karma-coverage&amp;quot;: &amp;quot;^1.1.1&amp;quot;, &amp;quot;karma-firefox-launcher&amp;quot;: &amp;quot;^1.0.0&amp;quot;, &amp;quot;karma-mocha&amp;quot;: &amp;quot;^1.1.1&amp;quot;, &amp;quot;karma-sourcemap-loader&amp;quot;: &amp;quot;^0.3.7&amp;quot;, &amp;quot;karma-webpack&amp;quot;: &amp;quot;^1.8.0&amp;quot;, &amp;quot;mocha&amp;quot;: &amp;quot;^3.0.2&amp;quot;, &amp;quot;npm-run-all&amp;quot;: &amp;quot;^3.0.0&amp;quot;, &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;, &amp;quot;rimraf&amp;quot;: &amp;quot;^2.5.4&amp;quot;, &amp;quot;tslint&amp;quot;: &amp;quot;^3.15.1&amp;quot;, &amp;quot;typescript&amp;quot;: &amp;quot;^2.0.2&amp;quot;, &amp;quot;webpack&amp;quot;: &amp;quot;^1.13.2&amp;quot;, &amp;quot;webpack-espower-loader&amp;quot;: &amp;quot;^1.0.1&amp;quot; }  tsc ・ webpack しても問題ないように見えるが、 karma を通した場合 SyntaxError など出てきて非常に厳しい。
+https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample
+同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに こちらが動かない理由は不明、頭を悩ませる。</description>
     </item>
     
     <item>
       <title>TypeScript で coverage を計測する</title>
-      <link>https://9renpoto.github.io/blog/2016/08/20/coverage/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/20/coverage.html</link>
       <pubDate>Sat, 20 Aug 2016 14:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage/</guid>
-      <description>
-
-&lt;h1 id=&#34;typescriptでcoverage-reportを計測する&#34;&gt;TypeScriptでCoverage reportを計測する&lt;/h1&gt;
-
-&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/remap-istanbul&#34;&gt;remap-istanbul&lt;/a&gt; を使う&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;npm install remap-istanbul&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;sourcemap: true&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;memo&#34;&gt;Memo&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;tsc&lt;/code&gt; &amp;gt; &lt;code&gt;npm test&lt;/code&gt; という流れになったためJavaScriptとしてテストをする形になる&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.npmjs.com/package/espower-typescript&#34;&gt;espower-typescript&lt;/a&gt; を使わないようになる
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; はtscのwrapperなのでtscする場合は使えなそう&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;power-assert&lt;/code&gt; が上手く構造を解釈してくれてなさそう
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が担っていた役割を別で与える必要がある&lt;/li&gt;
-&lt;li&gt;TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない&lt;/li&gt;
-&lt;li&gt;TODO考える&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://blog.syati.info/post/typescript_coverage/&#34;&gt;http://blog.syati.info/post/typescript_coverage/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/ts/pull/34&#34;&gt;https://github.com/9renpoto/ts/pull/34&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage.html</guid>
+      <description> TypeScriptでCoverage reportを計測する TL;DR  remap-istanbul を使う  Usage  npm install remap-istanbul sourcemap: true  Memo  tsc &amp;gt; npm test という流れになったためJavaScriptとしてテストをする形になる espower-typescript を使わないようになる  espower-typescript はtscのwrapperなのでtscする場合は使えなそう  power-assert が上手く構造を解釈してくれてなさそう  espower-typescript が担っていた役割を別で与える必要がある TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない TODO考える   Refs  http://blog.syati.info/post/typescript_coverage/ https://github.com/9renpoto/ts/pull/34  </description>
     </item>
     
     <item>
       <title>TypeScript with power-assert</title>
-      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2.html</link>
       <pubDate>Thu, 11 Aug 2016 21:43:32 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</guid>
-      <description>
-
-&lt;h1 id=&#34;typescriptでpower-assertを使いたい&#34;&gt;TypeScriptでpower-assertを使いたい&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://9renpoto.github.io/blog/2016/06/23/typescript-module-test/&#34;&gt;TypeScriptテストについて&lt;/a&gt; 少し調べました。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/ts/pull/31&#34;&gt;https://github.com/9renpoto/ts/pull/31&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;原因&#34;&gt;原因&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;TypeScriptがファイルパスを相対パスか絶対パスのどちらかで返す場合がある
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825&#34;&gt;https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;対策&#34;&gt;対策&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/teppeis/typescript-simple/pull/47&#34;&gt;https://github.com/teppeis/typescript-simple/pull/47&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;悩み&#34;&gt;悩み&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;rootDir&lt;/code&gt;, &lt;code&gt;outDir&lt;/code&gt; の組み合わせで挙動が変わることを理解する必要がある&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rootDirs&lt;/code&gt; が入る（TypeScript 2.0~)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2.html</guid>
+      <description> TypeScriptでpower-assertを使いたい TypeScriptテストについて 少し調べました。
+ https://github.com/9renpoto/ts/pull/31  原因  TypeScriptがファイルパスを相対パスか絶対パスのどちらかで返す場合がある  https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825   対策  https://github.com/teppeis/typescript-simple/pull/47  悩み  rootDir, outDir の組み合わせで挙動が変わることを理解する必要がある rootDirs が入る（TypeScript 2.0~)  </description>
     </item>
     
     <item>
       <title>typescript test</title>
-      <link>https://9renpoto.github.io/blog/2016/06/23/module-test/</link>
+      <link>https://9renpoto.github.io/blog/2016/06/23/module-test.html</link>
       <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test/</guid>
-      <description>
-
-&lt;h1 id=&#34;typescriptの勉強を頑張ろう&#34;&gt;TypeScriptの勉強を頑張ろう&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/js/pull/19&#34;&gt;9renpoto/javascript/pull/19&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
-  &amp;quot;devDependencies&amp;quot;: {
-    &amp;quot;eslint&amp;quot;: &amp;quot;^2.13.1&amp;quot;,
-    &amp;quot;espower-typescript&amp;quot;: &amp;quot;^5.0.1&amp;quot;,
-    &amp;quot;mocha&amp;quot;: &amp;quot;^2.5.3&amp;quot;,
-    &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;,
-    &amp;quot;tslint&amp;quot;: &amp;quot;^3.11.0&amp;quot;,
-    &amp;quot;typescript-eslint-parser&amp;quot;: &amp;quot;0.1.0-alpha-1&amp;quot;,
-    &amp;quot;typings&amp;quot;: &amp;quot;^1.3.0&amp;quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;下記を満たす簡単なサンプルを書く。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;複数module&lt;/li&gt;
-&lt;li&gt;mochaによるテスト&lt;/li&gt;
-&lt;li&gt;power-assertによるテスト&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;espower-typescript&lt;/code&gt; が通らないので中身を見て調べる。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test.html</guid>
+      <description>TypeScriptの勉強を頑張ろう  9renpoto/javascript/pull/19  { &amp;quot;devDependencies&amp;quot;: { &amp;quot;eslint&amp;quot;: &amp;quot;^2.13.1&amp;quot;, &amp;quot;espower-typescript&amp;quot;: &amp;quot;^5.0.1&amp;quot;, &amp;quot;mocha&amp;quot;: &amp;quot;^2.5.3&amp;quot;, &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;, &amp;quot;tslint&amp;quot;: &amp;quot;^3.11.0&amp;quot;, &amp;quot;typescript-eslint-parser&amp;quot;: &amp;quot;0.1.0-alpha-1&amp;quot;, &amp;quot;typings&amp;quot;: &amp;quot;^1.3.0&amp;quot; } }  下記を満たす簡単なサンプルを書く。
+ 複数module mochaによるテスト power-assertによるテスト  espower-typescript が通らないので中身を見て調べる。</description>
     </item>
     
   </channel>

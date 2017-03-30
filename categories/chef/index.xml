@@ -2,117 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chef on :-)</title>
-    <link>https://9renpoto.github.io/categories/chef.xml</link>
+    <link>https://9renpoto.github.io/categories/chef.html</link>
     <description>Recent content in Chef on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/chef.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Dec 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/chef/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>入門chef</title>
-      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</link>
+      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef.html</link>
       <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</guid>
-      <description>
-
-&lt;h1 id=&#34;chef-memo&#34;&gt;chef memo&lt;/h1&gt;
-
-&lt;p&gt;環境構築といえば、chefだという噂を随分と聞くようになってきましたが、
-なんだかんだと使ってなかったのでメモ。
-とはいえ、レシピは誰かが書いてるので、
-今回は出来る限りレシピを使う方法で構築を目指す。&lt;/p&gt;
-
-&lt;h2 id=&#34;前準備&#34;&gt;前準備&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;# Gemfileに記載
-source &#39;https://rubygems。org&#39;  # URLの指定。呪文だと思って毎回書く
-
-gem &#39;berkshelf&#39;
-gem &#39;chef&#39;
-gem &#39;knife-solo&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;必要なgemをいつものように。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;chef-soloを使えるように初期設定を行う。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife configure
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;そろそろchef&#34;&gt;そろそろchef&lt;/h2&gt;
-
-&lt;p&gt;ひな形の生成。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ bundle exec knife solo init chef-repo
-$ tree chef-repo/
-chef-repo/
-├── cookbooks
-├── data_bags
-├── nodes
-├── roles
-├── site-cookbooks
-└── solo。rb
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;忘れないうちにコミット。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd chef-repo
-git init
-git add 。
-git commit -m &#39;first commit&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;公式なり、Githubにて公開されているレシピを利用しやすくるものとして &lt;strong&gt;Berksfile&lt;/strong&gt; があります。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-ruby&#34;&gt;site :opscode # Berksfile
-
-cookbook &amp;quot;apt&amp;quot;
-cookbook &amp;quot;git&amp;quot;
-cookbook &amp;quot;zsh&amp;quot;
-cookbook &#39;vim&#39;
-cookbook &#39;the_silver_searcher&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;公開されているレシピの情報を記述しておけば、コマンド1つで落としてこれます。
-便利。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec berks install --path cookbooks
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;vagrant側でchefが使えるように以下のコマンドを実行。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo prepare nodename
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;インストールしたいレシピを追加
-node/nodename.json。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;{
-  &amp;quot;run_list&amp;quot;: [
-    &amp;quot;recipe[apt]&amp;quot;,
-    &amp;quot;recipe[git]&amp;quot;,
-    &amp;quot;recipe[zsh]&amp;quot;,
-    &amp;quot;recipe[vim]&amp;quot;,
-    &amp;quot;recipe[the_silver_searcher]&amp;quot;
-  ]
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;レシピはできたのでcookしましょう。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;bundle exec knife solo cook nodename
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://qiita.com/uchiunyo/items/5aa243f7a39ae443e10d&#34;&gt;qiita.com/uchiunyo/item&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef.html</guid>
+      <description>chef memo 環境構築といえば、chefだという噂を随分と聞くようになってきましたが、 なんだかんだと使ってなかったのでメモ。 とはいえ、レシピは誰かが書いてるので、 今回は出来る限りレシピを使う方法で構築を目指す。
+前準備 # Gemfileに記載 source &#39;https://rubygems。org&#39; # URLの指定。呪文だと思って毎回書く gem &#39;berkshelf&#39; gem &#39;chef&#39; gem &#39;knife-solo&#39;  必要なgemをいつものように。
+bundle install  chef-soloを使えるように初期設定を行う。
+bundle exec knife configure  そろそろchef ひな形の生成。
+$ bundle exec knife solo init chef-repo $ tree chef-repo/ chef-repo/ ├── cookbooks ├── data_bags ├── nodes ├── roles ├── site-cookbooks └── solo。rb  忘れないうちにコミット。
+cd chef-repo git init git add 。 git commit -m &#39;first commit&#39;  公式なり、Githubにて公開されているレシピを利用しやすくるものとして Berksfile があります。</description>
     </item>
     
   </channel>

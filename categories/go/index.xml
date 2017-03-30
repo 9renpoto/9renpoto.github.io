@@ -2,151 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on :-)</title>
-    <link>https://9renpoto.github.io/categories/go.xml</link>
+    <link>https://9renpoto.github.io/categories/go.html</link>
     <description>Recent content in Go on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/go.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Go Conference 2013 spring参加してきました #gocon</title>
-      <link>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring/</link>
+      <link>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring.html</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring/</guid>
-      <description>
-
-&lt;h1 id=&#34;go-conference参加メモ&#34;&gt;Go Conference参加メモ&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://lh5.googleusercontent.com/-QHzKGzPe248/UtoeV0tBZyI/AAAAAAAAEuA/zr0wYEPCETE/s583-no/IMG_0299.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;go言語で作るwebアプリ-tenntenn&#34;&gt;Go言語で作るWebアプリ @tenntenn&lt;/h2&gt;
-
-&lt;p&gt;HTTPサーバー簡単に書ける。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000#slide=id.gb8818ff4_2_0&#34;&gt;https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000#slide=id.gb8818ff4_2_0&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;go-on-appengine-najeira&#34;&gt;Go on AppEngine @najeira&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Go言語のメリット
-
-&lt;ul&gt;
-&lt;li&gt;簡単&lt;/li&gt;
-&lt;li&gt;Nativeで速い、少メモリ&lt;/li&gt;
-&lt;li&gt;モダン（並列、型推論、Stractual subtyping(部分型）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;AppEngineのメリット
-
-&lt;ul&gt;
-&lt;li&gt;保守しなくてよいので開発に集中できる&lt;/li&gt;
-&lt;li&gt;大規模、伸縮&lt;/li&gt;
-&lt;li&gt;モダン（TQ、memcachedサポート）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Testing
-
-&lt;ul&gt;
-&lt;li&gt;AppEngine上でGo言語だけでテストを行うことは難しい&lt;/li&gt;
-&lt;li&gt;testbed &lt;a href=&#34;https://github.com/najeira/testbed&#34;&gt;https://github.com/najeira/testbed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Goの優位性
-
-&lt;ul&gt;
-&lt;li&gt;起動が速い（AppEngineとの相性は良い）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;速度についての補足
-
-&lt;ul&gt;
-&lt;li&gt;常にGoが速いというわけではない（I/O、etc)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;まだ完全以降にコストかけて頑張るほどのノウハウはたまってない&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;gorutine-and-channel-jxck&#34;&gt;Gorutine and channel @Jxck_&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;メモ漏れ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;go-schaduler-methane&#34;&gt;Go Schaduler @methane&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/methane/5377227#file-goscheduler-md&#34;&gt;https://gist.github.com/methane/5377227#file-goscheduler-md&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Goroutine&lt;/li&gt;
-&lt;li&gt;奥が深い&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;goのどのあたりが良いか鵜飼さん&#34;&gt;Goのどのあたりが良いか鵜飼さん&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Goの第一印象
-
-&lt;ul&gt;
-&lt;li&gt;慣れた言語から見ると違和感がある&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;設計方針
-&lt;code&gt;markdown
-many on the decisions in Go are motivated by experience working on
-and maintaing large code bases at Google.
-&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;書きやすさより読みやすさ、修正しやすさ&lt;/li&gt;
-&lt;li&gt;シンプルな仕様、簡潔な文法&lt;/li&gt;
-&lt;li&gt;細部まできちんと考えたコードを書くようになる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;型宣言
-
-&lt;ul&gt;
-&lt;li&gt;逆&lt;/li&gt;
-&lt;li&gt;これは複雑な変数定義を行った際に分かりやすい&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;コメント書くぐらいならコンパイラーにチェックさせろよ&lt;/li&gt;
-&lt;li&gt;クラス
-
-&lt;ul&gt;
-&lt;li&gt;型定義&lt;/li&gt;
-&lt;li&gt;型に対してメソッドを追加する&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;使われないコード
-
-&lt;ul&gt;
-&lt;li&gt;Goはコンパイルエラーを徹底的に出す&lt;/li&gt;
-&lt;li&gt;大規模なコードになってきたとき、容易に肥大化してしまう問題を防ぐ&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;エラー処理
-
-&lt;ul&gt;
-&lt;li&gt;try ~ catchにしたがる&lt;/li&gt;
-&lt;li&gt;制御の流れが複雑になる&lt;/li&gt;
-&lt;li&gt;変なGOTOをしているような感じ&lt;/li&gt;
-&lt;li&gt;基本的にエラーはその場で処理させる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;無題-moriyoshi&#34;&gt;無題 @moriyoshi&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Goでゲームを作るためのライブラリー紹介
-
-&lt;ul&gt;
-&lt;li&gt;画面出力&lt;/li&gt;
-&lt;li&gt;SDL系： go-sdl / gosdl&lt;/li&gt;
-&lt;li&gt;OpenGL系： gl / GoGL&lt;/li&gt;
-&lt;li&gt;音&lt;/li&gt;
-&lt;li&gt;portaudio-go / go-openal / pulsego&lt;/li&gt;
-&lt;li&gt;入力&lt;/li&gt;
-&lt;li&gt;入力のSDL系は標準でできる&lt;/li&gt;
-&lt;li&gt;OpenGL系ではGo-GLUT / glfwなど使える&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/moriyoshi/gohex&#34;&gt;https://github.com/moriyoshi/gohex&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring.html</guid>
+      <description>Go Conference参加メモ Go言語で作るWebアプリ @tenntenn HTTPサーバー簡単に書ける。
+ https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000#slide=id.gb8818ff4_2_0  Go on AppEngine @najeira  Go言語のメリット  簡単 Nativeで速い、少メモリ モダン（並列、型推論、Stractual subtyping(部分型）  AppEngineのメリット  保守しなくてよいので開発に集中できる 大規模、伸縮 モダン（TQ、memcachedサポート）  Testing  AppEngine上でGo言語だけでテストを行うことは難しい testbed https://github.com/najeira/testbed  Goの優位性  起動が速い（AppEngineとの相性は良い）  速度についての補足  常にGoが速いというわけではない（I/O、etc)  まだ完全以降にコストかけて頑張るほどのノウハウはたまってない  Gorutine and channel @Jxck_  メモ漏れ  Go Schaduler @methane  https://gist.github.com/methane/5377227#file-goscheduler-md  Goroutine 奥が深い   Goのどのあたりが良いか鵜飼さん  Goの第一印象  慣れた言語から見ると違和感がある  設計方針 markdown many on the decisions in Go are motivated by experience working on and maintaing large code bases at Google.</description>
     </item>
     
   </channel>

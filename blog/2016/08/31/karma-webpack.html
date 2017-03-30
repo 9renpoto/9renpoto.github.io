@@ -1,0 +1,29 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="https://9renpoto.github.io/ico/favicon.ico"><link rel="stylesheet" href="https://9renpoto.github.io/assets/delic.bundle.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><script async src="https://9renpoto.github.io/assets/delic.bundle.js"></script><title>TypeScript のテスト環境を考える</title><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TD87SR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-TD87SR");</script></head><body role="document" data-twttr-rendered="true"><div class="nav"><div class="nav-left"><a class="nav-item title" href="/">:-)</a></div><div class="nav-right nav-menu"><a class="nav-item" href="https://github.com/9renpoto"><span class="icon"><i class="fa fa-github"></i></span> </a><a class="nav-item" href="https://www.facebook.com/9renpoto"><span class="icon"><i class="fa fa-facebook"></i></span> </a><a class="nav-item" href="https://twitter.com/9renpoto"><span class="icon"><i class="fa fa-twitter"></i></span> </a><a class="nav-item" href="https://www.youtube.com/channel/UCHkajp8KwHzG-88kcNoRAbw"><span class="icon"><i class="fa fa-youtube"></i></span> </a><a class="nav-item" href="https://9renpoto.github.io/blog.html">blog</a> <a class="nav-item" href="https://9renpoto.github.io/profile/">profile</a> <a class="nav-item" href="https://9renpoto.github.io/slides/">slides</a></div></div><article role="main" class="post"><header><section class="hero is-primary"><div class="hero-body"><div class="container"><h1 class="title"><a href="https://9renpoto.github.io/blog/2016/08/31/karma-webpack.html">TypeScript のテスト環境を考える</a></h1><h2 class="subtitle"><div class="columns"><div class="column"><time datetime="2016-08-31T21:26:35&#43;09:00">August 31, 2016</time></div></div></h2></div></div></section></header><section class="section"><div class="container is-fluid"><div class="content"><h1 id="上手く動かない">上手く動かない</h1><p><a href="https://travis-ci.org/9renpoto/ts/builds/156475663">https://travis-ci.org/9renpoto/ts/builds/156475663</a></p><ul><li>アバウトな構成</li></ul><pre><code class="language-js">&quot;devDependencies&quot;: {
+  &quot;@9renpoto/eslint-config&quot;: &quot;^1.1.0&quot;,
+  &quot;@9renpoto/tslint-config&quot;: &quot;^1.0.0&quot;,
+  &quot;@types/mocha&quot;: &quot;^2.2.31&quot;,
+  &quot;@types/power-assert&quot;: &quot;0.0.27&quot;,
+  &quot;awesome-typescript-loader&quot;: &quot;^2.2.1&quot;,
+  &quot;codecov&quot;: &quot;^1.0.1&quot;,
+  &quot;eslint&quot;: &quot;^3.4.0&quot;,
+  &quot;json-loader&quot;: &quot;^0.5.4&quot;,
+  &quot;karma&quot;: &quot;^1.2.0&quot;,
+  &quot;karma-coverage&quot;: &quot;^1.1.1&quot;,
+  &quot;karma-firefox-launcher&quot;: &quot;^1.0.0&quot;,
+  &quot;karma-mocha&quot;: &quot;^1.1.1&quot;,
+  &quot;karma-sourcemap-loader&quot;: &quot;^0.3.7&quot;,
+  &quot;karma-webpack&quot;: &quot;^1.8.0&quot;,
+  &quot;mocha&quot;: &quot;^3.0.2&quot;,
+  &quot;npm-run-all&quot;: &quot;^3.0.0&quot;,
+  &quot;power-assert&quot;: &quot;^1.4.1&quot;,
+  &quot;rimraf&quot;: &quot;^2.5.4&quot;,
+  &quot;tslint&quot;: &quot;^3.15.1&quot;,
+  &quot;typescript&quot;: &quot;^2.0.2&quot;,
+  &quot;webpack&quot;: &quot;^1.13.2&quot;,
+  &quot;webpack-espower-loader&quot;: &quot;^1.0.1&quot;
+}
+</code></pre><p><code>tsc</code> ・ <code>webpack</code> しても問題ないように見えるが、 <code>karma</code> を通した場合 <code>SyntaxError</code> など出てきて非常に厳しい。</p><p><a href="https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample">https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample</a></p><p>同様の構成で先に検証頂いているものを発見するも、現在構成との違いの無さに こちらが動かない理由は不明、頭を悩ませる。</p></div></div></section><section class="section"><a class="button is-info" href="https://9renpoto.github.io/categories/typescript/">typescript </a><a class="button is-info" href="https://9renpoto.github.io/categories/karma/">karma </a><a class="button is-info" href="https://9renpoto.github.io/categories/mocha/">mocha </a><a class="button is-info" href="https://9renpoto.github.io/categories/power-assert/">power-assert</a></section></article></body></html>

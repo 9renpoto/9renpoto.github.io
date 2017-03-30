@@ -2,78 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on :-)</title>
-    <link>https://9renpoto.github.io/categories/hugo.xml</link>
+    <link>https://9renpoto.github.io/categories/hugo.html</link>
     <description>Recent content in Hugo on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/hugo.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 May 2015 22:54:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>create hugo theme</title>
-      <link>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme/</link>
+      <link>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme.html</link>
       <pubDate>Mon, 11 May 2015 22:54:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme/</guid>
-      <description>
-
-&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ブログを &lt;code&gt;octpress&lt;/code&gt; から &lt;code&gt;hugo&lt;/code&gt; へ移行しました&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/delic&#34;&gt;hugo theme&lt;/a&gt; 書きました&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;themeを書くために&#34;&gt;themeを書くために&lt;/h2&gt;
-
-&lt;p&gt;cmd1つでテンプレート作成。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;$ hugo new theme foo
-.
-└── themes
-    └── foo
-    ├── LICENSE.md
-    ├── archetypes
-    │   └── default.md
-    ├── layouts
-    │   ├── _default
-    │   │   ├── list.html
-    │   │   └── single.html
-    │   ├── index.html
-    │   └── partials
-    │       ├── footer.html
-    │       └── header.html
-    ├── static
-    │   ├── css
-    │   └── js
-    └── theme.toml
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/templates/overview/&#34;&gt;Document&lt;/a&gt; がよくまとまっていますので参考に。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;このあたりが特にお世話になりました
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gohugo.io/templates/functions/&#34;&gt;functions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://gohugo.io/templates/variables/&#34;&gt;variables&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;layouts/_default&lt;/code&gt; 以外の使い方調べる&lt;/li&gt;
-&lt;li&gt;rss作成&lt;/li&gt;
-&lt;li&gt;bower installするbuild script&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;感想&#34;&gt;感想&lt;/h2&gt;
-
-&lt;p&gt;octpressの時はtheme流用してたので手作りも勉強になりました。&lt;/p&gt;
-
-&lt;p&gt;t32kさんの&lt;a href=&#34;https://github.com/t32k/mol&#34;&gt;mol&lt;/a&gt;を参考（ほぼコピー&amp;amp;ペーストして）に作りました
-ありがとうございます。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme.html</guid>
+      <description>TL;DR  ブログを octpress から hugo へ移行しました hugo theme 書きました  themeを書くために cmd1つでテンプレート作成。
+$ hugo new theme foo . └── themes └── foo ├── LICENSE.md ├── archetypes │ └── default.md ├── layouts │ ├── _default │ │ ├── list.html │ │ └── single.html │ ├── index.html │ └── partials │ ├── footer.html │ └── header.html ├── static │ ├── css │ └── js └── theme.toml  Document がよくまとまっていますので参考に。
+ このあたりが特にお世話になりました  functions variables   TODO  layouts/_default 以外の使い方調べる rss作成 bower installするbuild script  感想 octpressの時はtheme流用してたので手作りも勉強になりました。</description>
     </item>
     
   </channel>

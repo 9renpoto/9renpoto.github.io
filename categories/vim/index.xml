@@ -2,173 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on :-)</title>
-    <link>https://9renpoto.github.io/categories/vim.xml</link>
+    <link>https://9renpoto.github.io/categories/vim.html</link>
     <description>Recent content in Vim on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/vim.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2016 14:03:55 +0900</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>neovim 導入</title>
-      <link>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</link>
+      <link>https://9renpoto.github.io/blog/2016/12/17/first-nvim.html</link>
       <pubDate>Sat, 17 Dec 2016 14:03:55 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</guid>
-      <description>
-
-&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;neovimは早いように感じる&lt;/li&gt;
-&lt;li&gt;lua拡張は動かない様子&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;公式の通りですんなり入りました。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-rb&#34;&gt;# Brewfile
-
-tap &#39;neovim/neovim&#39;
-brew &#39;neovim&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;~/.vimrc&lt;/code&gt; を見ていないようなので調整&lt;/li&gt;
-&lt;li&gt;基本的に設定は使い回せる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-zsh&#34;&gt;export XDG_CONFIG_HOME=~/src/github.com/9renpoto/dotfiles/.config
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;neocompleteが使えないようだがこの際プラグインを見直したいので一旦保留。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/dotfiles/pull/45&#34;&gt;https://github.com/9renpoto/dotfiles/pull/45&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://giginet.hateblo.jp/entry/2015/11/24/203823&#34;&gt;http://giginet.hateblo.jp/entry/2015/11/24/203823&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/12/17/first-nvim.html</guid>
+      <description> TL;DR  neovimは早いように感じる lua拡張は動かない様子  Install 公式の通りですんなり入りました。
+# Brewfile tap &#39;neovim/neovim&#39; brew &#39;neovim&#39;  Usage  ~/.vimrc を見ていないようなので調整 基本的に設定は使い回せる  export XDG_CONFIG_HOME=~/src/github.com/9renpoto/dotfiles/.config  neocompleteが使えないようだがこの際プラグインを見直したいので一旦保留。
+ https://github.com/9renpoto/dotfiles/pull/45  Refs  http://giginet.hateblo.jp/entry/2015/11/24/203823  </description>
     </item>
     
     <item>
       <title>EscでIMEを抜ける</title>
-      <link>https://9renpoto.github.io/blog/2014/07/11/escape-ime/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/11/escape-ime.html</link>
       <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/11/escape-ime/</guid>
-      <description>
-
-&lt;h1 id=&#34;vimなど使ってるとescapeしてimeが残ってるとイライライラ&#34;&gt;vimなど使ってるとEscapeしてIMEが残ってるとイライライラ&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://nobeans.hatenablog.com/entry/20090211/1234326782&#34;&gt;ESCで確実にIMEをオフにする&lt;/a&gt;を参考に設定を反映してみるも直ってないご様子。&lt;/p&gt;
-
-&lt;p&gt;どうもGoogleIMEには神設定があるらしい。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/64daf9848e558c14efc0df858aef8388.png&#34; alt=&#34;image-googe-input&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;これで &lt;code&gt;Esc&lt;/code&gt; を使って快適に抜けられる最高。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/2708f90efe1cebb5d4f5aad5195b1ce8.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;参考&#34;&gt;参考&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Vimでコマンドモードに戻るときIMEをオフにする &lt;code&gt;hotolab.net/blog/vim_ime&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://nobeans.hatenablog.com/entry/20090211/1234326782&#34;&gt;ESCで確実にIMEをオフにする&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2014/07/11/escape-ime.html</guid>
+      <description> vimなど使ってるとEscapeしてIMEが残ってるとイライライラ ESCで確実にIMEをオフにするを参考に設定を反映してみるも直ってないご様子。
+どうもGoogleIMEには神設定があるらしい。
+これで Esc を使って快適に抜けられる最高。
+参考  Vimでコマンドモードに戻るときIMEをオフにする hotolab.net/blog/vim_ime ESCで確実にIMEをオフにする  </description>
     </item>
     
     <item>
       <title>コメントを楽に入れる</title>
-      <link>https://9renpoto.github.io/blog/2014/07/07/comment/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/07/comment.html</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/07/comment/</guid>
-      <description>
-
-&lt;h1 id=&#34;comment&#34;&gt;comment&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/4018e5f5ca75f1d8e374584233ad577a.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;vimだと矩形選択で頑張れるから甘えてましたが
-atomなど使っているとcommentショートカットが便利で
-良く使います。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/d7058adad30b488c066ff44fac5c376b.gif&#34; alt=&#34;image2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;vimでも使えるようにしました
-便利。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2014/07/07/comment.html</guid>
+      <description>comment vimだと矩形選択で頑張れるから甘えてましたが atomなど使っているとcommentショートカットが便利で 良く使います。
+vimでも使えるようにしました 便利。</description>
     </item>
     
     <item>
       <title>括弧の入力には欠かせない</title>
-      <link>https://9renpoto.github.io/blog/2014/07/06/surround/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/06/surround.html</link>
       <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/06/surround/</guid>
-      <description>
-
-&lt;h1 id=&#34;surround&#34;&gt;Surround&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/b1e2f9fd3623adf1a00afaf738c900de.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;surround.vim便利
-sublime-textでも使えるようですが
-atomの公式パッケージにも早くほしい。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2014/07/06/surround.html</guid>
+      <description>Surround surround.vim便利 sublime-textでも使えるようですが atomの公式パッケージにも早くほしい。</description>
     </item>
     
     <item>
       <title>GitGutter便利すぎ</title>
-      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter.html</link>
       <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</guid>
-      <description>
-
-&lt;h1 id=&#34;gutter&#34;&gt;Gutter&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/9dda194e4854fcbe6f09e39c99f91273.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;githubなどで開発しているとPRが便利で
-良くコードを見るようになりました
-意味のないコード差分などはできれば出したくない。&lt;/p&gt;
-
-&lt;p&gt;sublime, atomにもあってvimにはないのか
-と思ってたら検索して3分で見つかりました。&lt;/p&gt;
-
-&lt;p&gt;最高です。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/airblade/vim-gitgutter&#34;&gt;vim-gitgutter&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter.html</guid>
+      <description>Gutter githubなどで開発しているとPRが便利で 良くコードを見るようになりました 意味のないコード差分などはできれば出したくない。
+sublime, atomにもあってvimにはないのか と思ってたら検索して3分で見つかりました。
+最高です。
+vim-gitgutter</description>
     </item>
     
     <item>
       <title>同じkeyのハッシュのを作る時の操作</title>
-      <link>https://9renpoto.github.io/blog/2014/07/03/v-line/</link>
+      <link>https://9renpoto.github.io/blog/2014/07/03/v-line.html</link>
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/03/v-line/</guid>
-      <description>
-
-&lt;h1 id=&#34;v-line-edit&#34;&gt;v-line edit&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.gyazo.com/aa2a62f42d40670cbfb4a9edb48e0ed0.gif&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;同じ変数名を利用してハッシュのようなものを作成するときに
-情弱で、愚直な操作をしてしまっている。
-もっと簡単に入力する方法を知りたい。
-atomやsublime-textでは、さらに愚直に入力しており良い方法がないか知りたい。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2014/07/03/v-line.html</guid>
+      <description>v-line edit 同じ変数名を利用してハッシュのようなものを作成するときに 情弱で、愚直な操作をしてしまっている。 もっと簡単に入力する方法を知りたい。 atomやsublime-textでは、さらに愚直に入力しており良い方法がないか知りたい。</description>
     </item>
     
   </channel>

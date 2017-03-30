@@ -2,59 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neovim on :-)</title>
-    <link>https://9renpoto.github.io/categories/neovim.xml</link>
+    <link>https://9renpoto.github.io/categories/neovim.html</link>
     <description>Recent content in Neovim on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/neovim.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2016 14:03:55 +0900</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/neovim/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>neovim 導入</title>
-      <link>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</link>
+      <link>https://9renpoto.github.io/blog/2016/12/17/first-nvim.html</link>
       <pubDate>Sat, 17 Dec 2016 14:03:55 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</guid>
-      <description>
-
-&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;neovimは早いように感じる&lt;/li&gt;
-&lt;li&gt;lua拡張は動かない様子&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;公式の通りですんなり入りました。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-rb&#34;&gt;# Brewfile
-
-tap &#39;neovim/neovim&#39;
-brew &#39;neovim&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;~/.vimrc&lt;/code&gt; を見ていないようなので調整&lt;/li&gt;
-&lt;li&gt;基本的に設定は使い回せる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-zsh&#34;&gt;export XDG_CONFIG_HOME=~/src/github.com/9renpoto/dotfiles/.config
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;neocompleteが使えないようだがこの際プラグインを見直したいので一旦保留。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/9renpoto/dotfiles/pull/45&#34;&gt;https://github.com/9renpoto/dotfiles/pull/45&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;refs&#34;&gt;Refs&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://giginet.hateblo.jp/entry/2015/11/24/203823&#34;&gt;http://giginet.hateblo.jp/entry/2015/11/24/203823&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/12/17/first-nvim.html</guid>
+      <description> TL;DR  neovimは早いように感じる lua拡張は動かない様子  Install 公式の通りですんなり入りました。
+# Brewfile tap &#39;neovim/neovim&#39; brew &#39;neovim&#39;  Usage  ~/.vimrc を見ていないようなので調整 基本的に設定は使い回せる  export XDG_CONFIG_HOME=~/src/github.com/9renpoto/dotfiles/.config  neocompleteが使えないようだがこの際プラグインを見直したいので一旦保留。
+ https://github.com/9renpoto/dotfiles/pull/45  Refs  http://giginet.hateblo.jp/entry/2015/11/24/203823  </description>
     </item>
     
   </channel>

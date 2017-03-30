@@ -2,237 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on :-)</title>
-    <link>https://9renpoto.github.io/categories/angular.xml</link>
+    <link>https://9renpoto.github.io/categories/angular.html</link>
     <description>Recent content in Angular on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/angular.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Sep 2016 10:02:40 +0900</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/angular/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>#html5j 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</link>
+      <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609.html</link>
       <pubDate>Sat, 03 Sep 2016 10:02:40 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</guid>
-      <description>
-
-&lt;h1 id=&#34;html5j&#34;&gt;html5j&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://events.html5j.org/conference/2016/9/assets/img/header/logo.svg&#34; alt=&#34;logo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://events.html5j.org/conference/2016/9/&#34;&gt;http://events.html5j.org/conference/2016/9/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;基調講演&#34;&gt;基調講演&lt;/h2&gt;
-
-&lt;p&gt;speaker: 中村修。&lt;/p&gt;
-
-&lt;p&gt;大規模分散オペレーティングシステム。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HDR&lt;/li&gt;
-&lt;li&gt;WebはWeb以外に存在するデータ表現を全てできるべき&lt;/li&gt;
-&lt;li&gt;全てinternetの上にある発想
-
-&lt;ol&gt;
-&lt;li&gt;Big Data&lt;/li&gt;
-&lt;li&gt;AI&lt;/li&gt;
-&lt;li&gt;IoT&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;Distributed Operating System&lt;/li&gt;
-&lt;li&gt;縦書きcss
-
-&lt;ul&gt;
-&lt;li&gt;日本頑張ってる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;speaker: 及川卓也。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;IE7担当してました&lt;/li&gt;
-&lt;li&gt;アプリケーションとしてのWeb
-
-&lt;ul&gt;
-&lt;li&gt;API&lt;/li&gt;
-&lt;li&gt;Web Components&lt;/li&gt;
-&lt;li&gt;PWApps&lt;/li&gt;
-&lt;li&gt;Service Worker&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;モバイルデバイスの普及
-
-&lt;ul&gt;
-&lt;li&gt;ニュースキュレーションアプリ&lt;/li&gt;
-&lt;li&gt;AMP&lt;/li&gt;
-&lt;li&gt;CMSやツールに依存している場合&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;今こそWebに再投資しよう&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;reactの最新動向とベストプラクティス&#34;&gt;Reactの最新動向とベストプラクティス&lt;/h2&gt;
-
-&lt;p&gt;speaker: @koba04&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Stateless Function Components(SFC)&lt;/li&gt;
-&lt;li&gt;stateはviewに関係あるものだけで十分&lt;/li&gt;
-&lt;li&gt;React.PureComponent(v15.3.0~)
-
-&lt;ul&gt;
-&lt;li&gt;ShoudComponentUpdateに類似（後で調べる）&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;react-addons-perf&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;計測ツール&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;React.createClass
-
-&lt;ul&gt;
-&lt;li&gt;徐々に非推奨&lt;/li&gt;
-&lt;li&gt;React.Componentへ&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;High Order Function
-
-&lt;ul&gt;
-&lt;li&gt;関数型っぽい&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;acdlite/recomponse&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;stateの管理
-
-&lt;ul&gt;
-&lt;li&gt;なるべく一箇所で管理&lt;/li&gt;
-&lt;li&gt;Redux&lt;/li&gt;
-&lt;li&gt;Container Component
-
-&lt;ul&gt;
-&lt;li&gt;更新処理・状態管理&lt;/li&gt;
-&lt;li&gt;DOMを持たない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Presentational Component
-
-&lt;ul&gt;
-&lt;li&gt;Viewの構築を担う&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Componentをテストする
-
-&lt;ul&gt;
-&lt;li&gt;TestUtil.renderInfoDocument&lt;/li&gt;
-&lt;li&gt;shallowRender&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;react-test-renderer&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;開発をサポートするツール
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/zalmoxisus/redux-devtools-extension&#34;&gt;https://github.com/zalmoxisus/redux-devtools-extension&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/storybooks/react-storybook&#34;&gt;https://github.com/storybooks/react-storybook&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;service-worker-deep-dive&#34;&gt;Service Worker Deep Dive&lt;/h2&gt;
-
-&lt;p&gt;speaker: @horo&lt;/p&gt;
-
-&lt;p&gt;slide: &lt;a href=&#34;https://docs.google.com/presentation/d/19x3yi7Jn-6In5igGYfEiK0tBfNI290BAclT0AiqDj4Q/pub?slide=id.p&#34;&gt;https://docs.google.com/presentation/d/19x3yi7Jn-6In5igGYfEiK0tBfNI290BAclT0AiqDj4Q/pub?slide=id.p&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://jakearchibald.github.io/isserviceworkerready/&#34;&gt;https://jakearchibald.github.io/isserviceworkerready/&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;stream
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/19x3yi7Jn-6In5igGYfEiK0tBfNI290BAclT0AiqDj4Q/pub?slide=id.g1641acac50_0_0&#34;&gt;https://docs.google.com/presentation/d/19x3yi7Jn-6In5igGYfEiK0tBfNI290BAclT0AiqDj4Q/pub?slide=id.g1641acac50_0_0&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;徐々に読み込んで処理できる&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;ReadableStream&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Unified Media Pipeline (android)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Usage
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;rel=serviceworker&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;the-first-step-to-angular-2&#34;&gt;The First Step to Angular 2&lt;/h2&gt;
-
-&lt;p&gt;speaker: @laco0416&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Official Packages
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;@angular/core&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@angular/forms&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@angular/http&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@angular/router&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;TypeScript
-
-&lt;ul&gt;
-&lt;li&gt;常に正しいAPI&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;API
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;@component&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@input&lt;/code&gt; / &lt;code&gt;@output&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@directive&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@pipe&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;@NgModule&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;webパフォーマンス最前線&#34;&gt;Webパフォーマンス最前線&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;High Performance Web User Interface
-
-&lt;ul&gt;
-&lt;li&gt;パフォーマンスに対する優先度&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;RAIL&lt;/code&gt; &lt;a href=&#34;http://furoshiki.hatenadiary.jp/entry/2015/06/01/122537&#34;&gt;http://furoshiki.hatenadiary.jp/entry/2015/06/01/122537&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Response&lt;/li&gt;
-&lt;li&gt;Animation&lt;/li&gt;
-&lt;li&gt;Idle&lt;/li&gt;
-&lt;li&gt;Loa&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;transform: translateZ(0)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;凶悪&lt;/li&gt;
-&lt;li&gt;Web標準： &lt;code&gt;will-change: transform&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reduce GPU Memory&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Scroll Performance
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;&amp;lt;img lazyload&amp;gt;&lt;/code&gt; :innocent:&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;intersectionObserver&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;throttle &lt;a href=&#34;http://blog.tsumikiinc.com/article/20141125_javascript-event-throttle.html&#34;&gt;http://blog.tsumikiinc.com/article/20141125_javascript-event-throttle.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;TODO調べる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Task Optimization
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://inside.pixiv.net/entry/2015/12/24/182248&#34;&gt;http://inside.pixiv.net/entry/2015/12/24/182248&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;progressive-web-appsの導入基礎&#34;&gt;Progressive Web Appsの導入基礎&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Push Notification
-
-&lt;ul&gt;
-&lt;li&gt;service worker&lt;/li&gt;
-&lt;li&gt;ユーザーの許諾を得て、メリットを提示してからやったほうが良い&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/kuu/the-offline-cookbook-ja/blob/master/ja.md&#34;&gt;https://github.com/kuu/the-offline-cookbook-ja/blob/master/ja.md&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2016/09/03/html5j-201609.html</guid>
+      <description>html5j http://events.html5j.org/conference/2016/9/
+基調講演 speaker: 中村修。
+大規模分散オペレーティングシステム。
+ HDR WebはWeb以外に存在するデータ表現を全てできるべき 全てinternetの上にある発想  Big Data AI IoT  Distributed Operating System 縦書きcss  日本頑張ってる   speaker: 及川卓也。
+ IE7担当してました アプリケーションとしてのWeb  API Web Components PWApps Service Worker  モバイルデバイスの普及  ニュースキュレーションアプリ AMP CMSやツールに依存している場合  今こそWebに再投資しよう  Reactの最新動向とベストプラクティス speaker: @koba04
+ Stateless Function Components(SFC) stateはviewに関係あるものだけで十分 React.PureComponent(v15.3.0~)  ShoudComponentUpdateに類似（後で調べる）  react-addons-perf  計測ツール  React.createClass  徐々に非推奨 React.Componentへ  High Order Function  関数型っぽい acdlite/recomponse  stateの管理  なるべく一箇所で管理 Redux Container Component  更新処理・状態管理 DOMを持たない  Presentational Component  Viewの構築を担う   Componentをテストする  TestUtil.</description>
     </item>
     
   </channel>

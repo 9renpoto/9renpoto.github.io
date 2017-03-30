@@ -2,44 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Elixir on :-)</title>
-    <link>https://9renpoto.github.io/categories/elixir.xml</link>
+    <link>https://9renpoto.github.io/categories/elixir.html</link>
     <description>Recent content in Elixir on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/elixir.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Dec 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/elixir/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>elixir install</title>
-      <link>https://9renpoto.github.io/blog/2012/12/20/install/</link>
+      <link>https://9renpoto.github.io/blog/2012/12/20/install.html</link>
       <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/12/20/install/</guid>
-      <description>
-
-&lt;h1 id=&#34;elixirはじめよう&#34;&gt;Elixirはじめよう&lt;/h1&gt;
-
-&lt;p&gt;Elixir楽しそうなので勉強はじめます
-まずはerlangのinstallから。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install erlang
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;erlangもbrewから入れられるなんて楽な世の中になったものです。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install elixir
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;brewだけでinstall終わり。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;Erlang R15B03 (erts-5.9.3.1) [source] [64-bit] [smp:4:4] [async-threads:0]
-[hipe] [kernel-poll:false] [dtrace]
-
-Interactive Elixir (0.7.2) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;terminalでiexと打つと正常に起動。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2012/12/20/install.html</guid>
+      <description>Elixirはじめよう Elixir楽しそうなので勉強はじめます まずはerlangのinstallから。
+brew install erlang  erlangもbrewから入れられるなんて楽な世の中になったものです。
+brew install elixir  brewだけでinstall終わり。
+Erlang R15B03 (erts-5.9.3.1) [source] [64-bit] [smp:4:4] [async-threads:0] [hipe] [kernel-poll:false] [dtrace] Interactive Elixir (0.7.2) - press Ctrl+C to exit (type h() ENTER for help) iex(1)&amp;gt;  terminalでiexと打つと正常に起動。</description>
     </item>
     
   </channel>

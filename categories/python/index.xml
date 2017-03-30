@@ -2,270 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on :-)</title>
-    <link>https://9renpoto.github.io/categories/python.xml</link>
+    <link>https://9renpoto.github.io/categories/python.html</link>
     <description>Recent content in Python on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <atom:link href="https://9renpoto.github.io/categories/python.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Mar 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://9renpoto.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>pyfes 2013/3</title>
-      <link>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</link>
+      <link>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03.html</link>
       <pubDate>Sat, 16 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</guid>
-      <description>
-
-&lt;h1 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://lh4.googleusercontent.com/-fe0PcN4vym0/UtoeWi_4knI/AAAAAAAAEuI/kgBwRtcB6hk/w437-h583-no/IMG_0230.JPG&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;今回も楽しいお話がたくさん聞けました。&lt;/p&gt;
-
-&lt;p&gt;ありがとうございました。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03.html</guid>
+      <description>TL;DR 今回も楽しいお話がたくさん聞けました。
+ありがとうございました。</description>
     </item>
     
     <item>
       <title>Python Developer Festa 参加してきました</title>
-      <link>https://9renpoto.github.io/blog/2012/11/24/developder-festa/</link>
+      <link>https://9renpoto.github.io/blog/2012/11/24/developder-festa.html</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/11/24/developder-festa/</guid>
-      <description>
-
-&lt;h1 id=&#34;python-developer-festa参加してきたので-そのメモ&#34;&gt;Python Developer Festa参加してきたので、そのメモ&lt;/h1&gt;
-
-&lt;h2 id=&#34;cloudera-impalaについて&#34;&gt;Cloudera Impalaについて&lt;/h2&gt;
-
-&lt;p&gt;@shiumachiさんより。&lt;/p&gt;
-
-&lt;h3 id=&#34;impalaとは&#34;&gt;Impalaとは&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤
-
-&lt;ul&gt;
-&lt;li&gt;google Dremel, Google F1などにインスパイアされて開発された&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;データサイエンティストが使うことを想定している&lt;/li&gt;
-&lt;li&gt;Hadoopはクエリの内容がメモリーに乗っからなかった場合、HDDに逃げちゃう&lt;/li&gt;
-&lt;li&gt;Impalaはオンメモリー上で頑張ろうとする&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;impala-support状況&#34;&gt;Impala support状況&lt;/h4&gt;
-
-&lt;h5 id=&#34;02時点&#34;&gt;02時点&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Trevni, RCFileのサポートは現状まだ、今後に対応予定&lt;/li&gt;
-&lt;li&gt;Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;なぜ開発されたのか&#34;&gt;なぜ開発されたのか&lt;/h3&gt;
-
-&lt;p&gt;Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる。&lt;/p&gt;
-
-&lt;p&gt;Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかったからです。&lt;/p&gt;
-
-&lt;h3 id=&#34;mapreduceとは&#34;&gt;MapReduceとは&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Apache MapReduceとは
-
-&lt;ul&gt;
-&lt;li&gt;バッチ処理を分散して行うシステム&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Apache Hive
-
-&lt;ul&gt;
-&lt;li&gt;SQLライクに書ける&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;MapReduceの問題
-
-&lt;ul&gt;
-&lt;li&gt;レイテンシが高い&lt;/li&gt;
-&lt;li&gt;小さいキューを出しても数十秒時間かかる&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;よくある質問&#34;&gt;よくある質問&lt;/h3&gt;
-
-&lt;h4 id=&#34;qもうhiveいらないんじゃない&#34;&gt;QもうHiveいらないんじゃない&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;定期的に実行を行うクエリなどはHiveのほうが適しているのではないか&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;qimpalaが落ちたらどうするの&#34;&gt;Qimpalaが落ちたらどうするの&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;クエリが全部こけます&lt;/li&gt;
-&lt;li&gt;JOINのサイズ制限あるの
-
-&lt;ul&gt;
-&lt;li&gt;あります&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;python-in-webkit&#34;&gt;Python in Webkit&lt;/h2&gt;
-
-&lt;p&gt;@omo2009さんより。&lt;/p&gt;
-
-&lt;h3 id=&#34;third-party-tools&#34;&gt;Third party Tools&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;WebKit
-
-&lt;ul&gt;
-&lt;li&gt;Buildbot&lt;/li&gt;
-&lt;li&gt;Trac&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;今回は-webkit-patch-について&#34;&gt;今回は &lt;code&gt;webkit-patch&lt;/code&gt; について&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;# Submitting for review
-webkit-patch post
-# Commiting a reviewd patch
-# Commit log は自動で書く
-webkit-patch land
-# Reverting specific version
-webkit-patch rollout
-#
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;プロジェクト特有の問題を解決するために使っている。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;watchlist
-suggest-reviewers
-suggest-nominations
-Bugzilla autocompletion
-IRC
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;誰にレビューしてもらえば良いかわからない&lt;/li&gt;
-&lt;li&gt;誰にレビューしてもらったか忘れちゃう&lt;/li&gt;
-&lt;li&gt;探すのに便利&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;IRCでレビューを頼むと断られにくい。&lt;/p&gt;
-
-&lt;h2 id=&#34;connpassについて&#34;&gt;Connpassについて&lt;/h2&gt;
-
-&lt;p&gt;@lanMLewis, @ae35
-概要と技術について。&lt;/p&gt;
-
-&lt;h3 id=&#34;connpassとは&#34;&gt;connpassとは&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;BePROUDで運営しているイベント支援サイト
-
-&lt;ul&gt;
-&lt;li&gt;&lt;sup&gt;2010&lt;/sup&gt;&amp;frasl;&lt;sub&gt;08&lt;/sub&gt; django dash&lt;/li&gt;
-&lt;li&gt;djangoを使って48時間でサービスを作ろう&lt;/li&gt;
-&lt;li&gt;既存のイベント支援サービス（ATND)使いにくいよね&lt;/li&gt;
-&lt;li&gt;作ってみよう&lt;/li&gt;
-&lt;li&gt;大事だと思ってること&lt;/li&gt;
-&lt;li&gt;実生活のつながり&lt;/li&gt;
-&lt;li&gt;共有・成長する&lt;/li&gt;
-&lt;li&gt;イベントから広がるコミュニティ&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;connpassで使われている技術&#34;&gt;connpassで使われている技術&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;サーバーサイド
-
-&lt;ul&gt;
-&lt;li&gt;MySQL&lt;/li&gt;
-&lt;li&gt;Redis&lt;/li&gt;
-&lt;li&gt;Django&lt;/li&gt;
-&lt;li&gt;Unix&lt;/li&gt;
-&lt;li&gt;Nginx&lt;/li&gt;
-&lt;li&gt;Gunicorn&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;クライアントサイド
-
-&lt;ul&gt;
-&lt;li&gt;CoffeeScript&lt;/li&gt;
-&lt;li&gt;REQUIRE JS&lt;/li&gt;
-&lt;li&gt;JavaScript怖い&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;php-language-update&#34;&gt;PHP Language Update&lt;/h2&gt;
-
-&lt;h3 id=&#34;php-5-5の目玉&#34;&gt;PHP 5.5の目玉&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ジェネレートとコールーチン
-
-&lt;ul&gt;
-&lt;li&gt;yieldキーワードの追加&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;foreachで変数分解だ&lt;/li&gt;
-&lt;li&gt;empty()の括弧内に変数以外が指定可能に&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;finally&lt;/code&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;try-catch-finally&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;なぜ今までになかったのか&lt;/li&gt;
-&lt;li&gt;fatal errorが発生すると &lt;code&gt;finaly&lt;/code&gt; が呼ばれない&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pythonでお仕事している人が日本にもたくさんいて嬉しいです。&lt;/p&gt;
-
-&lt;p&gt;発表者のみなさまおつかれさまでした。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2012/11/24/developder-festa.html</guid>
+      <description>Python Developer Festa参加してきたので、そのメモ Cloudera Impalaについて @shiumachiさんより。
+Impalaとは  Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤  google Dremel, Google F1などにインスパイアされて開発された  データサイエンティストが使うことを想定している Hadoopはクエリの内容がメモリーに乗っからなかった場合、HDDに逃げちゃう Impalaはオンメモリー上で頑張ろうとする  Impala support状況 02時点  Trevni, RCFileのサポートは現状まだ、今後に対応予定 Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい  なぜ開発されたのか Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる。
+Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかったからです。
+MapReduceとは  Apache MapReduceとは  バッチ処理を分散して行うシステム  Apache Hive  SQLライクに書ける  MapReduceの問題  レイテンシが高い 小さいキューを出しても数十秒時間かかる   よくある質問 QもうHiveいらないんじゃない  定期的に実行を行うクエリなどはHiveのほうが適しているのではないか  Qimpalaが落ちたらどうするの  クエリが全部こけます JOINのサイズ制限あるの  あります   Python in Webkit @omo2009さんより。
+Third party Tools  WebKit  Buildbot Trac   今回は webkit-patch について # Submitting for review webkit-patch post # Commiting a reviewd patch # Commit log は自動で書く webkit-patch land # Reverting specific version webkit-patch rollout #  プロジェクト特有の問題を解決するために使っている。</description>
     </item>
     
     <item>
       <title>python install</title>
-      <link>https://9renpoto.github.io/blog/2012/09/13/install/</link>
+      <link>https://9renpoto.github.io/blog/2012/09/13/install.html</link>
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/09/13/install/</guid>
-      <description>
-
-&lt;h1 id=&#34;first-python&#34;&gt;first Python&lt;/h1&gt;
-
-&lt;p&gt;Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から。&lt;/p&gt;
-
-&lt;h2 id=&#34;pythonのversion管理&#34;&gt;Pythonのversion管理&lt;/h2&gt;
-
-&lt;p&gt;Pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます。&lt;/p&gt;
-
-&lt;h2 id=&#34;pythonbrewの環境構築&#34;&gt;pythonbrewの環境構築&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;curl -kLO https://github.com/utahta/pythonbrew/raw/master/pythonbrew-install
-chmod +x pythonbrew-install
-./pythonbrew-install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;pythonbrewの環境変数を通す
-zshの場合でも以下の内容を書くらしい。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;[[ -s $HOME/.pythonbrew/etc/bashrc ]] &amp;amp;&amp;amp; source $HOME/.pythonbrew/etc/bashrc
-
-pythonbrew list -k # インストールできるversion確認
-pythonbrew update # pythonbrewのupdate
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;2系と3系の環境構築。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;pythonbrew install 2.7.2
-pythonbrew switch 2.7.2
-
-pythonbrew install 3.2
-pythonbrew switch 3.2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;virtualenvの環境はまた今度する。&lt;/p&gt;
-</description>
+      <guid>https://9renpoto.github.io/blog/2012/09/13/install.html</guid>
+      <description>first Python Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から。
+Pythonのversion管理 Pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます。
+pythonbrewの環境構築 curl -kLO https://github.com/utahta/pythonbrew/raw/master/pythonbrew-install chmod +x pythonbrew-install ./pythonbrew-install  pythonbrewの環境変数を通す zshの場合でも以下の内容を書くらしい。
+[[ -s $HOME/.pythonbrew/etc/bashrc ]] &amp;amp;&amp;amp; source $HOME/.pythonbrew/etc/bashrc pythonbrew list -k # インストールできるversion確認 pythonbrew update # pythonbrewのupdate  2系と3系の環境構築。
+pythonbrew install 2.7.2 pythonbrew switch 2.7.2 pythonbrew install 3.2 pythonbrew switch 3.2  virtualenvの環境はまた今度する。</description>
     </item>
     
   </channel>
