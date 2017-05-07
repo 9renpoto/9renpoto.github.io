@@ -6,10 +6,24 @@
     <description>Recent content in Blogs on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 26 Feb 2017 00:48:56 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 07 May 2017 15:39:59 +0900</lastBuildDate>
     
 	<atom:link href="https://9renpoto.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>prettier 事始め</title>
+      <link>https://9renpoto.github.io/blog/2017/05/07/prettier.html</link>
+      <pubDate>Sun, 07 May 2017 15:39:59 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/05/07/prettier.html</guid>
+      <description> prettier https://github.com/prettier
+eslint --fix が最高だと思っていたがまた新たにformatterが出たので依存する。
+eslint-config-prettier https://github.com/prettier/eslint-config-prettier
+ 設定  https://github.com/9renpoto/eslint-config/pull/25  困りごと  https://github.com/feross/eslint-config-standard に依存している（セミコロン除外）と現状相性が悪い issueがあるようなので今後見直す   prettier-eslint / prettier-eslint-cli  Code ➡️ prettier ➡️ eslint &amp;ndash;fix ➡️ Formatted Code ✨
+ https://github.com/prettier/prettier-atom に依存して様子を見る。 現状若干重い。 上記セミコロン問題の取りこぼしなどがあり鶏卵になる。
+TypeScript  https://github.com/eslint/typescript-eslint-parser とは干渉して動かない TypeScriptのformatも計画されているようで期待  </description>
+    </item>
     
     <item>
       <title>PS4破損</title>
