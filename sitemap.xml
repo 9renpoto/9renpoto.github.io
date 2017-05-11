@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</loc>
+    <lastmod>2017-05-11T00:41:58+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/blog/2017/05/07/prettier.html</loc>
     <lastmod>2017-05-07T15:39:59+09:00</lastmod>
   </url>
@@ -219,7 +224,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/</loc>
-    <lastmod>2017-05-07T15:39:59+09:00</lastmod>
+    <lastmod>2017-05-11T00:41:58+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -237,7 +242,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/blog.html</loc>
-    <lastmod>2017-05-07T15:39:59+09:00</lastmod>
+    <lastmod>2017-05-11T00:41:58+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -303,7 +308,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/categories/javascript.html</loc>
-    <lastmod>2017-05-07T15:39:59+09:00</lastmod>
+    <lastmod>2017-05-11T00:41:58+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -333,7 +338,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/categories/node.html</loc>
-    <lastmod>2017-05-07T15:39:59+09:00</lastmod>
+    <lastmod>2016-11-13T09:51:54+09:00</lastmod>
     <priority>0</priority>
   </url>
   

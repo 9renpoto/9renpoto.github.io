@@ -6,10 +6,22 @@
     <description>Recent content on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 07 May 2017 15:39:59 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 11 May 2017 00:41:58 +0900</lastBuildDate>
     
 	<atom:link href="https://9renpoto.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>prettier &lt; eslint</title>
+      <link>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</link>
+      <pubDate>Thu, 11 May 2017 00:41:58 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</guid>
+      <description> eslint-config-prettierは使わない 
+
+https://github.com/prettier/eslint-config-prettier
+ prettier で直してくれそうな機能を off にして干渉を回避する  linterにはならないので警告されない  pretter-atomの挙動が若干不審 prettierにconfig設定がないようなのでまだまだフォーマットが変わる  next  pretter-atom を読む  prettier-eslint が並行して動くことが最低条件  更新を見守る  特にstandard、Flowとの関係   </description>
+    </item>
     
     <item>
       <title>prettier 事始め</title>
@@ -18,6 +30,7 @@
       
       <guid>https://9renpoto.github.io/blog/2017/05/07/prettier.html</guid>
       <description> prettier https://github.com/prettier
+
 eslint --fix が最高だと思っていたがまた新たにformatterが出たので依存する。
 eslint-config-prettier https://github.com/prettier/eslint-config-prettier
  設定  https://github.com/9renpoto/eslint-config/pull/25  困りごと  https://github.com/feross/eslint-config-standard に依存している（セミコロン除外）と現状相性が悪い issueがあるようなので今後見直す   prettier-eslint / prettier-eslint-cli  Code ➡️ prettier ➡️ eslint &amp;ndash;fix ➡️ Formatted Code ✨
@@ -195,7 +208,7 @@ https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample
       <pubDate>Wed, 27 Jul 2016 19:31:28 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1.html</guid>
-      <description> Riot.js勉強会 #1  https://riotjs-jp.connpass.com/event/35724/  参加メモ  小さいライブラリーを維持するための努力は大変 セマンティックバージョニングは大事  悩み  web component時代のcss , htmlとの付き合い方  styleguideはどこまで責任を持つべきか web componentライブラリーを含めて書くべきか http://morishitter.hatenablog.com/entry/2016/07/29/204642 まだCSS Modulesを使うべきか個人レベルではわからない この記事を理解するための勉強あ必要   Next  styleguideを書く  https://github.com/9renpoto/react-components  riotを使った簡単なものを作る  https://github.com/9renpoto/profile   気持ち  できるだけ型のある世界で生きていく  </description>
+      <description> Riot.js勉強会 #1  https://riotjs-jp.connpass.com/event/35724/  参加メモ  小さいライブラリーを維持するための努力は大変 セマンティックバージョニングは大事  悩み  web component時代のcss , htmlとの付き合い方  styleguideはどこまで責任を持つべきか web componentライブラリーを含めて書くべきか http://morishitter.hatenablog.com/entry/2016/07/29/204642 まだCSS Modulesを使うべきか個人レベルではわからない この記事を理解するための勉強あ必要   Next  styleguideを書く  https://github.com/9renpoto/style  riotを使った簡単なものを作る  https://github.com/9renpoto/profile   気持ち  できるだけ型のある世界で生きていく  </description>
     </item>
     
     <item>
