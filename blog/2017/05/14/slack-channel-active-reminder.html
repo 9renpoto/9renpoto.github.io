@@ -1,0 +1,19 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="https://9renpoto.github.io/ico/favicon.ico"><link rel="stylesheet" href="https://9renpoto.github.io/assets/delic.bundle.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><script async src="https://9renpoto.github.io/assets/delic.bundle.js"></script><title>アクティブでなさそうなSlackチャンネルをArchiveお願いする</title><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TD87SR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-TD87SR");</script></head><body role="document" data-twttr-rendered="true"><div class="nav"><div class="nav-left"><a class="nav-item title" href="/">:-)</a></div><div class="nav-right nav-menu"><a class="nav-item" href="https://github.com/9renpoto"><span class="icon"><i class="fa fa-github"></i></span> </a><a class="nav-item" href="https://www.facebook.com/9renpoto"><span class="icon"><i class="fa fa-facebook"></i></span> </a><a class="nav-item" href="https://twitter.com/9renpoto"><span class="icon"><i class="fa fa-twitter"></i></span> </a><a class="nav-item" href="https://www.youtube.com/channel/UCHkajp8KwHzG-88kcNoRAbw"><span class="icon"><i class="fa fa-youtube"></i></span> </a><a class="nav-item" href="https://9renpoto.github.io/blog.html">blog</a> <a class="nav-item" href="https://9renpoto.github.io/profile/">profile</a> <a class="nav-item" href="https://9renpoto.github.io/slides/">slides</a></div></div><article role="main" class="post"><header><section class="hero is-primary"><div class="hero-body"><div class="container"><h1 class="title"><a href="https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html">アクティブでなさそうなSlackチャンネルをArchiveお願いする</a></h1><h2 class="subtitle"><div class="columns"><div class="column"><time datetime="2017-05-14T22:39:17&#43;09:00">May 14, 2017</time></div></div></h2></div></div></section></header><section class="section"><div class="container is-fluid"><div class="content"><h1 id="slack-channel-active-reminder">slack-channel-active-reminder</h1><p>書いたもの： <a href="https://github.com/9renpoto/slack-channel-active-reminder">https://github.com/9renpoto/slack-channel-active-reminder</a></p><p><img src="/images/slack-channel-active-reminder.png" alt="image"></p><p>slackの部屋は便利に増やしていけますが、 同じような部屋が散乱したり、入ってみたものの活動が薄かったり様々あるので 一定時間発言がない部屋に対してメッセージを送りつけるようなものを書いた。</p><h2 id="usage">Usage</h2><p>Cronなどと合わせて仕込んで良いタイミングで発言がなさそうなところに対してメッセージを送る。</p><pre><code class="language-javascript">const CronJob = require('cron').CronJob
+const Reminder = require('slack-channel-active-reminder').default
+
+const reminder = new Reminder()
+
+const job = new CronJob({
+  cronTime: '0 00 18 * * 1-5',
+  onTick: function () {
+    reminder.postRemindMessage()
+  },
+  start: false,
+  timeZone: 'Asia/Tokyo'
+})
+job.start()
+</code></pre><p>中身は <code>@slack/client</code> を使っているだけ。 便利なAPIが多いと助かる。</p></div></div></section><section class="section"><a class="button is-info" href="https://9renpoto.github.io/categories/slack/">slack </a><a class="button is-info" href="https://9renpoto.github.io/categories/javascript/">javascript</a></section></article></body></html>
