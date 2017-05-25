@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://9renpoto.github.io/blog/2017/05/25/variable-default.html</loc>
+    <lastmod>2017-05-25T20:42:10+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</loc>
     <lastmod>2017-05-14T22:39:17+09:00</lastmod>
   </url>
@@ -229,7 +234,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/</loc>
-    <lastmod>2017-05-14T22:39:17+09:00</lastmod>
+    <lastmod>2017-05-25T20:42:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,7 +252,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/blog.html</loc>
-    <lastmod>2017-05-14T22:39:17+09:00</lastmod>
+    <lastmod>2017-05-25T20:42:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -266,6 +271,12 @@
   <url>
     <loc>https://9renpoto.github.io/categories/chef.html</loc>
     <lastmod>2013-12-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://9renpoto.github.io/categories/css.html</loc>
+    <lastmod>2017-05-25T20:42:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -386,6 +397,12 @@
   <url>
     <loc>https://9renpoto.github.io/categories/scala.html</loc>
     <lastmod>2016-09-29T19:02:35+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://9renpoto.github.io/categories/scss.html</loc>
+    <lastmod>2017-05-25T20:42:10+09:00</lastmod>
     <priority>0</priority>
   </url>
   
