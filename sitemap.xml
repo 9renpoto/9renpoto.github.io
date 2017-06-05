@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</loc>
+    <lastmod>2017-06-05T11:08:23+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</loc>
     <lastmod>2017-05-27T20:28:25+09:00</lastmod>
   </url>
@@ -239,7 +244,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/</loc>
-    <lastmod>2017-05-27T20:28:25+09:00</lastmod>
+    <lastmod>2017-06-05T11:08:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -257,7 +262,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/blog.html</loc>
-    <lastmod>2017-05-27T20:28:25+09:00</lastmod>
+    <lastmod>2017-06-05T11:08:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -328,8 +333,14 @@
   </url>
   
   <url>
+    <loc>https://9renpoto.github.io/categories/i18n.html</loc>
+    <lastmod>2017-06-05T11:08:23+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/categories/javascript.html</loc>
-    <lastmod>2017-05-27T20:28:25+09:00</lastmod>
+    <lastmod>2017-06-05T11:08:23+09:00</lastmod>
     <priority>0</priority>
   </url>
   

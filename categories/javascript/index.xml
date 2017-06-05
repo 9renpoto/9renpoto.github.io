@@ -6,10 +6,21 @@
     <description>Recent content in Javascript on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 27 May 2017 20:28:25 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jun 2017 11:08:23 +0900</lastBuildDate>
     
 	<atom:link href="https://9renpoto.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>i18n-webpack-plugin所感</title>
+      <link>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</link>
+      <pubDate>Mon, 05 Jun 2017 11:08:23 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</guid>
+      <description> i18n-webpack-plugin i18n-webpack-plugin
+TL;DR  必要最低限の機能・サイズになる 事前にi18n後のJSとして複数のoutputとするアプローチ できることはシンプル（現状）  懸念  テンプレートエンジンなどでlocale特定が必要？ sprintfのような表現には対応していない  議論中 i18n-webpack-plugin/pull/42  読み込むlocaleファイルの生成には関与しない  手動でJSONは作成、メンテナンス   現状 
+ 様子見 簡単なサンプルを書いて依存はしておく  </description>
+    </item>
     
     <item>
       <title>storybook v3が待ち遠しい</title>
