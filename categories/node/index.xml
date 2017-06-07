@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node on :-)</title>
-    <link>https://9renpoto.github.io/categories/node.html</link>
+    <link>https://9renpoto.github.io/categories/node/</link>
     <description>Recent content in Node on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>nodefest 2016 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016.html</link>
+      <link>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</link>
       <pubDate>Sun, 13 Nov 2016 09:51:54 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</guid>
       <description>参加メモ Building Interactive npm Command Line Modules  arguments parsing  200種以上のpackage  yargs  .help() 便利 Interactiveなオプションを宣言的に記述できる   https://lrlna.github.io/nodefest-2016/#1
 Famicom programming with JavaScript  backgroundの背景を替えるためにはfor-loop4回  GraphQL for the RESTful crowd https://github.com/barakchamo
  graph QL js user(id: 1) { id, first_name last_name }  fragment  The Seif Project  webの問題はpassword, 簡単に盗まれる Seif Project の中ではカギ認証 seifnode https://github.com/paypal/seifnode https://github.com/paypal/seif-protocol http://www.seif.place/  Why to Standardize your READMEs  https://github.com/RichardLitt/standard-readme  Vue.</description>

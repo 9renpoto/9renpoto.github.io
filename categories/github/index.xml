@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on :-)</title>
-    <link>https://9renpoto.github.io/categories/github.html</link>
+    <link>https://9renpoto.github.io/categories/github/</link>
     <description>Recent content in Github on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Update Blog</title>
-      <link>https://9renpoto.github.io/blog/2016/01/13/gh-pages.html</link>
+      <link>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</link>
       <pubDate>Wed, 13 Jan 2016 22:29:22 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/01/13/gh-pages.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</guid>
       <description>TL;DR  Hugoを利用して &amp;lt;username&amp;gt;.github.io に公開 mozilla/oghlinerを利用してオフライン対応  Hugoを利用してgh-pagesにデプロイ 公式ドキュメントでwercker-ciを利用したデプロイ方法が紹介されており、そちらを利用していましたが。
 http://9renpoto.github.io/&amp;lt;project_name&amp;gt;  という名前になってしまい、個人ページとして構築を目的とした場合不満があったため環境を見直し。
  pages.github.com/ qiita.com/eichann/items/4fe61b8b9bbafcfbe847  を参考に問題を解決するために手を動かし始めました。

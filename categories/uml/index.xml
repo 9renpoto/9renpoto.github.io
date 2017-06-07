@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uml on :-)</title>
-    <link>https://9renpoto.github.io/categories/uml.html</link>
+    <link>https://9renpoto.github.io/categories/uml/</link>
     <description>Recent content in Uml on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>クラス図を簡単に - PlantUML</title>
-      <link>https://9renpoto.github.io/blog/2013/11/13/plant-uml.html</link>
+      <link>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/11/13/plant-uml.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</guid>
       <description>PlantUML これから設計をはじめます、という時に 今までは小さな機能では、スキーマの設計から始めてしまっていたのですが。
 久々に「クラス図を書いてみよう」という話になり どう書こうとなったのでメモ。
 CUIで書けるのが最高です。

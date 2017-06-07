@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on :-)</title>
-    <link>https://9renpoto.github.io/categories/javascript.html</link>
+    <link>https://9renpoto.github.io/categories/javascript/</link>
     <description>Recent content in Javascript on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>i18n-webpack-plugin所感</title>
-      <link>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</link>
+      <link>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack/</link>
       <pubDate>Mon, 05 Jun 2017 11:08:23 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack/</guid>
       <description> i18n-webpack-plugin i18n-webpack-plugin
 TL;DR  必要最低限の機能・サイズになる 事前にi18n後のJSとして複数のoutputとするアプローチ できることはシンプル（現状）  懸念  テンプレートエンジンなどでlocale特定が必要？ sprintfのような表現には対応していない  議論中 i18n-webpack-plugin/pull/42  読み込むlocaleファイルの生成には関与しない  手動でJSONは作成、メンテナンス   現状 
  様子見 簡単なサンプルを書いて依存はしておく  </description>
@@ -24,10 +24,10 @@ TL;DR  必要最低限の機能・サイズになる 事前にi18n後のJSとし
     
     <item>
       <title>storybook v3が待ち遠しい</title>
-      <link>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc/</link>
       <pubDate>Sat, 27 May 2017 20:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc/</guid>
       <description>TL;DR @storybook/react としてv3.0.0-rcがリリースされました。
 storybook 
 webpack v2 の流れもあり開発が止まってたstorybookの開発が、 別のコントリビュータが入ったことで再開された。
@@ -38,10 +38,10 @@ webpack v2 の流れもあり開発が止まってたstorybookの開発が、 �
     
     <item>
       <title>アクティブでなさそうなSlackチャンネルをArchiveお願いする</title>
-      <link>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder/</link>
       <pubDate>Sun, 14 May 2017 22:39:17 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder/</guid>
       <description>slack-channel-active-reminder 書いたもの： https://github.com/9renpoto/slack-channel-active-reminder
 slackの部屋は便利に増やしていけますが、 同じような部屋が散乱したり、入ってみたものの活動が薄かったり様々あるので 一定時間発言がない部屋に対してメッセージを送りつけるようなものを書いた。
 Usage Cronなどと合わせて仕込んで良いタイミングで発言がなさそうなところに対してメッセージを送る。
@@ -52,10 +52,10 @@ flow gen-flow-files が良いものをだしてくれないため外す。 早�
     
     <item>
       <title>prettier &lt; eslint</title>
-      <link>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier/</link>
       <pubDate>Thu, 11 May 2017 00:41:58 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier/</guid>
       <description> eslint-config-prettierは使わない 
 
 https://github.com/prettier/eslint-config-prettier
@@ -64,10 +64,10 @@ https://github.com/prettier/eslint-config-prettier
     
     <item>
       <title>prettier 事始め</title>
-      <link>https://9renpoto.github.io/blog/2017/05/07/prettier.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/07/prettier/</link>
       <pubDate>Sun, 07 May 2017 15:39:59 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/07/prettier.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/07/prettier/</guid>
       <description> prettier https://github.com/prettier
 
 eslint --fix が最高だと思っていたがまた新たにformatterが出たので依存する。
@@ -79,19 +79,19 @@ TypeScript  https://github.com/eslint/typescript-eslint-parser とは干渉し�
     
     <item>
       <title>2016 package.json</title>
-      <link>https://9renpoto.github.io/blog/2017/01/03/2016-package-json.html</link>
+      <link>https://9renpoto.github.io/blog/2017/01/03/2016-package-json/</link>
       <pubDate>Tue, 03 Jan 2017 11:32:03 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/01/03/2016-package-json.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/01/03/2016-package-json/</guid>
       <description>現在依存モジュール  eslint 最高  これがないと仕事ができない  typescript から flow-bin へ引っ越し中  既存のコードにも強気で入れられるflowtypeは魅力的  gulp への依存は最小限、npm-run-all で手軽に対応 mocha, power-assert 便利だし特に困っていない  karma, jsdom との組み合わせを試したがそれぞれできることとできないことはある e2eは別でする      sum name     19 eslint   14 npm-run-all   10 typescript   10 tslint   10 power-assert   10 flow-bin   9 rimraf   9 mocha   9 @9renpoto/eslint-config   7 codecov   7 babel-plugin-transform-flow-strip-types   7 @9renpoto/tslint-config   7 @9renpoto/eslint-config-flowtype   6 greenkeeper-postpublish   6 flow-typed   5 webpack   5 @types/power-assert   5 @types/mocha   4 typescript-eslint-parser   4 style-loader   4 nyc   4 babel-register   4 babel-preset-power-assert   4 babel-loader   3 ts-node   3 remap-istanbul   3 istanbul   3 intelli-espower-loader   3 hubot   3 ghpages   3 css-loader   3 babel-plugin-transform-es2015-modules-commonjs   3 babel-core   2 webpack-closure-compiler   2 tslint-config-standard   2 textlint-rule-sentence-length   2 textlint-rule-preset-jtf-style   2 textlint-rule-preset-ja-technical-writing   2 textlint-rule-preset-ja-spacing   2 textlint-rule-no-nfd   2 textlint-rule-no-mix-dearu-desumasu   2 textlint-rule-no-hankaku-kana   2 textlint-rule-no-dropping-the-ra   2 textlint-rule-no-doubled-joshi   2 textlint-rule-no-doubled-conjunctive-particle-ga   2 textlint-rule-no-doubled-conjunction   2 textlint-rule-no-double-negative-ja   2 textlint-rule-no-dead-link   2 textlint-rule-max-ten   2 textlint-rule-ja-no-weak-phrase   2 textlint-rule-ja-no-successive-word   2 textlint-rule-ja-no-mixed-period   2 textlint-rule-ja-no-abusage   2 textlint-rule-incremental-headers   2 textlint   2 stylelint   2 stylefmt   2 sass-loader   2 react-dom   2 react   2 pug-cli   2 node-sass   2 markdownlint-cli   2 jsdom-global   2 jsdom   2 faker   2 extract-text-webpack-plugin   2 empty   2 cross-env   2 concurrently   2 coffee-script   2 babel-preset-react   2 babel-eslint   2 @types/node   2 @9renpoto/eslint-config-react   1 zone.</description>
     </item>
     
     <item>
       <title>nodefest 2016 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016.html</link>
+      <link>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</link>
       <pubDate>Sun, 13 Nov 2016 09:51:54 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</guid>
       <description>参加メモ Building Interactive npm Command Line Modules  arguments parsing  200種以上のpackage  yargs  .help() 便利 Interactiveなオプションを宣言的に記述できる   https://lrlna.github.io/nodefest-2016/#1
 Famicom programming with JavaScript  backgroundの背景を替えるためにはfor-loop4回  GraphQL for the RESTful crowd https://github.com/barakchamo
  graph QL js user(id: 1) { id, first_name last_name }  fragment  The Seif Project  webの問題はpassword, 簡単に盗まれる Seif Project の中ではカギ認証 seifnode https://github.com/paypal/seifnode https://github.com/paypal/seif-protocol http://www.seif.place/  Why to Standardize your READMEs  https://github.com/RichardLitt/standard-readme  Vue.</description>
@@ -99,38 +99,38 @@ Famicom programming with JavaScript  backgroundの背景を替えるためには
     
     <item>
       <title>storybook を TypeScript で動かす</title>
-      <link>https://9renpoto.github.io/blog/2016/09/13/storybook.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/13/storybook/</link>
       <pubDate>Tue, 13 Sep 2016 21:38:08 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook/</guid>
       <description>React Storybookを試す TL;DR  react-storybookはcomponentのstyleguide TypeScriptのままでは動かせないので一度ビルドする（2016/09現在） addon拡張で開発が便利になるエコシステムはある 途中経過  9renpoto/style   storybook  stories  add して一覧ページがカジュアルに作成できる gh-pages などで簡単にホストできる HMR ができるのはありがたい いろいろwatchしたくなる  webpack にどっぷり依存  TypeScript with React  2016年9月現在だとReactアプリのTypeScript採用は時期尚早  確かに現状の型定義は古い まだそこで困るほどReact使いこなせていない 緩く型を信じる・困ったら考える（個人では）  tsx  サポートありがたい DOMを型付きで定義できることの安心感 テストを書くのは意識高めになる必要がある 便利だけど遅い  webpack  古いloaderが増えてきたex. ts-loader ts-loader などでwatchはできないので tsc -w で様子を見る ガッツリ依存せず疎結合にできるところは疎結合にする   CSS-module  基本的に使わない方が良さそう 使う場合は構造化cssとして育てるのではなく、 local cssとしてビルドしたほうが良さそう  SDKなどで利用するのはアリ   Refs react-storybookを用いたReactコンポーネント開発</description>
     </item>
     
     <item>
       <title>TypeScript で coverage を計測する</title>
-      <link>https://9renpoto.github.io/blog/2016/08/20/coverage.html</link>
+      <link>https://9renpoto.github.io/blog/2016/08/20/coverage/</link>
       <pubDate>Sat, 20 Aug 2016 14:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage/</guid>
       <description> TypeScriptでCoverage reportを計測する TL;DR  remap-istanbul を使う  Usage  npm install remap-istanbul sourcemap: true  Memo  tsc &amp;gt; npm test という流れになったためJavaScriptとしてテストをする形になる espower-typescript を使わないようになる  espower-typescript はtscのwrapperなのでtscする場合は使えなそう  power-assert が上手く構造を解釈してくれてなさそう  espower-typescript が担っていた役割を別で与える必要がある TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない TODO考える   Refs  http://blog.syati.info/post/typescript_coverage/ https://github.com/9renpoto/ts/pull/34  </description>
     </item>
     
     <item>
       <title>TypeScript with power-assert</title>
-      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2.html</link>
+      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</link>
       <pubDate>Thu, 11 Aug 2016 21:43:32 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</guid>
       <description> TypeScriptでpower-assertを使いたい TypeScriptテストについて 少し調べました。
  https://github.com/9renpoto/ts/pull/31  原因  TypeScriptがファイルパスを相対パスか絶対パスのどちらかで返す場合がある  https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825   対策  https://github.com/teppeis/typescript-simple/pull/47  悩み  rootDir, outDir の組み合わせで挙動が変わることを理解する必要がある rootDirs が入る（TypeScript 2.0~)  </description>
     </item>
     
     <item>
       <title>typescript test</title>
-      <link>https://9renpoto.github.io/blog/2016/06/23/module-test.html</link>
+      <link>https://9renpoto.github.io/blog/2016/06/23/module-test/</link>
       <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test/</guid>
       <description>TypeScriptの勉強を頑張ろう  9renpoto/javascript/pull/19  { &amp;quot;devDependencies&amp;quot;: { &amp;quot;eslint&amp;quot;: &amp;quot;^2.13.1&amp;quot;, &amp;quot;espower-typescript&amp;quot;: &amp;quot;^5.0.1&amp;quot;, &amp;quot;mocha&amp;quot;: &amp;quot;^2.5.3&amp;quot;, &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;, &amp;quot;tslint&amp;quot;: &amp;quot;^3.11.0&amp;quot;, &amp;quot;typescript-eslint-parser&amp;quot;: &amp;quot;0.1.0-alpha-1&amp;quot;, &amp;quot;typings&amp;quot;: &amp;quot;^1.3.0&amp;quot; } }  下記を満たす簡単なサンプルを書く。
  複数module mochaによるテスト power-assertによるテスト  espower-typescript が通らないので中身を見て調べる。</description>
     </item>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chef on :-)</title>
-    <link>https://9renpoto.github.io/categories/chef.html</link>
+    <link>https://9renpoto.github.io/categories/chef/</link>
     <description>Recent content in Chef on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>入門chef</title>
-      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef.html</link>
+      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</link>
       <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</guid>
       <description>chef memo 環境構築といえば、chefだという噂を随分と聞くようになってきましたが、 なんだかんだと使ってなかったのでメモ。 とはいえ、レシピは誰かが書いてるので、 今回は出来る限りレシピを使う方法で構築を目指す。
 前準備 # Gemfileに記載 source &#39;https://rubygems。org&#39; # URLの指定。呪文だと思って毎回書く gem &#39;berkshelf&#39; gem &#39;chef&#39; gem &#39;knife-solo&#39;  必要なgemをいつものように。
 bundle install  chef-soloを使えるように初期設定を行う。

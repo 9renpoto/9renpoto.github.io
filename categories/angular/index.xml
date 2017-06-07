@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on :-)</title>
-    <link>https://9renpoto.github.io/categories/angular.html</link>
+    <link>https://9renpoto.github.io/categories/angular/</link>
     <description>Recent content in Angular on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>#html5j 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</link>
       <pubDate>Sat, 03 Sep 2016 10:02:40 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/03/html5j-201609.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</guid>
       <description>html5j http://events.html5j.org/conference/2016/9/
 基調講演 speaker: 中村修。
 大規模分散オペレーティングシステム。

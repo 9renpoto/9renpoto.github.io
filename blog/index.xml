@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on :-)</title>
-    <link>https://9renpoto.github.io/blog.html</link>
+    <link>https://9renpoto.github.io/blog/</link>
     <description>Recent content in Blogs on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>i18n-webpack-plugin所感</title>
-      <link>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</link>
+      <link>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack/</link>
       <pubDate>Mon, 05 Jun 2017 11:08:23 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/06/05/i18n-webpack/</guid>
       <description> i18n-webpack-plugin i18n-webpack-plugin
 TL;DR  必要最低限の機能・サイズになる 事前にi18n後のJSとして複数のoutputとするアプローチ できることはシンプル（現状）  懸念  テンプレートエンジンなどでlocale特定が必要？ sprintfのような表現には対応していない  議論中 i18n-webpack-plugin/pull/42  読み込むlocaleファイルの生成には関与しない  手動でJSONは作成、メンテナンス   現状 
  様子見 簡単なサンプルを書いて依存はしておく  </description>
@@ -24,10 +24,10 @@ TL;DR  必要最低限の機能・サイズになる 事前にi18n後のJSとし
     
     <item>
       <title>storybook v3が待ち遠しい</title>
-      <link>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc/</link>
       <pubDate>Sat, 27 May 2017 20:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc/</guid>
       <description>TL;DR @storybook/react としてv3.0.0-rcがリリースされました。
 storybook 
 webpack v2 の流れもあり開発が止まってたstorybookの開発が、 別のコントリビュータが入ったことで再開された。
@@ -38,10 +38,10 @@ webpack v2 の流れもあり開発が止まってたstorybookの開発が、 �
     
     <item>
       <title>variableの範囲でscssをカスタマイズするときの注意</title>
-      <link>https://9renpoto.github.io/blog/2017/05/25/variable-default.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/25/variable-default/</link>
       <pubDate>Thu, 25 May 2017 20:42:10 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/25/variable-default.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/25/variable-default/</guid>
       <description> TL;DR  !default で定義されているvariableは @import 前に定義する  _variable.scss 
 cssに変数があることはわかっていたつもりですが、上書きの用法がよくわかっておらず調べたので記録。
 $a: #777 !default  $a は、評価される前に同様の変数が定義されていれば上書きされないということ。 定数として1ファイルに定義してもらえることが多いが、多段 @import などはどこまで遡って上書きなどできるのかなどは調べていない。
@@ -50,10 +50,10 @@ Refs  http://qiita.com/yuku_t/items/0bebe541432cdfad4e14  </description>
     
     <item>
       <title>アクティブでなさそうなSlackチャンネルをArchiveお願いする</title>
-      <link>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder/</link>
       <pubDate>Sun, 14 May 2017 22:39:17 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder/</guid>
       <description>slack-channel-active-reminder 書いたもの： https://github.com/9renpoto/slack-channel-active-reminder
 slackの部屋は便利に増やしていけますが、 同じような部屋が散乱したり、入ってみたものの活動が薄かったり様々あるので 一定時間発言がない部屋に対してメッセージを送りつけるようなものを書いた。
 Usage Cronなどと合わせて仕込んで良いタイミングで発言がなさそうなところに対してメッセージを送る。
@@ -64,10 +64,10 @@ flow gen-flow-files が良いものをだしてくれないため外す。 早�
     
     <item>
       <title>prettier &lt; eslint</title>
-      <link>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier/</link>
       <pubDate>Thu, 11 May 2017 00:41:58 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/11/eslint-config-prettier/</guid>
       <description> eslint-config-prettierは使わない 
 
 https://github.com/prettier/eslint-config-prettier
@@ -76,10 +76,10 @@ https://github.com/prettier/eslint-config-prettier
     
     <item>
       <title>prettier 事始め</title>
-      <link>https://9renpoto.github.io/blog/2017/05/07/prettier.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/07/prettier/</link>
       <pubDate>Sun, 07 May 2017 15:39:59 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/07/prettier.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/07/prettier/</guid>
       <description> prettier https://github.com/prettier
 
 eslint --fix が最高だと思っていたがまた新たにformatterが出たので依存する。
@@ -91,19 +91,19 @@ TypeScript  https://github.com/eslint/typescript-eslint-parser とは干渉し�
     
     <item>
       <title>PS4破損</title>
-      <link>https://9renpoto.github.io/blog/2017/02/26/goodbye-ps4.html</link>
+      <link>https://9renpoto.github.io/blog/2017/02/26/goodbye-ps4/</link>
       <pubDate>Sun, 26 Feb 2017 00:48:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/02/26/goodbye-ps4.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/02/26/goodbye-ps4/</guid>
       <description> TL;DR  修理は見送り 気が向いたらスリムを買い直す（4Kテレビを買う予定がない）  言われてみればPlayStationは初破損  購入したのはBloodborne発売次期だったはずなので2015年春頃  ちょうど2年目で破損  PS1からPS4までなんだかんだ買っていたが壊れたのは初めて 最後に壊したハードはXbox360アーケードだった記憶 PS4でプレイしたもの  Overwatch Dark Souls 3 Bloodborne  積み  BIOHAZARD7 Bloodborne DLC   次買うなら  とりあえずスタンバイ起動でのアップデートはやめる 過去の経験的に3年ぐらいは保証されたい  </description>
     </item>
     
     <item>
       <title>sticker 選手権</title>
-      <link>https://9renpoto.github.io/blog/2017/01/19/sticker.html</link>
+      <link>https://9renpoto.github.io/blog/2017/01/19/sticker/</link>
       <pubDate>Thu, 19 Jan 2017 23:51:16 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/01/19/sticker.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/01/19/sticker/</guid>
       <description>お世話になった 手放すことになったので綺麗にする。
 手動の限界。
 薬品使ってなんとかここまで、お世話になりました。</description>
@@ -111,28 +111,28 @@ TypeScript  https://github.com/eslint/typescript-eslint-parser とは干渉し�
     
     <item>
       <title>2016 package.json</title>
-      <link>https://9renpoto.github.io/blog/2017/01/03/2016-package-json.html</link>
+      <link>https://9renpoto.github.io/blog/2017/01/03/2016-package-json/</link>
       <pubDate>Tue, 03 Jan 2017 11:32:03 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/01/03/2016-package-json.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/01/03/2016-package-json/</guid>
       <description>現在依存モジュール  eslint 最高  これがないと仕事ができない  typescript から flow-bin へ引っ越し中  既存のコードにも強気で入れられるflowtypeは魅力的  gulp への依存は最小限、npm-run-all で手軽に対応 mocha, power-assert 便利だし特に困っていない  karma, jsdom との組み合わせを試したがそれぞれできることとできないことはある e2eは別でする      sum name     19 eslint   14 npm-run-all   10 typescript   10 tslint   10 power-assert   10 flow-bin   9 rimraf   9 mocha   9 @9renpoto/eslint-config   7 codecov   7 babel-plugin-transform-flow-strip-types   7 @9renpoto/tslint-config   7 @9renpoto/eslint-config-flowtype   6 greenkeeper-postpublish   6 flow-typed   5 webpack   5 @types/power-assert   5 @types/mocha   4 typescript-eslint-parser   4 style-loader   4 nyc   4 babel-register   4 babel-preset-power-assert   4 babel-loader   3 ts-node   3 remap-istanbul   3 istanbul   3 intelli-espower-loader   3 hubot   3 ghpages   3 css-loader   3 babel-plugin-transform-es2015-modules-commonjs   3 babel-core   2 webpack-closure-compiler   2 tslint-config-standard   2 textlint-rule-sentence-length   2 textlint-rule-preset-jtf-style   2 textlint-rule-preset-ja-technical-writing   2 textlint-rule-preset-ja-spacing   2 textlint-rule-no-nfd   2 textlint-rule-no-mix-dearu-desumasu   2 textlint-rule-no-hankaku-kana   2 textlint-rule-no-dropping-the-ra   2 textlint-rule-no-doubled-joshi   2 textlint-rule-no-doubled-conjunctive-particle-ga   2 textlint-rule-no-doubled-conjunction   2 textlint-rule-no-double-negative-ja   2 textlint-rule-no-dead-link   2 textlint-rule-max-ten   2 textlint-rule-ja-no-weak-phrase   2 textlint-rule-ja-no-successive-word   2 textlint-rule-ja-no-mixed-period   2 textlint-rule-ja-no-abusage   2 textlint-rule-incremental-headers   2 textlint   2 stylelint   2 stylefmt   2 sass-loader   2 react-dom   2 react   2 pug-cli   2 node-sass   2 markdownlint-cli   2 jsdom-global   2 jsdom   2 faker   2 extract-text-webpack-plugin   2 empty   2 cross-env   2 concurrently   2 coffee-script   2 babel-preset-react   2 babel-eslint   2 @types/node   2 @9renpoto/eslint-config-react   1 zone.</description>
     </item>
     
     <item>
       <title>2016 and 2017</title>
-      <link>https://9renpoto.github.io/blog/2017/01/01/2016.html</link>
+      <link>https://9renpoto.github.io/blog/2017/01/01/2016/</link>
       <pubDate>Sun, 01 Jan 2017 10:36:23 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/01/01/2016.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/01/01/2016/</guid>
       <description> 2015-2016 and 2017  Keep  ライブラリーの依存を増やす（眺めるライブラリーを増やす） 見える場所にコードを書く  Problem  知識がフロントエンドに偏りがち WIP増加  Try  Functional Programming 簡易サービス運用   </description>
     </item>
     
     <item>
       <title>neovim 導入</title>
-      <link>https://9renpoto.github.io/blog/2016/12/17/first-nvim.html</link>
+      <link>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</link>
       <pubDate>Sat, 17 Dec 2016 14:03:55 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/12/17/first-nvim.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/12/17/first-nvim/</guid>
       <description> TL;DR  neovimは早いように感じる lua拡張は動かない様子  Install 公式の通りですんなり入りました。
 # Brewfile tap &#39;neovim/neovim&#39; brew &#39;neovim&#39;  Usage  ~/.vimrc を見ていないようなので調整 基本的に設定は使い回せる  export XDG_CONFIG_HOME=~/src/github.com/9renpoto/dotfiles/.config  neocompleteが使えないようだがこの際プラグインを見直したいので一旦保留。
  https://github.com/9renpoto/dotfiles/pull/45  Refs  http://giginet.hateblo.jp/entry/2015/11/24/203823  </description>
@@ -140,10 +140,10 @@ TypeScript  https://github.com/eslint/typescript-eslint-parser とは干渉し�
     
     <item>
       <title>nodefest 2016 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016.html</link>
+      <link>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</link>
       <pubDate>Sun, 13 Nov 2016 09:51:54 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/11/13/nodefest-2016/</guid>
       <description>参加メモ Building Interactive npm Command Line Modules  arguments parsing  200種以上のpackage  yargs  .help() 便利 Interactiveなオプションを宣言的に記述できる   https://lrlna.github.io/nodefest-2016/#1
 Famicom programming with JavaScript  backgroundの背景を替えるためにはfor-loop4回  GraphQL for the RESTful crowd https://github.com/barakchamo
  graph QL js user(id: 1) { id, first_name last_name }  fragment  The Seif Project  webの問題はpassword, 簡単に盗まれる Seif Project の中ではカギ認証 seifnode https://github.com/paypal/seifnode https://github.com/paypal/seif-protocol http://www.seif.place/  Why to Standardize your READMEs  https://github.com/RichardLitt/standard-readme  Vue.</description>
@@ -151,10 +151,10 @@ Famicom programming with JavaScript  backgroundの背景を替えるためには
     
     <item>
       <title>第3回 Reactive System Meetup in 西新宿</title>
-      <link>https://9renpoto.github.io/blog/2016/09/29/reactive-shinjuku-03.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/29/reactive-shinjuku-03/</link>
       <pubDate>Thu, 29 Sep 2016 19:02:35 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/29/reactive-shinjuku-03.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/29/reactive-shinjuku-03/</guid>
       <description>参加メモ https://reactive-shinjuku.connpass.com/event/38411/
 ハッシュタグ #reactive_shinjuku
 リアクティブDDDについて 株式会社ChatWork加藤潤一氏（@j5ik2o）
@@ -166,10 +166,10 @@ Lagomで学ぶReactive Microservices Architecture 株式会社TIS根来和輝（
     
     <item>
       <title>macOS キーチェインが動かなくなったので keychain を導入する</title>
-      <link>https://9renpoto.github.io/blog/2016/09/25/ssh-agent.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/25/ssh-agent/</link>
       <pubDate>Sun, 25 Sep 2016 12:11:46 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/25/ssh-agent.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/25/ssh-agent/</guid>
       <description> macOS updateメモ ssh passphraseを常に問い合わされるようになった。
 調査  keychain ssh-agent  keychain入れてみる  https://github.com/9renpoto/dotfiles/pull/32  解決出来た様子。
 Refs  http://qiita.com/u6k/items/5970618c4a8c23f71fb9 http://qiita.com/tukiyo3/items/045f86c4242ec53953e2  </description>
@@ -177,10 +177,10 @@ Refs  http://qiita.com/u6k/items/5970618c4a8c23f71fb9 http://qiita.com/tukiyo3/i
     
     <item>
       <title>Frontend Meetup 01 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/09/16/frontendmeetup-01.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/16/frontendmeetup-01/</link>
       <pubDate>Fri, 16 Sep 2016 19:29:30 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/16/frontendmeetup-01.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/16/frontendmeetup-01/</guid>
       <description>Frontend Meeup #1 https://connpass.com/event/38112/
 React/Reduxで快適フロントエンドライフ（仮） by @takayuki_shmz (株式会社FiNC)
 http://itpro.nikkeibp.co.jp/atcl/column/16/050900104/051000005/
@@ -191,29 +191,29 @@ https://speakerdeck.com/joere/ge-ming-tozhi-xu-tospa
     
     <item>
       <title>storybook を TypeScript で動かす</title>
-      <link>https://9renpoto.github.io/blog/2016/09/13/storybook.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/13/storybook/</link>
       <pubDate>Tue, 13 Sep 2016 21:38:08 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/13/storybook/</guid>
       <description>React Storybookを試す TL;DR  react-storybookはcomponentのstyleguide TypeScriptのままでは動かせないので一度ビルドする（2016/09現在） addon拡張で開発が便利になるエコシステムはある 途中経過  9renpoto/style   storybook  stories  add して一覧ページがカジュアルに作成できる gh-pages などで簡単にホストできる HMR ができるのはありがたい いろいろwatchしたくなる  webpack にどっぷり依存  TypeScript with React  2016年9月現在だとReactアプリのTypeScript採用は時期尚早  確かに現状の型定義は古い まだそこで困るほどReact使いこなせていない 緩く型を信じる・困ったら考える（個人では）  tsx  サポートありがたい DOMを型付きで定義できることの安心感 テストを書くのは意識高めになる必要がある 便利だけど遅い  webpack  古いloaderが増えてきたex. ts-loader ts-loader などでwatchはできないので tsc -w で様子を見る ガッツリ依存せず疎結合にできるところは疎結合にする   CSS-module  基本的に使わない方が良さそう 使う場合は構造化cssとして育てるのではなく、 local cssとしてビルドしたほうが良さそう  SDKなどで利用するのはアリ   Refs react-storybookを用いたReactコンポーネント開発</description>
     </item>
     
     <item>
       <title>勉強を続けること</title>
-      <link>https://9renpoto.github.io/blog/2016/09/05/study-motivation.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/05/study-motivation/</link>
       <pubDate>Mon, 05 Sep 2016 00:54:18 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/05/study-motivation.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/05/study-motivation/</guid>
       <description>勉強する 勉強について考える。
 TL;DR  勉強している人は本当に偉い 何事も尊敬できることは才能より努力  勉強から得られること  出来ないことができるようになる 出来る人のことを尊敬できるようになる 人間の時間は有限  天才はいるが天才にはなれない 効率化は二の次  遊ぶことも勉強  新しい知識を得ることは楽しい 出来ないことができるようになるため努力が必要 自分と相性の良い天性のことなんて存在した試しがない   まとめ  勉強は楽しい 時間は有限 求められたら勉強する  余談 Overwatchで勝てないのが厳しい。</description>
     </item>
     
     <item>
       <title>#html5j 参加メモ</title>
-      <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609.html</link>
+      <link>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</link>
       <pubDate>Sat, 03 Sep 2016 10:02:40 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/09/03/html5j-201609.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/09/03/html5j-201609/</guid>
       <description>html5j http://events.html5j.org/conference/2016/9/
 基調講演 speaker: 中村修。
 大規模分散オペレーティングシステム。
@@ -224,10 +224,10 @@ TL;DR  勉強している人は本当に偉い 何事も尊敬できることは
     
     <item>
       <title>TypeScript のテスト環境を考える</title>
-      <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack.html</link>
+      <link>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</link>
       <pubDate>Wed, 31 Aug 2016 21:26:35 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/31/karma-webpack/</guid>
       <description>上手く動かない https://travis-ci.org/9renpoto/ts/builds/156475663
  アバウトな構成  &amp;quot;devDependencies&amp;quot;: { &amp;quot;@9renpoto/eslint-config&amp;quot;: &amp;quot;^1.1.0&amp;quot;, &amp;quot;@9renpoto/tslint-config&amp;quot;: &amp;quot;^1.0.0&amp;quot;, &amp;quot;@types/mocha&amp;quot;: &amp;quot;^2.2.31&amp;quot;, &amp;quot;@types/power-assert&amp;quot;: &amp;quot;0.0.27&amp;quot;, &amp;quot;awesome-typescript-loader&amp;quot;: &amp;quot;^2.2.1&amp;quot;, &amp;quot;codecov&amp;quot;: &amp;quot;^1.0.1&amp;quot;, &amp;quot;eslint&amp;quot;: &amp;quot;^3.4.0&amp;quot;, &amp;quot;json-loader&amp;quot;: &amp;quot;^0.5.4&amp;quot;, &amp;quot;karma&amp;quot;: &amp;quot;^1.2.0&amp;quot;, &amp;quot;karma-coverage&amp;quot;: &amp;quot;^1.1.1&amp;quot;, &amp;quot;karma-firefox-launcher&amp;quot;: &amp;quot;^1.0.0&amp;quot;, &amp;quot;karma-mocha&amp;quot;: &amp;quot;^1.1.1&amp;quot;, &amp;quot;karma-sourcemap-loader&amp;quot;: &amp;quot;^0.3.7&amp;quot;, &amp;quot;karma-webpack&amp;quot;: &amp;quot;^1.8.0&amp;quot;, &amp;quot;mocha&amp;quot;: &amp;quot;^3.0.2&amp;quot;, &amp;quot;npm-run-all&amp;quot;: &amp;quot;^3.0.0&amp;quot;, &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;, &amp;quot;rimraf&amp;quot;: &amp;quot;^2.5.4&amp;quot;, &amp;quot;tslint&amp;quot;: &amp;quot;^3.15.1&amp;quot;, &amp;quot;typescript&amp;quot;: &amp;quot;^2.0.2&amp;quot;, &amp;quot;webpack&amp;quot;: &amp;quot;^1.13.2&amp;quot;, &amp;quot;webpack-espower-loader&amp;quot;: &amp;quot;^1.0.1&amp;quot; }  tsc ・ webpack しても問題ないように見えるが、 karma を通した場合 SyntaxError など出てきて非常に厳しい。
 https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample
@@ -236,48 +236,48 @@ https://github.com/9renpoto/karma-power-assert-typescript-mocha-webpack-sample
     
     <item>
       <title>TypeScript で coverage を計測する</title>
-      <link>https://9renpoto.github.io/blog/2016/08/20/coverage.html</link>
+      <link>https://9renpoto.github.io/blog/2016/08/20/coverage/</link>
       <pubDate>Sat, 20 Aug 2016 14:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage/</guid>
       <description> TypeScriptでCoverage reportを計測する TL;DR  remap-istanbul を使う  Usage  npm install remap-istanbul sourcemap: true  Memo  tsc &amp;gt; npm test という流れになったためJavaScriptとしてテストをする形になる espower-typescript を使わないようになる  espower-typescript はtscのwrapperなのでtscする場合は使えなそう  power-assert が上手く構造を解釈してくれてなさそう  espower-typescript が担っていた役割を別で与える必要がある TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない TODO考える   Refs  http://blog.syati.info/post/typescript_coverage/ https://github.com/9renpoto/ts/pull/34  </description>
     </item>
     
     <item>
       <title>TypeScript with power-assert</title>
-      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2.html</link>
+      <link>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</link>
       <pubDate>Thu, 11 Aug 2016 21:43:32 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/11/module-test-2/</guid>
       <description> TypeScriptでpower-assertを使いたい TypeScriptテストについて 少し調べました。
  https://github.com/9renpoto/ts/pull/31  原因  TypeScriptがファイルパスを相対パスか絶対パスのどちらかで返す場合がある  https://github.com/Microsoft/TypeScript/blob/204f2c16c0d6ff851e4798c03a9646b625ac2bd7/src/compiler/core.ts#L821-L825   対策  https://github.com/teppeis/typescript-simple/pull/47  悩み  rootDir, outDir の組み合わせで挙動が変わることを理解する必要がある rootDirs が入る（TypeScript 2.0~)  </description>
     </item>
     
     <item>
       <title>riot.js 勉強会 #1</title>
-      <link>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1.html</link>
+      <link>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</link>
       <pubDate>Wed, 27 Jul 2016 19:31:28 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/07/27/riotjs-jp-study-1/</guid>
       <description> Riot.js勉強会 #1  https://riotjs-jp.connpass.com/event/35724/  参加メモ  小さいライブラリーを維持するための努力は大変 セマンティックバージョニングは大事  悩み  web component時代のcss , htmlとの付き合い方  styleguideはどこまで責任を持つべきか web componentライブラリーを含めて書くべきか http://morishitter.hatenablog.com/entry/2016/07/29/204642 まだCSS Modulesを使うべきか個人レベルではわからない この記事を理解するための勉強あ必要   Next  styleguideを書く  https://github.com/9renpoto/style  riotを使った簡単なものを作る  https://github.com/9renpoto/profile   気持ち  できるだけ型のある世界で生きていく  </description>
     </item>
     
     <item>
       <title>typescript test</title>
-      <link>https://9renpoto.github.io/blog/2016/06/23/module-test.html</link>
+      <link>https://9renpoto.github.io/blog/2016/06/23/module-test/</link>
       <pubDate>Thu, 23 Jun 2016 11:25:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/06/23/module-test/</guid>
       <description>TypeScriptの勉強を頑張ろう  9renpoto/javascript/pull/19  { &amp;quot;devDependencies&amp;quot;: { &amp;quot;eslint&amp;quot;: &amp;quot;^2.13.1&amp;quot;, &amp;quot;espower-typescript&amp;quot;: &amp;quot;^5.0.1&amp;quot;, &amp;quot;mocha&amp;quot;: &amp;quot;^2.5.3&amp;quot;, &amp;quot;power-assert&amp;quot;: &amp;quot;^1.4.1&amp;quot;, &amp;quot;tslint&amp;quot;: &amp;quot;^3.11.0&amp;quot;, &amp;quot;typescript-eslint-parser&amp;quot;: &amp;quot;0.1.0-alpha-1&amp;quot;, &amp;quot;typings&amp;quot;: &amp;quot;^1.3.0&amp;quot; } }  下記を満たす簡単なサンプルを書く。
  複数module mochaによるテスト power-assertによるテスト  espower-typescript が通らないので中身を見て調べる。</description>
     </item>
     
     <item>
       <title>Update Blog</title>
-      <link>https://9renpoto.github.io/blog/2016/01/13/gh-pages.html</link>
+      <link>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</link>
       <pubDate>Wed, 13 Jan 2016 22:29:22 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/01/13/gh-pages.html</guid>
+      <guid>https://9renpoto.github.io/blog/2016/01/13/gh-pages/</guid>
       <description>TL;DR  Hugoを利用して &amp;lt;username&amp;gt;.github.io に公開 mozilla/oghlinerを利用してオフライン対応  Hugoを利用してgh-pagesにデプロイ 公式ドキュメントでwercker-ciを利用したデプロイ方法が紹介されており、そちらを利用していましたが。
 http://9renpoto.github.io/&amp;lt;project_name&amp;gt;  という名前になってしまい、個人ページとして構築を目的とした場合不満があったため環境を見直し。
  pages.github.com/ qiita.com/eichann/items/4fe61b8b9bbafcfbe847  を参考に問題を解決するために手を動かし始めました。
@@ -289,10 +289,10 @@ Feature ビルド・デプロイタスクを直す。</description>
     
     <item>
       <title>yapcasia</title>
-      <link>https://9renpoto.github.io/blog/2015/08/21/yapcasia.html</link>
+      <link>https://9renpoto.github.io/blog/2015/08/21/yapcasia/</link>
       <pubDate>Fri, 21 Aug 2015 09:53:55 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2015/08/21/yapcasia.html</guid>
+      <guid>https://9renpoto.github.io/blog/2015/08/21/yapcasia/</guid>
       <description>yapc asia memo yapcasiaに参加したときのメモを残します。
 Effective ES6 denger function Persion(name) { this.name = name } var p = Person(&#39;bob&#39;); # p.name == undefined # window.name = &#39;bob&#39;   class  constractor newナシで呼ぶとError  IE11 ES6は実装しない transpiler  ES6 to ES5  polyfill  buildinのclassをjs環境で動かすようにする  Babel
  core.js # polyfill toolsもあるよ  ES6 feature
@@ -302,10 +302,10 @@ var add =&amp;gt; (a,b) =&amp;gt; { return a + b; }  class</description>
     
     <item>
       <title>create hugo theme</title>
-      <link>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme.html</link>
+      <link>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme/</link>
       <pubDate>Mon, 11 May 2015 22:54:56 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme.html</guid>
+      <guid>https://9renpoto.github.io/blog/2015/05/11/create-hugo-theme/</guid>
       <description>TL;DR  ブログを octpress から hugo へ移行しました hugo theme 書きました  themeを書くために cmd1つでテンプレート作成。
 $ hugo new theme foo . └── themes └── foo ├── LICENSE.md ├── archetypes │ └── default.md ├── layouts │ ├── _default │ │ ├── list.html │ │ └── single.html │ ├── index.html │ └── partials │ ├── footer.html │ └── header.html ├── static │ ├── css │ └── js └── theme.toml  Document がよくまとまっていますので参考に。
  このあたりが特にお世話になりました  functions variables   TODO  layouts/_default 以外の使い方調べる rss作成 bower installするbuild script  感想 octpressの時はtheme流用してたので手作りも勉強になりました。</description>
@@ -313,10 +313,10 @@ $ hugo new theme foo . └── themes └── foo ├── LICENSE.md ├�
     
     <item>
       <title>EscでIMEを抜ける</title>
-      <link>https://9renpoto.github.io/blog/2014/07/11/escape-ime.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/11/escape-ime/</link>
       <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/11/escape-ime.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/11/escape-ime/</guid>
       <description> vimなど使ってるとEscapeしてIMEが残ってるとイライライラ ESCで確実にIMEをオフにするを参考に設定を反映してみるも直ってないご様子。
 どうもGoogleIMEには神設定があるらしい。
 これで Esc を使って快適に抜けられる最高。
@@ -325,20 +325,20 @@ $ hugo new theme foo . └── themes └── foo ├── LICENSE.md ├�
     
     <item>
       <title>マルチカーソル</title>
-      <link>https://9renpoto.github.io/blog/2014/07/10/hash-to-json.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/10/hash-to-json/</link>
       <pubDate>Thu, 10 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/10/hash-to-json.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/10/hash-to-json/</guid>
       <description>使い所がわからない ハッシュの中だけを { foo: 1 } のようなjsonフォーマットに直したいとき atomなどでマルチカーソル操作をすると全部選択されてしまってツラまる。
 良い方法が知りたい。</description>
     </item>
     
     <item>
       <title>#hcj-2014</title>
-      <link>https://9renpoto.github.io/blog/2014/07/08/hcj-2014.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</link>
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/08/hcj-2014.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</guid>
       <description>Hadoop Conference Japan 2014に参加してきました 個人的な所感としては。
  spark楽しそう（だけどまだ触るには勇気が） Prestoも熱そう MapR書くよりもSQL書く方がお手軽  以下はメモ書き。
 keynote hadoopを取り巻く環境について  始めて普及した並列分散  データの読み込みのスループットを最大化 全件データの処理を実現 シンプルなモデル（MapReduce) YARN MapReduceからそれ以外のアルゴリズムも 複数の並列分散エンジンを併用できる環境 メモリーの大容量化、10Gbpsネットワークの普及  インメモリー処理の実現性の向上    The Future of Data Doug Cutting
@@ -348,29 +348,29 @@ keynote hadoopを取り巻く環境について  始めて普及した並列分�
     
     <item>
       <title>コメントを楽に入れる</title>
-      <link>https://9renpoto.github.io/blog/2014/07/07/comment.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/07/comment/</link>
       <pubDate>Mon, 07 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/07/comment.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/07/comment/</guid>
       <description>comment vimだと矩形選択で頑張れるから甘えてましたが atomなど使っているとcommentショートカットが便利で 良く使います。
 vimでも使えるようにしました 便利。</description>
     </item>
     
     <item>
       <title>括弧の入力には欠かせない</title>
-      <link>https://9renpoto.github.io/blog/2014/07/06/surround.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/06/surround/</link>
       <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/06/surround.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/06/surround/</guid>
       <description>Surround surround.vim便利 sublime-textでも使えるようですが atomの公式パッケージにも早くほしい。</description>
     </item>
     
     <item>
       <title>GitGutter便利すぎ</title>
-      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</link>
       <pubDate>Sat, 05 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/05/gitgutter/</guid>
       <description>Gutter githubなどで開発しているとPRが便利で 良くコードを見るようになりました 意味のないコード差分などはできれば出したくない。
 sublime, atomにもあってvimにはないのか と思ってたら検索して3分で見つかりました。
 最高です。
@@ -379,19 +379,19 @@ vim-gitgutter</description>
     
     <item>
       <title>同じkeyのハッシュのを作る時の操作</title>
-      <link>https://9renpoto.github.io/blog/2014/07/03/v-line.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/03/v-line/</link>
       <pubDate>Thu, 03 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/03/v-line.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/03/v-line/</guid>
       <description>v-line edit 同じ変数名を利用してハッシュのようなものを作成するときに 情弱で、愚直な操作をしてしまっている。 もっと簡単に入力する方法を知りたい。 atomやsublime-textでは、さらに愚直に入力しており良い方法がないか知りたい。</description>
     </item>
     
     <item>
       <title>読書 Team Geek</title>
-      <link>https://9renpoto.github.io/blog/2013/12/25/team-geak.html</link>
+      <link>https://9renpoto.github.io/blog/2013/12/25/team-geak/</link>
       <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak/</guid>
       <description>メモ 人間関係に悩んでおり、以下の本を読んでおりました。
 読み終えたので簡単な感想をメモ。
  大切  謙虚 信頼 尊敬  オープンに  上の人は質問に堂々と答える 下の人な恐れず質問する  責任  重要 自分事化   まず今までの失敗を繰り返さぬよう沢山実践して、違う失敗しよう。
@@ -403,20 +403,20 @@ Brian W.Fitzpatrick, Ben Collins-Sussman（2013) 『Team Geek Googleのギーク
     
     <item>
       <title>読書 アジャイルサムライ</title>
-      <link>https://9renpoto.github.io/blog/2013/12/25/agile-samurai.html</link>
+      <link>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</link>
       <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</guid>
       <description>メモ アジャイル開発について悩んでおりましたので、噂のアジャイルサムライを読みました。
  学べたこと  考え方 立場の明確化  プロダクトオーナー スクラムマスター 開発者  立場に対して自分の役割が明確にある  わかりやすい  大切なのはモノを作ること  未完成に価値はない  時間・リソース・金は有限  現実は非常に大切 優先順位の大切さ  流れ  プロダクトオーナー 作りたいものの決定 優先順位の決定 スクラムマスター 時間管理 開発者 見積もる 作る  ウォーターフォールとの違い 見積もりが開発者に任せられてるところが良い ストーリーポイントを基準に実現可能性を図る  現実を見ている  見積もれるタスク  細かなサイクルを回すというよりも、見積もれる範囲を大切にするという考えに共感 未完成に価値はない 完成品を作る（レビューする）    なるほどわかりやすい。</description>
     </item>
     
     <item>
       <title>入門chef</title>
-      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef.html</link>
+      <link>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</link>
       <pubDate>Sun, 22 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/12/22/my-first-chef/</guid>
       <description>chef memo 環境構築といえば、chefだという噂を随分と聞くようになってきましたが、 なんだかんだと使ってなかったのでメモ。 とはいえ、レシピは誰かが書いてるので、 今回は出来る限りレシピを使う方法で構築を目指す。
 前準備 # Gemfileに記載 source &#39;https://rubygems。org&#39; # URLの指定。呪文だと思って毎回書く gem &#39;berkshelf&#39; gem &#39;chef&#39; gem &#39;knife-solo&#39;  必要なgemをいつものように。
 bundle install  chef-soloを使えるように初期設定を行う。
@@ -427,10 +427,10 @@ cd chef-repo git init git add 。 git commit -m &#39;first commit&#39;  公式�
     
     <item>
       <title>クラス図を簡単に - PlantUML</title>
-      <link>https://9renpoto.github.io/blog/2013/11/13/plant-uml.html</link>
+      <link>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</link>
       <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/11/13/plant-uml.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/11/13/plant-uml/</guid>
       <description>PlantUML これから設計をはじめます、という時に 今までは小さな機能では、スキーマの設計から始めてしまっていたのですが。
 久々に「クラス図を書いてみよう」という話になり どう書こうとなったのでメモ。
 CUIで書けるのが最高です。
@@ -447,10 +447,10 @@ Cacoo 今までなかなか縁がなく利用していなかったCacooですが
     
     <item>
       <title>riak meetup tokyo 2 に参加してきました</title>
-      <link>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2.html</link>
+      <link>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</link>
       <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</guid>
       <description>riak meetup tokyo 2 memo RTB and FreakOut RTB概略。
  ディスプレー広告の新しい見せ方  1回の広告表示ごとに買い付け オークション形式によりアラカルトメニュー   広告主のネット広告におけるROI最適を目指す。
 RTBの技術的課題。
@@ -461,30 +461,30 @@ Solr XMLスキーマを利用した検索が可能 便利そう。</description>
     
     <item>
       <title>Go Conference 2013 spring参加してきました #gocon</title>
-      <link>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring.html</link>
+      <link>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring/</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/04/13/go-conference-2013-spring/</guid>
       <description>Go Conference参加メモ Go言語で作るWebアプリ @tenntenn HTTPサーバー簡単に書ける。
  https://docs.google.com/presentation/d/1rrY2oibeUrqjF4ga5L3EhDioIURcMCUOz7jBXHWBdOM/pub?start=false&amp;amp;loop=false&amp;amp;delayms=3000#slide=id.gb8818ff4_2_0  Go on AppEngine @najeira  Go言語のメリット  簡単 Nativeで速い、少メモリ モダン（並列、型推論、Stractual subtyping(部分型）  AppEngineのメリット  保守しなくてよいので開発に集中できる 大規模、伸縮 モダン（TQ、memcachedサポート）  Testing  AppEngine上でGo言語だけでテストを行うことは難しい testbed https://github.com/najeira/testbed  Goの優位性  起動が速い（AppEngineとの相性は良い）  速度についての補足  常にGoが速いというわけではない（I/O、etc)  まだ完全以降にコストかけて頑張るほどのノウハウはたまってない  Gorutine and channel @Jxck_  メモ漏れ  Go Schaduler @methane  https://gist.github.com/methane/5377227#file-goscheduler-md  Goroutine 奥が深い   Goのどのあたりが良いか鵜飼さん  Goの第一印象  慣れた言語から見ると違和感がある  設計方針 markdown many on the decisions in Go are motivated by experience working on and maintaing large code bases at Google.</description>
     </item>
     
     <item>
       <title>pyfes 2013/3</title>
-      <link>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03.html</link>
+      <link>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</link>
       <pubDate>Sat, 16 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/03/16/developder-festa-03/</guid>
       <description>TL;DR 今回も楽しいお話がたくさん聞けました。
 ありがとうございました。</description>
     </item>
     
     <item>
       <title>riak meetup tokyoに参加してきました</title>
-      <link>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo.html</link>
+      <link>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</link>
       <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</guid>
       <description>Riak intro &amp;amp; RICON報告 @kuenishi
 分散システムの研究や開発は5年ぐらい 日本法人が9月に出来た。
 Riakの紹介  Dynamoにインスパイアされた Consistent Hassingによる水平分割する Vector Clocksを用いてレプリケーション Erlang/OTPで動作 分散KVS
@@ -498,30 +498,30 @@ Riakの紹介  Dynamoにインスパイアされた Consistent Hassingによる�
     
     <item>
       <title>リーダブルコード読みました</title>
-      <link>https://9renpoto.github.io/blog/2013/02/03/readable-code.html</link>
+      <link>https://9renpoto.github.io/blog/2013/02/03/readable-code/</link>
       <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/02/03/readable-code.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/02/03/readable-code/</guid>
       <description> リーダーブルコードよんだメモ ちょっと前の話ですが、リーダーブルコードを読みましたのでその感想をメモ。
 印象に残った学び  名前の大切さ  プログラムで一番難しいところ 良い名前ほど理解しやすい  コメントの大切さ  コメントを書く目的 意味のあるコメントを書かないと意味がない コメントはコードの理解を助けるもの  コードの分割  小さければ小さいほど正義と読む前まで考えていた どう分割すべきか 重複コードとは何なのか 理解しやすいように分割する 意味が明確に分かれるよう分割する  短いコードを書く  これは非常に難しいが理屈はよくわかる よいメソッドよいモジュールを積極的に使っていくことが大事   </description>
     </item>
     
     <item>
       <title>25歳になりました</title>
-      <link>https://9renpoto.github.io/blog/2013/01/22/happy-birthday-for-me.html</link>
+      <link>https://9renpoto.github.io/blog/2013/01/22/happy-birthday-for-me/</link>
       <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/01/22/happy-birthday-for-me.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/01/22/happy-birthday-for-me/</guid>
       <description>去年の自分 1年ぐらいでは何も変わらなかった。
 とりあえず納期までのプログラム書く。</description>
     </item>
     
     <item>
       <title>elixir install</title>
-      <link>https://9renpoto.github.io/blog/2012/12/20/install.html</link>
+      <link>https://9renpoto.github.io/blog/2012/12/20/install/</link>
       <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/12/20/install.html</guid>
+      <guid>https://9renpoto.github.io/blog/2012/12/20/install/</guid>
       <description>Elixirはじめよう Elixir楽しそうなので勉強はじめます まずはerlangのinstallから。
 brew install erlang  erlangもbrewから入れられるなんて楽な世の中になったものです。
 brew install elixir  brewだけでinstall終わり。
@@ -530,10 +530,10 @@ Erlang R15B03 (erts-5.9.3.1) [source] [64-bit] [smp:4:4] [async-threads:0] [hipe
     
     <item>
       <title>Python Developer Festa 参加してきました</title>
-      <link>https://9renpoto.github.io/blog/2012/11/24/developder-festa.html</link>
+      <link>https://9renpoto.github.io/blog/2012/11/24/developder-festa/</link>
       <pubDate>Sat, 24 Nov 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/11/24/developder-festa.html</guid>
+      <guid>https://9renpoto.github.io/blog/2012/11/24/developder-festa/</guid>
       <description>Python Developer Festa参加してきたので、そのメモ Cloudera Impalaについて @shiumachiさんより。
 Impalaとは  Clouderaが開発した低レイテンシ・分析特化型のクエリ実行基盤  google Dremel, Google F1などにインスパイアされて開発された  データサイエンティストが使うことを想定している Hadoopはクエリの内容がメモリーに乗っからなかった場合、HDDに逃げちゃう Impalaはオンメモリー上で頑張ろうとする  Impala support状況 02時点  Trevni, RCFileのサポートは現状まだ、今後に対応予定 Hiveで出来ることは、基本的にImpalaでは出来ないと思ってよい  なぜ開発されたのか Hadoop(Map Reduce)だと高レイテンシで、すぐに結果が欲しくても処理に時間がかかる。
 Hiveのようで手軽に使えるSQLのインターフェイスをもち、かつ低レイテンシエンジンが欲しかったからです。
@@ -543,10 +543,10 @@ Third party Tools  WebKit  Buildbot Trac   今回は webkit-patch について #
     
     <item>
       <title>python install</title>
-      <link>https://9renpoto.github.io/blog/2012/09/13/install.html</link>
+      <link>https://9renpoto.github.io/blog/2012/09/13/install/</link>
       <pubDate>Thu, 13 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/09/13/install.html</guid>
+      <guid>https://9renpoto.github.io/blog/2012/09/13/install/</guid>
       <description>first Python Pyconに参加しようと思ったんですが、Python素人のボクはまず環境構築から。
 Pythonのversion管理 Pythonはpythonbrew+virtualenvで環境を作るのが良いらしいので、言われるがままに環境作ってみます。
 pythonbrewの環境構築 curl -kLO https://github.com/utahta/pythonbrew/raw/master/pythonbrew-install chmod +x pythonbrew-install ./pythonbrew-install  pythonbrewの環境変数を通す zshの場合でも以下の内容を書くらしい。
@@ -556,10 +556,10 @@ pythonbrew install 2.7.2 pythonbrew switch 2.7.2 pythonbrew install 3.2 pythonbr
     
     <item>
       <title>octpress install and setup</title>
-      <link>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup.html</link>
+      <link>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup/</link>
       <pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup.html</guid>
+      <guid>https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup/</guid>
       <description>octpress試す Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。
 github pageの初期化 mkdir username.github.com cd username.github.com git init touch README.md git add README.md git commit -m &#39;first commit&#39; git remote add origin git@GitHub.com:username/username.github.com.git git push -u origin master  octpressのインストール 先ほど作成した username.github.com と同じ階層にoctpressをcloneする。
 git clone git://github.com/imathis/octopress.git octopress cd octopress gem install bundler bundle install Rake setup_github_pages Rake generate rake deploy # 2つ一度にする # Rake gen_deploy  記事投稿 記事の作成もコマンド1つ タイトルは英語で。
@@ -568,10 +568,10 @@ rake new_post[&amp;quot;my-new-page&amp;quot;] # zshは以下のように書く 
     
     <item>
       <title>start blog</title>
-      <link>https://9renpoto.github.io/blog/2012/09/09/start-blog.html</link>
+      <link>https://9renpoto.github.io/blog/2012/09/09/start-blog/</link>
       <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2012/09/09/start-blog.html</guid>
+      <guid>https://9renpoto.github.io/blog/2012/09/09/start-blog/</guid>
       <description>とりあえず Blogger使っていたのですが いろいろと使いにくく感じていたのでこちらに移転。
 適当に更新していきます。</description>
     </item>

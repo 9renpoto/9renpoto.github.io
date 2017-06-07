@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book on :-)</title>
-    <link>https://9renpoto.github.io/categories/book.html</link>
+    <link>https://9renpoto.github.io/categories/book/</link>
     <description>Recent content in Book on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>読書 Team Geek</title>
-      <link>https://9renpoto.github.io/blog/2013/12/25/team-geak.html</link>
+      <link>https://9renpoto.github.io/blog/2013/12/25/team-geak/</link>
       <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/12/25/team-geak/</guid>
       <description>メモ 人間関係に悩んでおり、以下の本を読んでおりました。
 読み終えたので簡単な感想をメモ。
  大切  謙虚 信頼 尊敬  オープンに  上の人は質問に堂々と答える 下の人な恐れず質問する  責任  重要 自分事化   まず今までの失敗を繰り返さぬよう沢山実践して、違う失敗しよう。
@@ -28,20 +28,20 @@ Brian W.Fitzpatrick, Ben Collins-Sussman（2013) 『Team Geek Googleのギーク
     
     <item>
       <title>読書 アジャイルサムライ</title>
-      <link>https://9renpoto.github.io/blog/2013/12/25/agile-samurai.html</link>
+      <link>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</link>
       <pubDate>Wed, 25 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/12/25/agile-samurai/</guid>
       <description>メモ アジャイル開発について悩んでおりましたので、噂のアジャイルサムライを読みました。
  学べたこと  考え方 立場の明確化  プロダクトオーナー スクラムマスター 開発者  立場に対して自分の役割が明確にある  わかりやすい  大切なのはモノを作ること  未完成に価値はない  時間・リソース・金は有限  現実は非常に大切 優先順位の大切さ  流れ  プロダクトオーナー 作りたいものの決定 優先順位の決定 スクラムマスター 時間管理 開発者 見積もる 作る  ウォーターフォールとの違い 見積もりが開発者に任せられてるところが良い ストーリーポイントを基準に実現可能性を図る  現実を見ている  見積もれるタスク  細かなサイクルを回すというよりも、見積もれる範囲を大切にするという考えに共感 未完成に価値はない 完成品を作る（レビューする）    なるほどわかりやすい。</description>
     </item>
     
     <item>
       <title>リーダブルコード読みました</title>
-      <link>https://9renpoto.github.io/blog/2013/02/03/readable-code.html</link>
+      <link>https://9renpoto.github.io/blog/2013/02/03/readable-code/</link>
       <pubDate>Sun, 03 Feb 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/02/03/readable-code.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/02/03/readable-code/</guid>
       <description> リーダーブルコードよんだメモ ちょっと前の話ですが、リーダーブルコードを読みましたのでその感想をメモ。
 印象に残った学び  名前の大切さ  プログラムで一番難しいところ 良い名前ほど理解しやすい  コメントの大切さ  コメントを書く目的 意味のあるコメントを書かないと意味がない コメントはコードの理解を助けるもの  コードの分割  小さければ小さいほど正義と読む前まで考えていた どう分割すべきか 重複コードとは何なのか 理解しやすいように分割する 意味が明確に分かれるよう分割する  短いコードを書く  これは非常に難しいが理屈はよくわかる よいメソッドよいモジュールを積極的に使っていくことが大事   </description>
     </item>

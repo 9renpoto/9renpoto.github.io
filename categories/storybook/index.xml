@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storybook on :-)</title>
-    <link>https://9renpoto.github.io/categories/storybook.html</link>
+    <link>https://9renpoto.github.io/categories/storybook/</link>
     <description>Recent content in Storybook on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>storybook v3が待ち遠しい</title>
-      <link>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc/</link>
       <pubDate>Sat, 27 May 2017 20:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/27/storybook-v3-rc/</guid>
       <description>TL;DR @storybook/react としてv3.0.0-rcがリリースされました。
 storybook 
 webpack v2 の流れもあり開発が止まってたstorybookの開発が、 別のコントリビュータが入ったことで再開された。

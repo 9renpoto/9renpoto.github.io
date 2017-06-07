@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Erlang on :-)</title>
-    <link>https://9renpoto.github.io/categories/erlang.html</link>
+    <link>https://9renpoto.github.io/categories/erlang/</link>
     <description>Recent content in Erlang on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>riak meetup tokyo 2 に参加してきました</title>
-      <link>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2.html</link>
+      <link>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</link>
       <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/07/10/riak-meetup-tokyo-2/</guid>
       <description>riak meetup tokyo 2 memo RTB and FreakOut RTB概略。
  ディスプレー広告の新しい見せ方  1回の広告表示ごとに買い付け オークション形式によりアラカルトメニュー   広告主のネット広告におけるROI最適を目指す。
 RTBの技術的課題。
@@ -27,10 +27,10 @@ Solr XMLスキーマを利用した検索が可能 便利そう。</description>
     
     <item>
       <title>riak meetup tokyoに参加してきました</title>
-      <link>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo.html</link>
+      <link>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</link>
       <pubDate>Tue, 12 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo.html</guid>
+      <guid>https://9renpoto.github.io/blog/2013/03/12/riak-meetup-tokyo/</guid>
       <description>Riak intro &amp;amp; RICON報告 @kuenishi
 分散システムの研究や開発は5年ぐらい 日本法人が9月に出来た。
 Riakの紹介  Dynamoにインスパイアされた Consistent Hassingによる水平分割する Vector Clocksを用いてレプリケーション Erlang/OTPで動作 分散KVS

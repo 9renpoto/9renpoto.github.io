@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slack on :-)</title>
-    <link>https://9renpoto.github.io/categories/slack.html</link>
+    <link>https://9renpoto.github.io/categories/slack/</link>
     <description>Recent content in Slack on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>アクティブでなさそうなSlackチャンネルをArchiveお願いする</title>
-      <link>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</link>
+      <link>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder/</link>
       <pubDate>Sun, 14 May 2017 22:39:17 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder.html</guid>
+      <guid>https://9renpoto.github.io/blog/2017/05/14/slack-channel-active-reminder/</guid>
       <description>slack-channel-active-reminder 書いたもの： https://github.com/9renpoto/slack-channel-active-reminder
 slackの部屋は便利に増やしていけますが、 同じような部屋が散乱したり、入ってみたものの活動が薄かったり様々あるので 一定時間発言がない部屋に対してメッセージを送りつけるようなものを書いた。
 Usage Cronなどと合わせて仕込んで良いタイミングで発言がなさそうなところに対してメッセージを送る。

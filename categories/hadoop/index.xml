@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hadoop on :-)</title>
-    <link>https://9renpoto.github.io/categories/hadoop.html</link>
+    <link>https://9renpoto.github.io/categories/hadoop/</link>
     <description>Recent content in Hadoop on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>#hcj-2014</title>
-      <link>https://9renpoto.github.io/blog/2014/07/08/hcj-2014.html</link>
+      <link>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</link>
       <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2014/07/08/hcj-2014.html</guid>
+      <guid>https://9renpoto.github.io/blog/2014/07/08/hcj-2014/</guid>
       <description>Hadoop Conference Japan 2014に参加してきました 個人的な所感としては。
  spark楽しそう（だけどまだ触るには勇気が） Prestoも熱そう MapR書くよりもSQL書く方がお手軽  以下はメモ書き。
 keynote hadoopを取り巻く環境について  始めて普及した並列分散  データの読み込みのスループットを最大化 全件データの処理を実現 シンプルなモデル（MapReduce) YARN MapReduceからそれ以外のアルゴリズムも 複数の並列分散エンジンを併用できる環境 メモリーの大容量化、10Gbpsネットワークの普及  インメモリー処理の実現性の向上    The Future of Data Doug Cutting

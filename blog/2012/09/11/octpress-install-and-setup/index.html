@@ -1,0 +1,31 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="https://9renpoto.github.io/ico/favicon.ico"><link rel="stylesheet" href="https://9renpoto.github.io/assets/delic.bundle.css"><script async src="https://9renpoto.github.io/assets/delic.bundle.js"></script><title>octpress install and setup</title><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TD87SR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-TD87SR");</script></head><body role="document" data-twttr-rendered="true"><div class="nav"><div class="nav-left"><a class="nav-item title" href="/">:-)</a></div><div class="nav-right nav-menu"><a class="nav-item" href="https://github.com/9renpoto"><span class="icon"><i class="fa fa-github"></i></span> </a><a class="nav-item" href="https://www.facebook.com/9renpoto"><span class="icon"><i class="fa fa-facebook"></i></span> </a><a class="nav-item" href="https://twitter.com/9renpoto"><span class="icon"><i class="fa fa-twitter"></i></span> </a><a class="nav-item" href="https://www.youtube.com/channel/UCHkajp8KwHzG-88kcNoRAbw"><span class="icon"><i class="fa fa-youtube"></i></span> </a><a class="nav-item" href="https://9renpoto.github.io/blog.html">blog</a> <a class="nav-item" href="https://9renpoto.github.io/profile/">profile</a> <a class="nav-item" href="https://9renpoto.github.io/slides/">slides</a></div></div><article role="main" class="post"><header><section class="hero is-primary"><div class="hero-body"><div class="container"><h1 class="title"><a href="https://9renpoto.github.io/blog/2012/09/11/octpress-install-and-setup/">octpress install and setup</a></h1><h2 class="subtitle"><div class="columns"><div class="column"><time datetime="2012-09-11T00:00:00Z">September 11, 2012</time></div></div></h2></div></div></section></header><section class="section"><div class="container is-fluid"><div class="content"><h1 id="octpress試す">octpress試す</h1><p>Octpressの利用を始めたので、簡単にインストール方法と設定、使い方などをメモ。</p><h2 id="github-pageの初期化">github pageの初期化</h2><pre><code class="language-bash">mkdir username.github.com
+cd username.github.com
+git init
+
+touch README.md
+git add README.md
+git commit -m 'first commit'
+
+git remote add origin git@GitHub.com:username/username.github.com.git
+git push -u origin master
+</code></pre><h3 id="octpressのインストール">octpressのインストール</h3><p>先ほど作成した <em>username.github.com</em> と同じ階層にoctpressをcloneする。</p><pre><code class="language-sh">git clone git://github.com/imathis/octopress.git octopress
+
+cd octopress
+gem install bundler
+
+bundle install
+Rake setup_github_pages
+
+Rake generate
+rake deploy
+
+# 2つ一度にする
+# Rake gen_deploy
+</code></pre><h3 id="記事投稿">記事投稿</h3><p>記事の作成もコマンド1つ タイトルは英語で。</p><pre><code class="language-sh">rake new_post[&quot;my-new-page&quot;]
+# zshは以下のように書く
+rake new_post\[&quot;my-new-page&quot;\]
+</code></pre><p>markdownの勉強にもなるし、GitHubとも仲良くなれるし、なかなかに良い仕組み。</p><p>いろいろ勉強します。</p><p>参考文献。</p><ul><li><a href="http://octopress.org/">http://octopress.org/</a></li><li><a href="http://tokkonopapa.github.io/blog/2011/12/30/octopress-on-github-and-bitbucket/">http://tokkonopapa.github.io/blog/2011/12/30/octopress-on-github-and-bitbucket/</a></li><li><a href="http://blog.glidenote.com/blog/2011/11/07/install-octopress-on-github/">http://blog.glidenote.com/blog/2011/11/07/install-octopress-on-github/</a></li></ul></div></div></section><section class="section"><a class="button is-info" href="https://9renpoto.github.io/categories/ruby.html">ruby</a></section></article></body></html>
