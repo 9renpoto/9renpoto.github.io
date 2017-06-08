@@ -131,7 +131,7 @@
     <item>
       <title>Javascript</title>
       <link>https://9renpoto.github.io/categories/javascript/</link>
-      <pubDate>Mon, 05 Jun 2017 11:08:23 +0900</pubDate>
+      <pubDate>Thu, 08 Jun 2017 22:22:18 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/categories/javascript/</guid>
       <description></description>
@@ -212,7 +212,7 @@
     <item>
       <title>React</title>
       <link>https://9renpoto.github.io/categories/react/</link>
-      <pubDate>Tue, 13 Sep 2016 21:38:08 +0900</pubDate>
+      <pubDate>Thu, 08 Jun 2017 22:22:18 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/categories/react/</guid>
       <description></description>
@@ -296,6 +296,15 @@
       <pubDate>Sat, 17 Dec 2016 14:03:55 +0900</pubDate>
       
       <guid>https://9renpoto.github.io/categories/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vue</title>
+      <link>https://9renpoto.github.io/categories/vue/</link>
+      <pubDate>Thu, 08 Jun 2017 22:22:18 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/categories/vue/</guid>
       <description></description>
     </item>
     
