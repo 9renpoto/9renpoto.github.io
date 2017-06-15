@@ -6,10 +6,19 @@
     <description>Recent content on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Thu, 08 Jun 2017 22:22:18 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jun 2017 00:00:11 +0900</lastBuildDate>
     
 	<atom:link href="https://9renpoto.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>google optimize を読む</title>
+      <link>https://9renpoto.github.io/blog/2017/06/16/google-optimize-variation/</link>
+      <pubDate>Fri, 16 Jun 2017 00:00:11 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/06/16/google-optimize-variation/</guid>
+      <description>TL;DR  google optimizeで今適応されているテストは何か調べた テストの結果はfirst party cookie _gaexpという名前で記録されている 規約は読んで自己責任で参照しましょう  軽く調べた結果  公開情報  _gaexpという名前で記録されている cookieはデフォルト90日保存   おそらく操作しているところ  m[0] は experimentid m[2] がテストのパターンを表している  cookieの一番最後のnumber これだけだと variationid としては使えないので何かと複合してユニークになっている  m[1] はnumberだが何の値かはすぐにはわからなかった  Zg = function(a, b) { const c = b.match(/GAX1\.([^.]+).(.*)/) if (c) { let d a: { const e = (c[1] || &amp;quot;&amp;quot;).split(&amp;quot;-&amp;quot;) if (!(e.length == 0 || e.length &amp;gt; 2)) { const f = ia(e[0]) if (f.</description>
+    </item>
     
     <item>
       <title>nuxt static site genetator</title>
