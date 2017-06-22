@@ -6,10 +6,20 @@
     <description>Recent content on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Fri, 16 Jun 2017 00:00:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 01:26:18 +0900</lastBuildDate>
     
 	<atom:link href="https://9renpoto.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>brew caskにlanguageを指定するけらしいけれど</title>
+      <link>https://9renpoto.github.io/blog/2017/06/22/brew-cask-language/</link>
+      <pubDate>Thu, 22 Jun 2017 01:26:18 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/06/22/brew-cask-language/</guid>
+      <description> TL;DR  動いて動いてくれ頼む  Log ➜ ~ brew cask search firefox ==&amp;gt; Exact Match firefox ==&amp;gt; Partial Matches firefox-beta firefox-esr firefoxdeveloperedition firefoxnightly multifirefox ➜ ~ ➜ ~ brew cask install firefoxnightly --language=en Error: invalid option: --language=en  気持ち 
+Refs  https://rcmdnk.com/blog/2016/10/31/computer-mac-homebrew-firefox/ https://github.com/caskroom/homebrew-cask/blob/master/doc/cask_language_reference/stanzas/language.md#installation  </description>
+    </item>
     
     <item>
       <title>google optimize を読む</title>
