@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://9renpoto.github.io/blog/2017/06/25/nyc-typescript-coverage/</loc>
+    <lastmod>2017-06-25T13:59:11+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/blog/2017/06/22/brew-cask-language/</loc>
     <lastmod>2017-06-25T12:38:14+09:00</lastmod>
   </url>
@@ -113,8 +118,8 @@
   </url>
   
   <url>
-    <loc>https://9renpoto.github.io/blog/2016/08/20/coverage/</loc>
-    <lastmod>2016-11-03T11:49:26+09:00</lastmod>
+    <loc>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</loc>
+    <lastmod>2017-06-25T13:59:11+09:00</lastmod>
   </url>
   
   <url>
@@ -259,7 +264,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/</loc>
-    <lastmod>2017-06-25T12:38:14+09:00</lastmod>
+    <lastmod>2017-06-25T13:59:11+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -277,7 +282,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/blog/</loc>
-    <lastmod>2017-06-25T12:38:14+09:00</lastmod>
+    <lastmod>2017-06-25T13:59:11+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -463,7 +468,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/categories/typescript/</loc>
-    <lastmod>2017-05-11T00:59:46+09:00</lastmod>
+    <lastmod>2017-06-25T13:59:11+09:00</lastmod>
     <priority>0</priority>
   </url>
   

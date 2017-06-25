@@ -128,10 +128,10 @@ Famicom programming with JavaScript  backgroundの背景を替えるためには
     
     <item>
       <title>TypeScript で coverage を計測する</title>
-      <link>https://9renpoto.github.io/blog/2016/08/20/coverage/</link>
+      <link>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</link>
       <pubDate>Sat, 20 Aug 2016 14:28:25 +0900</pubDate>
       
-      <guid>https://9renpoto.github.io/blog/2016/08/20/coverage/</guid>
+      <guid>https://9renpoto.github.io/blog/2016/08/20/typescript-coverage/</guid>
       <description> TypeScriptでCoverage reportを計測する TL;DR  remap-istanbul を使う  Usage  npm install remap-istanbul sourcemap: true  Memo  tsc &amp;gt; npm test という流れになったためJavaScriptとしてテストをする形になる espower-typescript を使わないようになる  espower-typescript はtscのwrapperなのでtscする場合は使えなそう  power-assert が上手く構造を解釈してくれてなさそう  espower-typescript が担っていた役割を別で与える必要がある TypeScriptに依存するなら無駄にbabel pluginなどは使いたくない TODO考える   Refs  http://blog.syati.info/post/typescript_coverage/ https://github.com/9renpoto/ts/pull/34  </description>
     </item>
     
