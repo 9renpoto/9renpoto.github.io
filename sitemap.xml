@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://9renpoto.github.io/blog/2017/07/08/first-fish/</loc>
+    <lastmod>2017-07-08T21:40:35+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://9renpoto.github.io/blog/2017/07/05/brew-cask-language-fix/</loc>
     <lastmod>2017-07-05T23:35:21+09:00</lastmod>
   </url>
@@ -269,7 +274,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/</loc>
-    <lastmod>2017-07-05T23:35:21+09:00</lastmod>
+    <lastmod>2017-07-08T21:40:35+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -287,7 +292,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/blog/</loc>
-    <lastmod>2017-07-05T23:35:21+09:00</lastmod>
+    <lastmod>2017-07-08T21:40:35+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -330,6 +335,12 @@
   <url>
     <loc>https://9renpoto.github.io/categories/erlang/</loc>
     <lastmod>2016-11-03T11:49:26+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://9renpoto.github.io/categories/fish/</loc>
+    <lastmod>2017-07-08T21:40:35+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -389,7 +400,7 @@
   
   <url>
     <loc>https://9renpoto.github.io/categories/macos/</loc>
-    <lastmod>2017-07-05T23:35:21+09:00</lastmod>
+    <lastmod>2017-07-08T21:40:35+09:00</lastmod>
     <priority>0</priority>
   </url>
   

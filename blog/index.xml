@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on :-)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 05 Jul 2017 23:21:51 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jul 2017 21:07:46 +0900</lastBuildDate>
     
 	<atom:link href="https://9renpoto.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>fish shell 入門</title>
+      <link>https://9renpoto.github.io/blog/2017/07/08/first-fish/</link>
+      <pubDate>Sat, 08 Jul 2017 21:07:46 +0900</pubDate>
+      
+      <guid>https://9renpoto.github.io/blog/2017/07/08/first-fish/</guid>
+      <description> TL;DR  fishshellに移行した fishermanを導入したらほぼ独自に記述することがなくなった  fishfileだけ管理していれば良さそう  補完的に速度が気持だけ遅くなった？  設定が必要？   作業内容 https://github.com/9renpoto/dotfiles/pull/98
+ 実はbashだったりzshだったりのsyntaxに依存しているところを細々と直していくことは必要  tmux,keychain,PATH   Refs  http://blog.muuny-blue.info/7476533956dd3568c1d787c5d33a547f.html https://blog.odoruinu.net/2017/02/24/changed-my-shell-from-zsh-to-fish/ https://github.com/fisherman/fisherman  調べてないこと  hyper termが起動しなくなった  </description>
+    </item>
     
     <item>
       <title>Fixed: brew cask --language</title>
