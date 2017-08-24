@@ -16,7 +16,7 @@ webpackJsonp([5217438866945042000,3954140758598355500],{
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__("./node_modules/react/react.js");
+	var _react = __webpack_require__("./node_modules/preact-compat/dist/preact-compat.js");
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -43,17 +43,15 @@ webpackJsonp([5217438866945042000,3954140758598355500],{
 
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
-	const React = __webpack_require__("./node_modules/react/react.js");
+	const React = __webpack_require__("./node_modules/preact-compat/dist/preact-compat.js");
 	class Header extends React.Component {
-	    constructor(props) {
-	        super(props);
-	    }
 	    render() {
 	        const { Logo, titles, baseUrl } = this.props;
 	        const logoClassName = 'nav-item title';
+	        const items = titles.map((title, index) => React.createElement("a", { className: 'nav-item', href: `${baseUrl}/${title}/`, key: index }, title));
 	        return (React.createElement("header", { className: 'nav' },
 	            React.createElement("div", { className: 'nav-left' }, Logo(logoClassName)),
-	            React.createElement("div", { className: 'nav-right nav-menu' }, titles.map((title, index) => React.createElement("a", { className: 'nav-item', href: `${baseUrl}/${title}/`, key: index }, title)))));
+	            React.createElement("div", { className: 'nav-right nav-menu' }, items)));
 	    }
 	}
 	exports.Header = Header;
@@ -86,7 +84,7 @@ webpackJsonp([5217438866945042000,3954140758598355500],{
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__("./node_modules/react/react.js");
+	var _react = __webpack_require__("./node_modules/preact-compat/dist/preact-compat.js");
 	
 	var _react2 = _interopRequireDefault(_react);
 	
@@ -145,4 +143,4 @@ webpackJsonp([5217438866945042000,3954140758598355500],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-691e4c5f3b095b322cc3.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-7cce78716919f4fcc0dd.js.map
