@@ -47,10 +47,9 @@ webpackJsonp([79611799117203,60335399758886],{
 	class Header extends React.Component {
 	    render() {
 	        const { Logo, titles, baseUrl } = this.props;
-	        const logoClassName = 'nav-item title';
-	        const items = titles.map((title, index) => React.createElement("a", { className: 'nav-item', href: `${baseUrl}/${title}/`, key: index }, title));
+	        const items = titles.map((title, index) => (React.createElement("a", { className: 'nav-item', href: `${baseUrl}/${title}/`, key: index }, title)));
 	        return (React.createElement("header", { className: 'nav' },
-	            React.createElement("div", { className: 'nav-left' }, Logo(logoClassName)),
+	            React.createElement("div", { className: 'nav-left' }, Logo('nav-item title')),
 	            React.createElement("div", { className: 'nav-right nav-menu' }, items)));
 	    }
 	}
@@ -143,4 +142,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-7cce78716919f4fcc0dd.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-f7deba539d946669f1fd.js.map
