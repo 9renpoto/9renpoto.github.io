@@ -18,13 +18,13 @@
 <url> <loc>https://9renpoto.github.io/entry/2014/07/05/gitgutter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2014/07/06/surround/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2014/07/07/editor-comment/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://9renpoto.github.io/entry/2014/07/08/hcj/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2014/07/10/hash-to-json/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2014/07/11/escape-ime/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2015/05/11/create-hugo-theme/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2015/08/21/yapcasia/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2016/01/13/gh-pages/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2016/06/23/module-test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://9renpoto.github.io/entry/2014/07/08/hcj/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2016/07/27/riotjs-jp-study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2016/08/11/module-test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2016/08/20/typescript-coverage/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -45,9 +45,9 @@
 <url> <loc>https://9renpoto.github.io/entry/2017/05/11/eslint-config-prettier/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/05/14/slack-channel-active-reminder/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/05/25/variable-default/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://9renpoto.github.io/entry/2017/06/05/i18n-webpack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://9renpoto.github.io/entry/2017/06/22/brew-cask-language/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://9renpoto.github.io/entry/2017/05/27/storybook-v3-rc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/06/16/google-optimize-variation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://9renpoto.github.io/entry/2017/06/22/brew-cask-language/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/06/25/nyc-typescript-coverage/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/07/05/brew-cask-language-fix/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/07/08/first-fish/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -57,10 +57,11 @@
 <url> <loc>https://9renpoto.github.io/entry/2017/08/15/sake/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/08/19/avast/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/08/19/prettier-with-typescript/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://9renpoto.github.io/entry/2017/09/03/btx-b1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/08/28/lerna/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://9renpoto.github.io/entry/2017/09/03/btx-b1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/10/02/monorepo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://9renpoto.github.io/entry/2017/05/27/storybook-v3-rc/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://9renpoto.github.io/entry/2017/10/05/slides/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://9renpoto.github.io/entry/2017/06/05/i18n-webpack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/entry/2017/06/08/nuxt-static-site-genetator/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://9renpoto.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>

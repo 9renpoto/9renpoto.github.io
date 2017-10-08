@@ -103,13 +103,13 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var Template = function (_Component) {
-	  _inherits(Template, _Component);
+	var Template = function (_PureComponent) {
+	  _inherits(Template, _PureComponent);
 	
 	  function Template() {
 	    _classCallCheck(this, Template);
 	
-	    return _possibleConstructorReturn(this, _Component.apply(this, arguments));
+	    return _possibleConstructorReturn(this, _PureComponent.apply(this, arguments));
 	  }
 	
 	  Template.prototype.render = function render() {
@@ -134,7 +134,7 @@ webpackJsonp([79611799117203,60335399758886],{
 	  };
 	
 	  return Template;
-	}(_react.Component);
+	}(_react.PureComponent);
 	
 	exports.default = Template;
 	module.exports = exports['default'];
@@ -142,4 +142,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-f7deba539d946669f1fd.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-255ab680f57c994ccd87.js.map
