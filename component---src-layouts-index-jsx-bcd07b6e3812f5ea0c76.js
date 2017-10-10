@@ -1,13 +1,13 @@
 webpackJsonp([79611799117203,60335399758886],{
 
-/***/ "./node_modules/json-loader/index.js!./.cache/json/layout-index.json":
+/***/ 47:
 /***/ (function(module, exports) {
 
 	module.exports = {"layoutContext":{}}
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"presets\":[\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-react/lib/index.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-env/lib/index.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-stage-1/lib/index.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-flow/lib/index.js\",[\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-env/lib/index.js\",{\"loose\":true,\"uglify\":true,\"modules\":\"commonjs\",\"targets\":{\"browsers\":[\"> 1%\",\"last 2 versions\",\"IE >= 9\"]},\"exclude\":[\"transform-regenerator\",\"transform-es2015-typeof-symbol\"]}],\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-stage-0/lib/index.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-preset-react/lib/index.js\"],\"plugins\":[\"/home/travis/build/9renpoto/entry/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-plugin-add-module-exports/lib/index.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-plugin-add-module-exports/lib/index.js\",\"/home/travis/build/9renpoto/entry/node_modules/babel-plugin-transform-object-assign/lib/index.js\"],\"cacheDirectory\":true}!./.cache/layouts/index.js":
+/***/ 90:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -16,15 +16,15 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _react = __webpack_require__("./node_modules/preact-compat/dist/preact-compat.js");
+	var _react = __webpack_require__(3);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _index = __webpack_require__("./src/layouts/index.jsx");
+	var _index = __webpack_require__(93);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _layoutIndex = __webpack_require__("./node_modules/json-loader/index.js!./.cache/json/layout-index.json");
+	var _layoutIndex = __webpack_require__(47);
 	
 	var _layoutIndex2 = _interopRequireDefault(_layoutIndex);
 	
@@ -38,62 +38,59 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ "./node_modules/@9renpoto/style/lib/components/Header.js":
+/***/ 84:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
-	const React = __webpack_require__("./node_modules/preact-compat/dist/preact-compat.js");
-	class Header extends React.Component {
-	    render() {
-	        const { Logo, titles, baseUrl } = this.props;
-	        const items = titles.map((title, index) => (React.createElement("a", { className: 'nav-item', href: `${baseUrl}/${title}/`, key: index }, title)));
-	        return (React.createElement("header", { className: 'nav' },
-	            React.createElement("div", { className: 'nav-left' }, Logo('nav-item title')),
-	            React.createElement("div", { className: 'nav-right nav-menu' }, items)));
-	    }
+	const React = __webpack_require__(3);
+	function Header({ Logo, titles, baseUrl }) {
+	    const items = titles.map((title, index) => (React.createElement("a", { className: 'nav-item', href: `${baseUrl}/${title}/`, key: index }, title)));
+	    return (React.createElement("header", { className: 'nav' },
+	        React.createElement("div", { className: 'nav-left' }, Logo('nav-item title')),
+	        React.createElement("div", { className: 'nav-right nav-menu' }, items)));
 	}
 	exports.Header = Header;
 	//# sourceMappingURL=Header.js.map
 
 /***/ }),
 
-/***/ "./node_modules/@9renpoto/style/lib/index.js":
+/***/ 85:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
-	var Header_1 = __webpack_require__("./node_modules/@9renpoto/style/lib/components/Header.js");
+	var Header_1 = __webpack_require__(84);
 	exports.Header = Header_1.Header;
 	//# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ "./node_modules/prismjs/themes/prism-solarizedlight.css":
+/***/ 165:
 /***/ (function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ "./src/layouts/index.jsx":
+/***/ 93:
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	exports.__esModule = true;
 	
-	var _react = __webpack_require__("./node_modules/preact-compat/dist/preact-compat.js");
+	var _react = __webpack_require__(3);
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _style = __webpack_require__("./node_modules/@9renpoto/style/lib/index.js");
+	var _style = __webpack_require__(85);
 	
-	var _gatsbyLink = __webpack_require__("./node_modules/gatsby-link/index.js");
+	var _gatsbyLink = __webpack_require__(76);
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
-	__webpack_require__("./node_modules/prismjs/themes/prism-solarizedlight.css");
+	__webpack_require__(165);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -142,4 +139,4 @@ webpackJsonp([79611799117203,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-jsx-255ab680f57c994ccd87.js.map
+//# sourceMappingURL=component---src-layouts-index-jsx-bcd07b6e3812f5ea0c76.js.map
