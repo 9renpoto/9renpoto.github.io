@@ -1,17 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[:-)]]></title><description><![CDATA[lazy buld suspicious note]]></description><link>https://9renpoto.github.io</link><generator>RSS for Node</generator><lastBuildDate>Sat, 21 Oct 2017 02:25:26 GMT</lastBuildDate><item><title><![CDATA[plug to dein.vim]]></title><description><![CDATA[TL;DR vimrcもtomlで書く時代になったのか before vim-plug  が流行っているらしいから使っていた vim bootstrap  で作成したものを使っていたが、これがさっぱり動かない after とりあえずlightline, vim-guttier…]]></description><link>https://9renpoto.github.io/entry/2017/10/21/plug-to-dain/</link><guid isPermaLink="false">https://9renpoto.github.io/entry/2017/10/21/plug-to-dain/</guid><pubDate>Sat, 21 Oct 2017 01:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;TL;DR&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;vimrcもtomlで書く時代になったのか&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;before&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/junegunn/vim-plug&quot;&gt;vim-plug&lt;/a&gt; が流行っているらしいから使っていた&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/avelino/vim-bootstrap&quot;&gt;vim bootstrap&lt;/a&gt; で作成したものを使っていたが、これがさっぱり動かない&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;after&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;とりあえずlightline, vim-guttierいれて簡単なコードを読めるように&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/9renpoto/dotfiles/pull/106&quot;&gt;https://github.com/9renpoto/dotfiles/pull/106&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/9renpoto/dotfiles/pull/107&quot;&gt;https://github.com/9renpoto/dotfiles/pull/107&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;暇を見つけて育てる。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/MhoboI1uPxrRm/giphy.gif&quot; alt=&quot;gif&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[:-)]]></title><description><![CDATA[lazy buld suspicious note]]></description><link>https://9renpoto.github.io</link><generator>RSS for Node</generator><lastBuildDate>Mon, 23 Oct 2017 09:46:44 GMT</lastBuildDate><item><title><![CDATA[product owner]]></title><description><![CDATA[個人的な意見 完成した後に後出しジャンケンで要件を伝えるのは悪 変更はすればいい。「出せない」を言うのは何時何時であれ遅いので、言いたいやつは目を凝らす そもそも、出せる・出せないを判断する人間はプロダクトから目を話すべきではない 決定を譲渡できないのであれば人の…]]></description><link>https://9renpoto.github.io/entry/2017/10/23/product-owner/</link><guid isPermaLink="false">https://9renpoto.github.io/entry/2017/10/23/product-owner/</guid><pubDate>Mon, 23 Oct 2017 09:30:00 GMT</pubDate><content:encoded>&lt;h1&gt;個人的な意見&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;完成した後に後出しジャンケンで要件を伝えるのは悪&lt;/li&gt;
+&lt;li&gt;変更はすればいい。「出せない」を言うのは何時何時であれ遅いので、言いたいやつは目を凝らす&lt;/li&gt;
+&lt;li&gt;そもそも、出せる・出せないを判断する人間はプロダクトから目を話すべきではない&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;決定を譲渡できないのであれば人の3倍目を凝らして稼働しろ&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;決められない人間はオーナーではない&lt;/li&gt;
+&lt;li&gt;外からの要件を100とする行為も同義&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;言った言わなかった論は不毛&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;誰も報われない&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item></channel></rss>
