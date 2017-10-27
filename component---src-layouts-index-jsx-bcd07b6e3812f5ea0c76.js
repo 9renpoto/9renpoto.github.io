@@ -38,7 +38,7 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 84:
+/***/ 85:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -55,12 +55,12 @@ webpackJsonp([79611799117203,60335399758886],{
 
 /***/ }),
 
-/***/ 85:
+/***/ 86:
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
 	Object.defineProperty(exports, "__esModule", { value: true });
-	var Header_1 = __webpack_require__(84);
+	var Header_1 = __webpack_require__(85);
 	exports.Header = Header_1.Header;
 	//# sourceMappingURL=index.js.map
 
@@ -84,9 +84,9 @@ webpackJsonp([79611799117203,60335399758886],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _style = __webpack_require__(85);
+	var _style = __webpack_require__(86);
 	
-	var _gatsbyLink = __webpack_require__(76);
+	var _gatsbyLink = __webpack_require__(77);
 	
 	var _gatsbyLink2 = _interopRequireDefault(_gatsbyLink);
 	
