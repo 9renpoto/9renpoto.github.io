@@ -141,8 +141,8 @@
       "path---entry-2013-03-02-riak-meetoup-tokyo-ab16d1072d71176c7351.js.map"
     ],
     "path---index": [
-      "path---index-a2494ac86b38601daec5.js",
-      "path---index-a2494ac86b38601daec5.js.map"
+      "path---index-6a9a356771b34ccb0af4.js",
+      "path---index-6a9a356771b34ccb0af4.js.map"
     ],
     "path---entry-2013-07-10-riak-meetup-tokyo": [
       "path---entry-2013-07-10-riak-meetup-tokyo-dd38812714a7b76f214e.js",
@@ -183,6 +183,10 @@
     "path---entry-2016-08-11-module-test": [
       "path---entry-2016-08-11-module-test-ce114f36044978271719.js",
       "path---entry-2016-08-11-module-test-ce114f36044978271719.js.map"
+    ],
+    "path---entry-2017-10-31-frontend-javascript-anti-pattern": [
+      "path---entry-2017-10-31-frontend-javascript-anti-pattern-7fae1f7d472ab9e69ca9.js",
+      "path---entry-2017-10-31-frontend-javascript-anti-pattern-7fae1f7d472ab9e69ca9.js.map"
     ],
     "path---entry-2017-08-13-contributions-calendar": [
       "path---entry-2017-08-13-contributions-calendar-3df3bbc710fa0bbbb3b8.js",
@@ -261,9 +265,9 @@
       "path---entry-2017-01-03-package-json-ca9bbcb6ab786df6686e.js.map"
     ],
     "app": [
-      "app-05f579cabf41f3aa05a3.js",
+      "app-d886e317b138e7d1a55e.js",
       "build-js-styles.css",
-      "app-05f579cabf41f3aa05a3.js.map",
+      "app-d886e317b138e7d1a55e.js.map",
       "build-js-styles.css.map"
     ],
     "path---entry-2017-06-16-google-optimize-variation": [
