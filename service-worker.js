@@ -1,5 +1,17 @@
 self.__precacheManifest = [
   {
+    "url": "/_next/static/ykojp3aJAcEyKddwPFEt6/pages/post.js"
+  },
+  {
+    "url": "/_next/static/ykojp3aJAcEyKddwPFEt6/pages/index.js"
+  },
+  {
+    "url": "/_next/static/ykojp3aJAcEyKddwPFEt6/pages/_error.js"
+  },
+  {
+    "url": "/_next/static/ykojp3aJAcEyKddwPFEt6/pages/_app.js"
+  },
+  {
     "url": "/_next/static/runtime/webpack-42652fa8b82c329c0559.js"
   },
   {
@@ -7,18 +19,6 @@ self.__precacheManifest = [
   },
   {
     "url": "/_next/static/chunks/commons.9a6740a449d6933d0b47.js"
-  },
-  {
-    "url": "/_next/static/Vb1YV10cc9EXxC7diSQR4/pages/post.js"
-  },
-  {
-    "url": "/_next/static/Vb1YV10cc9EXxC7diSQR4/pages/index.js"
-  },
-  {
-    "url": "/_next/static/Vb1YV10cc9EXxC7diSQR4/pages/_error.js"
-  },
-  {
-    "url": "/_next/static/Vb1YV10cc9EXxC7diSQR4/pages/_app.js"
   }
 ];
 
