@@ -3,22 +3,22 @@ self.__precacheManifest = [
     "url": "/_next/static/runtime/webpack-42652fa8b82c329c0559.js"
   },
   {
-    "url": "/_next/static/runtime/main-19540c0d4d8ef7e145c1.js"
+    "url": "/_next/static/runtime/main-3368f3ebda09c8b828b0.js"
   },
   {
-    "url": "/_next/static/chunks/commons.9a6740a449d6933d0b47.js"
+    "url": "/_next/static/chunks/commons.ca0e192022faaf919509.js"
   },
   {
-    "url": "/_next/static/G1_a_efXBOOQuXVSNthId/pages/post.js"
+    "url": "/_next/static/KQ92Y9nP8R8oLgRCTIwkO/pages/post.js"
   },
   {
-    "url": "/_next/static/G1_a_efXBOOQuXVSNthId/pages/index.js"
+    "url": "/_next/static/KQ92Y9nP8R8oLgRCTIwkO/pages/index.js"
   },
   {
-    "url": "/_next/static/G1_a_efXBOOQuXVSNthId/pages/_error.js"
+    "url": "/_next/static/KQ92Y9nP8R8oLgRCTIwkO/pages/_error.js"
   },
   {
-    "url": "/_next/static/G1_a_efXBOOQuXVSNthId/pages/_app.js"
+    "url": "/_next/static/KQ92Y9nP8R8oLgRCTIwkO/pages/_app.js"
   }
 ];
 
@@ -49,7 +49,7 @@ importScripts(
 self.__precacheManifest = [
   {
     "url": "static/bundle.css",
-    "revision": "0b342707b3e60b0d3db5c2842ff3de82"
+    "revision": "c14b0a317c2671d43759c55c39335b1e"
   },
   {
     "url": "static/contributions-calendar.png",
