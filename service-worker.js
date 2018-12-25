@@ -9,16 +9,16 @@ self.__precacheManifest = [
     "url": "/_next/static/chunks/commons.3237ec57cac8fd0ab029.js"
   },
   {
-    "url": "/_next/static/aSUC63jBeRLUWRbHn57pI/pages/post.js"
+    "url": "/_next/static/DworlbXSz0PrW2AmoC7XC/pages/post.js"
   },
   {
-    "url": "/_next/static/aSUC63jBeRLUWRbHn57pI/pages/index.js"
+    "url": "/_next/static/DworlbXSz0PrW2AmoC7XC/pages/index.js"
   },
   {
-    "url": "/_next/static/aSUC63jBeRLUWRbHn57pI/pages/_error.js"
+    "url": "/_next/static/DworlbXSz0PrW2AmoC7XC/pages/_error.js"
   },
   {
-    "url": "/_next/static/aSUC63jBeRLUWRbHn57pI/pages/_app.js"
+    "url": "/_next/static/DworlbXSz0PrW2AmoC7XC/pages/_app.js"
   }
 ];
 
