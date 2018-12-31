@@ -9,16 +9,16 @@ self.__precacheManifest = [
     "url": "/_next/static/chunks/commons.3237ec57cac8fd0ab029.js"
   },
   {
-    "url": "/_next/static/RXKIJNLRHCshgAWn9GRa9/pages/post.js"
+    "url": "/_next/static/0RI7UQoJPoku36u3WJfdd/pages/post.js"
   },
   {
-    "url": "/_next/static/RXKIJNLRHCshgAWn9GRa9/pages/index.js"
+    "url": "/_next/static/0RI7UQoJPoku36u3WJfdd/pages/index.js"
   },
   {
-    "url": "/_next/static/RXKIJNLRHCshgAWn9GRa9/pages/_error.js"
+    "url": "/_next/static/0RI7UQoJPoku36u3WJfdd/pages/_error.js"
   },
   {
-    "url": "/_next/static/RXKIJNLRHCshgAWn9GRa9/pages/_app.js"
+    "url": "/_next/static/0RI7UQoJPoku36u3WJfdd/pages/_app.js"
   }
 ];
 
@@ -47,6 +47,10 @@ importScripts(
  * See https://goo.gl/S9QRab
  */
 self.__precacheManifest = [
+  {
+    "url": "static/_rjyhayX.jpg",
+    "revision": "6763e9271bee91a9a88521952409b9fe"
+  },
   {
     "url": "static/bundle.css",
     "revision": "c14b0a317c2671d43759c55c39335b1e"
