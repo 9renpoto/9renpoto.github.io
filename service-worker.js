@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "url": "/_next/static/xGDjMNrxlS5zMOBVBgzzK/pages/post.js"
+    "url": "/_next/static/teYiWRKwhfHfCraz4RcwB/pages/post.js"
   },
   {
-    "url": "/_next/static/xGDjMNrxlS5zMOBVBgzzK/pages/index.js"
+    "url": "/_next/static/teYiWRKwhfHfCraz4RcwB/pages/index.js"
   },
   {
-    "url": "/_next/static/xGDjMNrxlS5zMOBVBgzzK/pages/_error.js"
+    "url": "/_next/static/teYiWRKwhfHfCraz4RcwB/pages/_error.js"
   },
   {
-    "url": "/_next/static/xGDjMNrxlS5zMOBVBgzzK/pages/_app.js"
+    "url": "/_next/static/teYiWRKwhfHfCraz4RcwB/pages/_app.js"
   },
   {
     "url": "/_next/static/runtime/webpack-42652fa8b82c329c0559.js"
