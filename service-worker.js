@@ -6,19 +6,19 @@ self.__precacheManifest = [
     "url": "/_next/static/runtime/main-4c5eece5c8309fd68971.js"
   },
   {
-    "url": "/_next/static/dRbemv89ZY3BrcgvjMwSx/pages/post.js"
-  },
-  {
-    "url": "/_next/static/dRbemv89ZY3BrcgvjMwSx/pages/index.js"
-  },
-  {
-    "url": "/_next/static/dRbemv89ZY3BrcgvjMwSx/pages/_error.js"
-  },
-  {
-    "url": "/_next/static/dRbemv89ZY3BrcgvjMwSx/pages/_app.js"
-  },
-  {
     "url": "/_next/static/chunks/commons.4e1534e3b99a3410f83c.js"
+  },
+  {
+    "url": "/_next/static/X_J2qiJqmWozzO0Pvp2a6/pages/post.js"
+  },
+  {
+    "url": "/_next/static/X_J2qiJqmWozzO0Pvp2a6/pages/index.js"
+  },
+  {
+    "url": "/_next/static/X_J2qiJqmWozzO0Pvp2a6/pages/_error.js"
+  },
+  {
+    "url": "/_next/static/X_J2qiJqmWozzO0Pvp2a6/pages/_app.js"
   }
 ];
 
