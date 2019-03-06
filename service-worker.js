@@ -3,22 +3,22 @@ self.__precacheManifest = [
     "url": "/_next/static/runtime/webpack-2ef50c24cc8d478adafc.js"
   },
   {
-    "url": "/_next/static/runtime/main-848df3dfbf4b2c6c8717.js"
+    "url": "/_next/static/runtime/main-3df16ae5b608bbed5ee3.js"
   },
   {
-    "url": "/_next/static/chunks/commons.f41e22aa6590887db878.js"
+    "url": "/_next/static/chunks/commons.2f204fa82875e0c6b532.js"
   },
   {
-    "url": "/_next/static/O3Qe2KehfRtDck0oLWWV_/pages/post.js"
+    "url": "/_next/static/L67ySmhzla7QpGOIECGTS/pages/post.js"
   },
   {
-    "url": "/_next/static/O3Qe2KehfRtDck0oLWWV_/pages/index.js"
+    "url": "/_next/static/L67ySmhzla7QpGOIECGTS/pages/index.js"
   },
   {
-    "url": "/_next/static/O3Qe2KehfRtDck0oLWWV_/pages/_error.js"
+    "url": "/_next/static/L67ySmhzla7QpGOIECGTS/pages/_error.js"
   },
   {
-    "url": "/_next/static/O3Qe2KehfRtDck0oLWWV_/pages/_app.js"
+    "url": "/_next/static/L67ySmhzla7QpGOIECGTS/pages/_app.js"
   }
 ];
 
